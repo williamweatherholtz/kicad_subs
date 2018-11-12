@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Interface_Expansion:AS1115-BSST U?
+L Interface_Expansion:AS1115-BSST U1
 U 1 1 5BE5F4D9
 P 3700 3200
-F 0 "U?" H 3250 4350 50  0000 C CNN
+F 0 "U1" H 3250 4350 50  0000 C CNN
 F 1 "AS1115-BSST" H 3650 3250 50  0000 C CNN
 F 2 "Package_SO:QSOP-24_3.9x8.7mm_P0.635mm" H 3700 3200 50  0001 C CNN
 F 3 "https://ams.com/documents/20143/36005/AS1115_DS000206_1-00.pdf/3d3e6d35-b184-1329-adf9-2d769eb2404f" H 3700 3200 50  0001 C CNN
@@ -30,10 +30,10 @@ L william_display:LTC-4727JR U?
 U 1 1 5BE6286B
 P 7500 2700
 AR Path="/5BE5D4AF/5BE5F6E5/5BE6286B" Ref="U?"  Part="1" 
-AR Path="/5BE5D4AF/5BE6286B" Ref="U?"  Part="1" 
-F 0 "U?" H 7500 3367 50  0000 C CNN
+AR Path="/5BE5D4AF/5BE6286B" Ref="U2"  Part="1" 
+F 0 "U2" H 7500 3367 50  0000 C CNN
 F 1 "LTC-4727JR" H 7500 3276 50  0000 C CNN
-F 2 "Display_7Segment: LTC-4727JR" H 7500 2100 50  0001 C CNN
+F 2 "william_display:LTC-4X27JR" H 7500 2100 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/CC56-12YWA.pdf" H 7070 2730 50  0001 C CNN
 	1    7500 2700
 	1    0    0    -1  
@@ -43,10 +43,10 @@ L william_display:LTC-4727JR U?
 U 1 1 5BE629A7
 P 7500 4650
 AR Path="/5BE5D4AF/5BE5F6E5/5BE629A7" Ref="U?"  Part="1" 
-AR Path="/5BE5D4AF/5BE629A7" Ref="U?"  Part="1" 
-F 0 "U?" H 7500 5317 50  0000 C CNN
+AR Path="/5BE5D4AF/5BE629A7" Ref="U3"  Part="1" 
+F 0 "U3" H 7500 5317 50  0000 C CNN
 F 1 "LTC-4727JR" H 7500 5226 50  0000 C CNN
-F 2 "Display_7Segment: LTC-4727JR" H 7500 4050 50  0001 C CNN
+F 2 "william_display:LTC-4X27JR" H 7500 4050 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/CC56-12YWA.pdf" H 7070 4680 50  0001 C CNN
 	1    7500 4650
 	1    0    0    -1  

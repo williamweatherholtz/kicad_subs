@@ -53,14 +53,14 @@ Wire Wire Line
 Wire Wire Line
 	6250 2800 6200 2800
 $Comp
-L Device:Q_NMOS_GSD Q?
+L Device:Q_NMOS_GSD Q1
 U 1 1 5BE5A6E3
 P 6150 3450
-AR Path="/5BE5A530/5BE5A6E3" Ref="Q?"  Part="1" 
-AR Path="/5BE5D36F/5BE5A6E3" Ref="Q?"  Part="1" 
-AR Path="/5BE5D37A/5BE5A6E3" Ref="Q?"  Part="1" 
+AR Path="/5BE5A530/5BE5A6E3" Ref="Q1"  Part="1" 
+AR Path="/5BE5D36F/5BE5A6E3" Ref="Q2"  Part="1" 
+AR Path="/5BE5D37A/5BE5A6E3" Ref="Q3"  Part="1" 
 AR Path="/5BE5D381/5BE5A6E3" Ref="Q?"  Part="1" 
-F 0 "Q?" H 6355 3496 50  0000 L CNN
+F 0 "Q3" H 6355 3496 50  0000 L CNN
 F 1 "BSS138LT3G" H 6355 3405 50  0000 L CNN
 F 2 "" H 6350 3550 50  0001 C CNN
 F 3 "~" H 6150 3450 50  0001 C CNN
@@ -68,14 +68,14 @@ F 3 "~" H 6150 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R2
 U 1 1 5BE5AA31
 P 5750 3450
-AR Path="/5BE5A530/5BE5AA31" Ref="R?"  Part="1" 
-AR Path="/5BE5D36F/5BE5AA31" Ref="R?"  Part="1" 
-AR Path="/5BE5D37A/5BE5AA31" Ref="R?"  Part="1" 
+AR Path="/5BE5A530/5BE5AA31" Ref="R2"  Part="1" 
+AR Path="/5BE5D36F/5BE5AA31" Ref="R4"  Part="1" 
+AR Path="/5BE5D37A/5BE5AA31" Ref="R6"  Part="1" 
 AR Path="/5BE5D381/5BE5AA31" Ref="R?"  Part="1" 
-F 0 "R?" V 5543 3450 50  0000 C CNN
+F 0 "R6" V 5543 3450 50  0000 C CNN
 F 1 "1K" V 5634 3450 50  0000 C CNN
 F 2 "" V 5680 3450 50  0001 C CNN
 F 3 "~" H 5750 3450 50  0001 C CNN
@@ -83,14 +83,14 @@ F 3 "~" H 5750 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R1
 U 1 1 5BE5AA7F
 P 5450 3650
-AR Path="/5BE5A530/5BE5AA7F" Ref="R?"  Part="1" 
-AR Path="/5BE5D36F/5BE5AA7F" Ref="R?"  Part="1" 
-AR Path="/5BE5D37A/5BE5AA7F" Ref="R?"  Part="1" 
+AR Path="/5BE5A530/5BE5AA7F" Ref="R1"  Part="1" 
+AR Path="/5BE5D36F/5BE5AA7F" Ref="R3"  Part="1" 
+AR Path="/5BE5D37A/5BE5AA7F" Ref="R5"  Part="1" 
 AR Path="/5BE5D381/5BE5AA7F" Ref="R?"  Part="1" 
-F 0 "R?" H 5520 3696 50  0000 L CNN
+F 0 "R5" H 5520 3696 50  0000 L CNN
 F 1 "10k" H 5520 3605 50  0000 L CNN
 F 2 "" V 5380 3650 50  0001 C CNN
 F 3 "~" H 5450 3650 50  0001 C CNN
