@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:strain_gauge_485-cache
+LIBS:main-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 11 11
 Title ""
 Date ""
 Rev ""
@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L william:MAX11270 U5
+L william:MAX11270 U?
 U 1 1 5B2E54B9
 P 5850 3750
-F 0 "U5" H 5300 4550 50  0000 C CNN
+F 0 "U?" H 5300 4550 50  0000 C CNN
 F 1 "MAX11270" H 6250 4550 50  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 5700 3800 50  0001 C CNN
 F 3 "" H 5700 3800 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "" H 5700 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C8
+L Device:C C?
 U 1 1 5B2E54C5
 P 5550 2600
-F 0 "C8" H 5350 2650 50  0000 L CNN
+F 0 "C?" H 5350 2650 50  0000 L CNN
 F 1 "1U" H 5350 2550 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 5588 2450 50  0001 C CNN
 F 3 "" H 5550 2600 50  0001 C CNN
@@ -37,10 +37,10 @@ F 3 "" H 5550 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C9
+L Device:C C?
 U 1 1 5B2E54CC
 P 6150 2600
-F 0 "C9" H 6265 2646 50  0000 L CNN
+F 0 "C?" H 6265 2646 50  0000 L CNN
 F 1 "1U" H 6265 2555 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 6188 2450 50  0001 C CNN
 F 3 "" H 6150 2600 50  0001 C CNN
@@ -92,10 +92,10 @@ Connection ~ 5950 2400
 Wire Wire Line
 	5950 2400 6150 2400
 $Comp
-L device:C C6
+L Device:C C?
 U 1 1 5B2E6585
 P 4650 3100
-F 0 "C6" H 4450 3150 50  0000 L CNN
+F 0 "C?" H 4450 3150 50  0000 L CNN
 F 1 "10N" H 4400 3050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 4688 2950 50  0001 C CNN
 F 3 "" H 4650 3100 50  0001 C CNN
@@ -103,10 +103,10 @@ F 3 "" H 4650 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C7
+L Device:C C?
 U 1 1 5B2E66DA
 P 4650 3550
-F 0 "C7" H 4450 3600 50  0000 L CNN
+F 0 "C?" H 4450 3600 50  0000 L CNN
 F 1 "10N" H 4400 3500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 4688 3400 50  0001 C CNN
 F 3 "" H 4650 3550 50  0001 C CNN
@@ -114,17 +114,11 @@ F 3 "" H 4650 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 3700 4850 3700
-Wire Wire Line
 	4850 3500 5150 3500
 Wire Wire Line
 	5150 3150 4850 3150
 Wire Wire Line
 	4850 3150 4850 2950
-Wire Wire Line
-	4850 2950 4650 2950
-Wire Wire Line
-	4650 3250 5150 3250
 Wire Wire Line
 	4850 3500 4850 3700
 Text HLabel 5500 4700 0    50   Input ~ 0
@@ -135,17 +129,11 @@ Text HLabel 4350 2950 0    50   Input ~ 0
 AIN+
 Text HLabel 4350 3250 0    50   Input ~ 0
 AIN-
-Wire Wire Line
-	4350 3250 4650 3250
-Connection ~ 4650 3250
-Wire Wire Line
-	4350 2950 4650 2950
-Connection ~ 4650 2950
 $Comp
-L device:C C11
+L Device:C C?
 U 1 1 5B2E9EF3
 P 6900 4050
-F 0 "C11" H 6650 4100 50  0000 L CNN
+F 0 "C?" H 6650 4100 50  0000 L CNN
 F 1 "10N" H 6650 4000 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 6938 3900 50  0001 C CNN
 F 3 "" H 6900 4050 50  0001 C CNN
@@ -155,10 +143,10 @@ $EndComp
 Wire Wire Line
 	6600 4000 6550 4000
 $Comp
-L device:C C10
+L Device:C C?
 U 1 1 5B2EAA13
 P 6900 4450
-F 0 "C10" H 6650 4500 50  0000 L CNN
+F 0 "C?" H 6650 4500 50  0000 L CNN
 F 1 "10U" H 6650 4400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 6938 4300 50  0001 C CNN
 F 3 "" H 6900 4450 50  0001 C CNN
@@ -202,16 +190,8 @@ Wire Wire Line
 	5500 4700 5750 4700
 Text HLabel 4350 3400 0    50   Input ~ 0
 3V3
-Wire Wire Line
-	4350 3400 4650 3400
-Connection ~ 4650 3400
 Text Label 4350 3700 2    50   ~ 0
 AGND
-Wire Wire Line
-	4350 3700 4650 3700
-Connection ~ 4650 3700
-Wire Wire Line
-	4650 3400 5150 3400
 Wire Wire Line
 	6900 4300 6900 4250
 Wire Wire Line
@@ -226,4 +206,12 @@ Wire Wire Line
 	6600 4200 6600 4100
 Wire Wire Line
 	6600 4100 6550 4100
+Wire Wire Line
+	4350 3700 4850 3700
+Wire Wire Line
+	4350 2950 4850 2950
+Wire Wire Line
+	4350 3250 5150 3250
+Wire Wire Line
+	4350 3400 5150 3400
 $EndSCHEMATC
