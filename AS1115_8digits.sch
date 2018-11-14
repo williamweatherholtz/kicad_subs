@@ -304,7 +304,7 @@ Wire Bus Line
 Wire Bus Line
 	5450 2650 6050 2650
 Text HLabel 3000 1850 0    50   Input ~ 0
-VCC
+3V3
 Text HLabel 3000 4500 0    50   Input ~ 0
 GND
 Text HLabel 2950 2800 0    50   Input ~ 0
@@ -323,18 +323,6 @@ Wire Wire Line
 	3000 4500 3700 4500
 Wire Wire Line
 	3700 4500 3700 4400
-Text HLabel 4450 4100 2    50   Input ~ 0
-KEYA
-Text HLabel 4450 4200 2    50   Input ~ 0
-KEYB
-Wire Wire Line
-	4450 4100 4300 4100
-Wire Wire Line
-	4300 4200 4450 4200
-Text HLabel 2950 2600 0    50   Input ~ 0
-ISET
-Wire Wire Line
-	2950 2600 3100 2600
 Text HLabel 2950 3100 0    50   Output ~ 0
 IRQ
 Wire Wire Line
@@ -347,6 +335,83 @@ Connection ~ 6050 4600
 Connection ~ 4650 2650
 Connection ~ 4650 3450
 Connection ~ 4650 3850
+$Comp
+L Device:C C?
+U 1 1 5C24603B
+P 1750 2700
+F 0 "C?" H 1865 2746 50  0000 L CNN
+F 1 "10U" H 1865 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1788 2550 50  0001 C CNN
+F 3 "~" H 1750 2700 50  0001 C CNN
+	1    1750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C246073
+P 1450 2700
+F 0 "C?" H 1336 2654 50  0000 R CNN
+F 1 "100N" H 1336 2745 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1488 2550 50  0001 C CNN
+F 3 "~" H 1450 2700 50  0001 C CNN
+	1    1450 2700
+	1    0    0    1   
+$EndComp
+Text HLabel 1350 3100 0    50   Input ~ 0
+GND
+Wire Wire Line
+	1450 2550 1600 2550
+Wire Wire Line
+	1750 2850 1600 2850
+Wire Wire Line
+	1350 2300 1600 2300
+Wire Wire Line
+	1600 2300 1600 2550
+Connection ~ 1600 2550
+Wire Wire Line
+	1600 2550 1750 2550
+Wire Wire Line
+	1600 2850 1600 3100
+Wire Wire Line
+	1600 3100 1350 3100
+Connection ~ 1600 2850
+Wire Wire Line
+	1600 2850 1450 2850
+Text Notes 4400 4250 0    50   ~ 0
+ADDRESS: 0b000_0011\n
+Text Notes 6550 2050 0    50   ~ 0
+Vf = 2
+Text Label 2750 2600 0    50   ~ 0
+ISET
+Wire Wire Line
+	2750 2600 3100 2600
+Text Label 1250 4000 2    50   ~ 0
+ISET
+Text HLabel 1350 2300 0    50   Input ~ 0
+3V3
+Text HLabel 1250 3600 0    50   Input ~ 0
+3V3
+Text Notes 900  4900 0    50   ~ 0
+Iled = 200* Iset\n\n@3V3 and @2V Vf for the led:\nlet Iled = 20mA\nIset should be 100uA\n1.3V / 100uA = 13K
+$Comp
+L Device:R_US R?
+U 1 1 5C38A39E
+P 1450 3800
+F 0 "R?" H 1518 3846 50  0000 L CNN
+F 1 "13K" H 1518 3755 50  0000 L CNN
+F 2 "" V 1490 3790 50  0001 C CNN
+F 3 "~" H 1450 3800 50  0001 C CNN
+	1    1450 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 3650 1450 3600
+Wire Wire Line
+	1450 3600 1250 3600
+Wire Wire Line
+	1450 3950 1450 4000
+Wire Wire Line
+	1450 4000 1250 4000
 Wire Bus Line
 	4650 3300 4650 3450
 Wire Bus Line
