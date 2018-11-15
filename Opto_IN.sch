@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 12
+Sheet 12 14
 Title ""
 Date ""
 Rev ""
@@ -20,16 +20,16 @@ U 1 1 5BF4DC50
 P 5550 3450
 AR Path="/5BF4DC50" Ref="U?"  Part="1" 
 AR Path="/5BBAEA3B/5BF4DC50" Ref="U?"  Part="1" 
-AR Path="/5BBE2F4A/5BF4DC50" Ref="U3"  Part="1" 
-AR Path="/5BC81FD3/5BF4DC50" Ref="U4"  Part="1" 
-AR Path="/5BFB4598/5BF4DC50" Ref="U3"  Part="1" 
-AR Path="/5BEC9D5D/5BF4DC50" Ref="U4"  Part="1" 
+AR Path="/5BBE2F4A/5BF4DC50" Ref="U?"  Part="1" 
+AR Path="/5BC81FD3/5BF4DC50" Ref="U?"  Part="1" 
+AR Path="/5BFB4598/5BF4DC50" Ref="U?"  Part="1" 
+AR Path="/5BEC9D5D/5BF4DC50" Ref="U6"  Part="1" 
 AR Path="/5BEC9D88/5BF4DC50" Ref="U?"  Part="1" 
-AR Path="/5BECA926/5BF4DC50" Ref="U5"  Part="1" 
-AR Path="/5BF2E294/5BF4DC50" Ref="U6"  Part="1" 
-F 0 "U4" H 5400 3650 50  0000 C CNN
+AR Path="/5BECA926/5BF4DC50" Ref="U?"  Part="1" 
+AR Path="/5BF2E294/5BF4DC50" Ref="U7"  Part="1" 
+F 0 "U7" H 5400 3650 50  0000 C CNN
 F 1 "EL3H7-G" H 5550 3250 50  0000 C CNN
-F 2 "Housings_SSOP:SOP-4_4.4x2.8mm_Pitch1.27mm" H 5550 3450 50  0001 C CNN
+F 2 "Package_SO:SOP-4_4.4x2.8mm_P1.27mm" H 5550 3450 50  0001 C CNN
 F 3 "" H 5550 3450 50  0001 C CNN
 	1    5550 3450
 	1    0    0    -1  
@@ -40,16 +40,16 @@ U 1 1 5BBB1F6D
 P 4500 3600
 AR Path="/5BBB1F6D" Ref="R?"  Part="1" 
 AR Path="/5BBAEA3B/5BBB1F6D" Ref="R?"  Part="1" 
-AR Path="/5BBE2F4A/5BBB1F6D" Ref="R14"  Part="1" 
-AR Path="/5BC81FD3/5BBB1F6D" Ref="R19"  Part="1" 
-AR Path="/5BFB4598/5BBB1F6D" Ref="R14"  Part="1" 
-AR Path="/5BEC9D5D/5BBB1F6D" Ref="R8"  Part="1" 
+AR Path="/5BBE2F4A/5BBB1F6D" Ref="R?"  Part="1" 
+AR Path="/5BC81FD3/5BBB1F6D" Ref="R?"  Part="1" 
+AR Path="/5BFB4598/5BBB1F6D" Ref="R?"  Part="1" 
+AR Path="/5BEC9D5D/5BBB1F6D" Ref="R13"  Part="1" 
 AR Path="/5BEC9D88/5BBB1F6D" Ref="R?"  Part="1" 
-AR Path="/5BECA926/5BBB1F6D" Ref="R11"  Part="1" 
-AR Path="/5BF2E294/5BBB1F6D" Ref="R19"  Part="1" 
-F 0 "R8" V 4304 3600 50  0000 C CNN
+AR Path="/5BECA926/5BBB1F6D" Ref="R?"  Part="1" 
+AR Path="/5BF2E294/5BBB1F6D" Ref="R24"  Part="1" 
+F 0 "R24" V 4304 3600 50  0000 C CNN
 F 1 "4K3" V 4395 3600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" H 4500 3600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4500 3600 50  0001 C CNN
 F 3 "~" H 4500 3600 50  0001 C CNN
 	1    4500 3600
 	0    1    1    0   
@@ -60,16 +60,16 @@ U 1 1 5BF4DC51
 P 6000 3650
 AR Path="/5BF4DC51" Ref="R?"  Part="1" 
 AR Path="/5BBAEA3B/5BF4DC51" Ref="R?"  Part="1" 
-AR Path="/5BBE2F4A/5BF4DC51" Ref="R15"  Part="1" 
-AR Path="/5BC81FD3/5BF4DC51" Ref="R20"  Part="1" 
-AR Path="/5BFB4598/5BF4DC51" Ref="R15"  Part="1" 
-AR Path="/5BEC9D5D/5BF4DC51" Ref="R9"  Part="1" 
+AR Path="/5BBE2F4A/5BF4DC51" Ref="R?"  Part="1" 
+AR Path="/5BC81FD3/5BF4DC51" Ref="R?"  Part="1" 
+AR Path="/5BFB4598/5BF4DC51" Ref="R?"  Part="1" 
+AR Path="/5BEC9D5D/5BF4DC51" Ref="R14"  Part="1" 
 AR Path="/5BEC9D88/5BF4DC51" Ref="R?"  Part="1" 
-AR Path="/5BECA926/5BF4DC51" Ref="R12"  Part="1" 
-AR Path="/5BF2E294/5BF4DC51" Ref="R20"  Part="1" 
-F 0 "R9" H 6059 3696 50  0000 L CNN
+AR Path="/5BECA926/5BF4DC51" Ref="R?"  Part="1" 
+AR Path="/5BF2E294/5BF4DC51" Ref="R25"  Part="1" 
+F 0 "R25" H 6059 3696 50  0000 L CNN
 F 1 "10K" H 6059 3605 50  0000 L CNN
-F 2 "Resistors_SMD:R_0402" H 6000 3650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6000 3650 50  0001 C CNN
 F 3 "~" H 6000 3650 50  0001 C CNN
 	1    6000 3650
 	1    0    0    -1  
@@ -96,16 +96,16 @@ U 1 1 5BBE68CB
 P 4300 3450
 AR Path="/5BBE68CB" Ref="R?"  Part="1" 
 AR Path="/5BBAEA3B/5BBE68CB" Ref="R?"  Part="1" 
-AR Path="/5BBE2F4A/5BBE68CB" Ref="R13"  Part="1" 
-AR Path="/5BC81FD3/5BBE68CB" Ref="R18"  Part="1" 
-AR Path="/5BFB4598/5BBE68CB" Ref="R13"  Part="1" 
-AR Path="/5BEC9D5D/5BBE68CB" Ref="R7"  Part="1" 
+AR Path="/5BBE2F4A/5BBE68CB" Ref="R?"  Part="1" 
+AR Path="/5BC81FD3/5BBE68CB" Ref="R?"  Part="1" 
+AR Path="/5BFB4598/5BBE68CB" Ref="R?"  Part="1" 
+AR Path="/5BEC9D5D/5BBE68CB" Ref="R12"  Part="1" 
 AR Path="/5BEC9D88/5BBE68CB" Ref="R?"  Part="1" 
-AR Path="/5BECA926/5BBE68CB" Ref="R10"  Part="1" 
-AR Path="/5BF2E294/5BBE68CB" Ref="R18"  Part="1" 
-F 0 "R7" H 4241 3496 50  0000 R CNN
+AR Path="/5BECA926/5BBE68CB" Ref="R?"  Part="1" 
+AR Path="/5BF2E294/5BBE68CB" Ref="R23"  Part="1" 
+F 0 "R23" H 4241 3496 50  0000 R CNN
 F 1 "10K" H 4241 3405 50  0000 R CNN
-F 2 "Resistors_SMD:R_0402" H 4300 3450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4300 3450 50  0001 C CNN
 F 3 "~" H 4300 3450 50  0001 C CNN
 	1    4300 3450
 	1    0    0    -1  
@@ -113,20 +113,20 @@ $EndComp
 Wire Wire Line
 	4150 3600 4300 3600
 $Comp
-L william_diodes:BAS21LT1G D1
+L william_diodes:BAS21LT1G D?
 U 1 1 5BBEB592
 P 4750 3450
-AR Path="/5BBE2F4A/5BBEB592" Ref="D1"  Part="1" 
+AR Path="/5BBE2F4A/5BBEB592" Ref="D?"  Part="1" 
 AR Path="/5BBAEA3B/5BBEB592" Ref="D?"  Part="1" 
-AR Path="/5BC81FD3/5BBEB592" Ref="D2"  Part="1" 
-AR Path="/5BFB4598/5BBEB592" Ref="D1"  Part="1" 
+AR Path="/5BC81FD3/5BBEB592" Ref="D?"  Part="1" 
+AR Path="/5BFB4598/5BBEB592" Ref="D?"  Part="1" 
 AR Path="/5BEC9D5D/5BBEB592" Ref="D1"  Part="1" 
 AR Path="/5BEC9D88/5BBEB592" Ref="D?"  Part="1" 
-AR Path="/5BECA926/5BBEB592" Ref="D2"  Part="1" 
+AR Path="/5BECA926/5BBEB592" Ref="D?"  Part="1" 
 AR Path="/5BF2E294/5BBEB592" Ref="D2"  Part="1" 
-F 0 "D1" V 4704 3529 50  0000 L CNN
+F 0 "D2" V 4704 3529 50  0000 L CNN
 F 1 "BAS21LT1G" V 4795 3529 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 4700 3600 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4700 3600 50  0001 C CNN
 F 3 "" H 4700 3600 50  0001 C CNN
 	1    4750 3450
 	0    1    1    0   

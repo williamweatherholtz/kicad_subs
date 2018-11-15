@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 12
+Sheet 5 14
 Title ""
 Date ""
 Rev ""
@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Interface_Expansion:AS1115-BSST U1
+L Interface_Expansion:AS1115-BSST U3
 U 1 1 5BE5F4D9
 P 3700 3200
-F 0 "U1" H 3250 4350 50  0000 C CNN
+F 0 "U3" H 3250 4350 50  0000 C CNN
 F 1 "AS1115-BSST" H 3650 3250 50  0000 C CNN
 F 2 "Package_SO:QSOP-24_3.9x8.7mm_P0.635mm" H 3700 3200 50  0001 C CNN
 F 3 "https://ams.com/documents/20143/36005/AS1115_DS000206_1-00.pdf/3d3e6d35-b184-1329-adf9-2d769eb2404f" H 3700 3200 50  0001 C CNN
@@ -30,8 +30,8 @@ L william_display:LTC-4727JR U?
 U 1 1 5BE6286B
 P 7500 2700
 AR Path="/5BE5D4AF/5BE5F6E5/5BE6286B" Ref="U?"  Part="1" 
-AR Path="/5BE5D4AF/5BE6286B" Ref="U2"  Part="1" 
-F 0 "U2" H 7500 3367 50  0000 C CNN
+AR Path="/5BE5D4AF/5BE6286B" Ref="U4"  Part="1" 
+F 0 "U4" H 7500 3367 50  0000 C CNN
 F 1 "LTC-4727JR" H 7500 3276 50  0000 C CNN
 F 2 "william_display:LTC-4X27JR" H 7500 2100 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/CC56-12YWA.pdf" H 7070 2730 50  0001 C CNN
@@ -43,8 +43,8 @@ L william_display:LTC-4727JR U?
 U 1 1 5BE629A7
 P 7500 4650
 AR Path="/5BE5D4AF/5BE5F6E5/5BE629A7" Ref="U?"  Part="1" 
-AR Path="/5BE5D4AF/5BE629A7" Ref="U3"  Part="1" 
-F 0 "U3" H 7500 5317 50  0000 C CNN
+AR Path="/5BE5D4AF/5BE629A7" Ref="U5"  Part="1" 
+F 0 "U5" H 7500 5317 50  0000 C CNN
 F 1 "LTC-4727JR" H 7500 5226 50  0000 C CNN
 F 2 "william_display:LTC-4X27JR" H 7500 4050 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/CC56-12YWA.pdf" H 7070 4680 50  0001 C CNN
@@ -336,10 +336,10 @@ Connection ~ 4650 2650
 Connection ~ 4650 3450
 Connection ~ 4650 3850
 $Comp
-L Device:C C?
+L Device:C C10
 U 1 1 5C24603B
 P 1750 2700
-F 0 "C?" H 1865 2746 50  0000 L CNN
+F 0 "C10" H 1865 2746 50  0000 L CNN
 F 1 "10U" H 1865 2655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 1788 2550 50  0001 C CNN
 F 3 "~" H 1750 2700 50  0001 C CNN
@@ -347,10 +347,10 @@ F 3 "~" H 1750 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C9
 U 1 1 5C246073
 P 1450 2700
-F 0 "C?" H 1336 2654 50  0000 R CNN
+F 0 "C9" H 1336 2654 50  0000 R CNN
 F 1 "100N" H 1336 2745 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1488 2550 50  0001 C CNN
 F 3 "~" H 1450 2700 50  0001 C CNN
@@ -394,12 +394,12 @@ Text HLabel 1250 3600 0    50   Input ~ 0
 Text Notes 900  4900 0    50   ~ 0
 Iled = 200* Iset\n\n@3V3 and @2V Vf for the led:\nlet Iled = 20mA\nIset should be 100uA\n1.3V / 100uA = 13K
 $Comp
-L Device:R_US R?
+L Device:R_US R11
 U 1 1 5C38A39E
 P 1450 3800
-F 0 "R?" H 1518 3846 50  0000 L CNN
+F 0 "R11" H 1518 3846 50  0000 L CNN
 F 1 "13K" H 1518 3755 50  0000 L CNN
-F 2 "" V 1490 3790 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1490 3790 50  0001 C CNN
 F 3 "~" H 1450 3800 50  0001 C CNN
 	1    1450 3800
 	1    0    0    -1  

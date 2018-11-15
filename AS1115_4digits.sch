@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 12
+Sheet 5 14
 Title ""
 Date ""
 Rev ""
@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Interface_Expansion:AS1115-BSST U?
+L Interface_Expansion:AS1115-BSST U5
 U 1 1 5BE5F4D9
 P 3700 3200
-F 0 "U?" H 3250 4350 50  0000 C CNN
+F 0 "U5" H 3250 4350 50  0000 C CNN
 F 1 "AS1115-BSST" H 3650 3250 50  0000 C CNN
 F 2 "Package_SO:QSOP-24_3.9x8.7mm_P0.635mm" H 3700 3200 50  0001 C CNN
 F 3 "https://ams.com/documents/20143/36005/AS1115_DS000206_1-00.pdf/3d3e6d35-b184-1329-adf9-2d769eb2404f" H 3700 3200 50  0001 C CNN
@@ -137,14 +137,6 @@ Entry Wire Line
 	8850 2900 8950 3000
 Entry Wire Line
 	8850 3000 8950 3100
-Entry Wire Line
-	4550 3600 4650 3700
-Entry Wire Line
-	4550 3700 4650 3800
-Entry Wire Line
-	4550 3800 4650 3900
-Entry Wire Line
-	4550 3900 4650 4000
 Text Label 6150 2400 0    50   ~ 0
 A
 Text Label 6150 2500 0    50   ~ 0
@@ -237,10 +229,10 @@ Connection ~ 6050 2650
 Connection ~ 4650 2650
 Connection ~ 4650 3450
 $Comp
-L Device:C C?
+L Device:C C22
 U 1 1 5C24603B
 P 1750 2700
-F 0 "C?" H 1865 2746 50  0000 L CNN
+F 0 "C22" H 1865 2746 50  0000 L CNN
 F 1 "10U" H 1865 2655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 1788 2550 50  0001 C CNN
 F 3 "~" H 1750 2700 50  0001 C CNN
@@ -248,10 +240,10 @@ F 3 "~" H 1750 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C21
 U 1 1 5C246073
 P 1450 2700
-F 0 "C?" H 1336 2654 50  0000 R CNN
+F 0 "C21" H 1336 2654 50  0000 R CNN
 F 1 "100N" H 1336 2745 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1488 2550 50  0001 C CNN
 F 3 "~" H 1450 2700 50  0001 C CNN
@@ -295,10 +287,10 @@ Text HLabel 1250 3600 0    50   Input ~ 0
 Text Notes 900  4900 0    50   ~ 0
 Iled = 200* Iset\n\n@3V3 and @2V Vf for the led:\nlet Iled = 20mA\nIset should be 100uA\n1.3V / 100uA = 13K
 $Comp
-L Device:R_US R?
+L Device:R_US R17
 U 1 1 5C38A39E
 P 1450 3800
-F 0 "R?" H 1518 3846 50  0000 L CNN
+F 0 "R17" H 1518 3846 50  0000 L CNN
 F 1 "13K" H 1518 3755 50  0000 L CNN
 F 2 "" V 1490 3790 50  0001 C CNN
 F 3 "~" H 1450 3800 50  0001 C CNN
@@ -315,12 +307,16 @@ Wire Wire Line
 	1450 4000 1250 4000
 Wire Bus Line
 	4650 2650 6050 2650
+NoConn ~ 4300 4100
+NoConn ~ 4300 4200
+NoConn ~ 4550 3600
+NoConn ~ 4550 3700
+NoConn ~ 4550 3800
+NoConn ~ 4550 3900
 Wire Bus Line
 	4650 3300 4650 3450
 Wire Bus Line
 	4650 3450 4650 3600
-Wire Bus Line
-	4650 3700 4650 4000
 Wire Bus Line
 	6050 2650 6050 3000
 Wire Bus Line

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 12
+Sheet 14 14
 Title ""
 Date ""
 Rev ""
@@ -40,12 +40,12 @@ Text HLabel 5850 3900 2    50   Input ~ 0
 Wire Wire Line
 	5850 3100 5500 3100
 $Comp
-L Device:C_Small C?
+L Device:C_Small C26
 U 1 1 5C04D064
 P 4050 4150
-F 0 "C?" H 3959 4104 50  0000 R CNN
+F 0 "C26" H 3959 4104 50  0000 R CNN
 F 1 "680N" H 3959 4195 50  0000 R CNN
-F 2 "" H 4050 4150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4050 4150 50  0001 C CNN
 F 3 "~" H 4050 4150 50  0001 C CNN
 	1    4050 4150
 	1    0    0    1   
@@ -59,10 +59,10 @@ Wire Wire Line
 Wire Wire Line
 	4050 4550 4450 4550
 $Comp
-L Device:C_Small C?
+L Device:C_Small C27
 U 1 1 5C055D84
 P 7300 3750
-F 0 "C?" H 7209 3704 50  0000 R CNN
+F 0 "C27" H 7209 3704 50  0000 R CNN
 F 1 "100N" H 7209 3795 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7300 3750 50  0001 C CNN
 F 3 "~" H 7300 3750 50  0001 C CNN
@@ -70,78 +70,78 @@ F 3 "~" H 7300 3750 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C28
 U 1 1 5C055E2A
 P 7500 3750
-F 0 "C?" H 7408 3704 50  0000 R CNN
+F 0 "C28" H 7408 3704 50  0000 R CNN
 F 1 "10U" H 7408 3795 50  0000 R CNN
-F 2 "" H 7500 3750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7500 3750 50  0001 C CNN
 F 3 "~" H 7500 3750 50  0001 C CNN
 	1    7500 3750
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C29
 U 1 1 5C05692B
 P 8150 3750
-F 0 "C?" H 8059 3704 50  0000 R CNN
+F 0 "C29" H 8059 3704 50  0000 R CNN
 F 1 "100N" H 8059 3795 50  0000 R CNN
-F 2 "" H 8150 3750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8150 3750 50  0001 C CNN
 F 3 "~" H 8150 3750 50  0001 C CNN
 	1    8150 3750
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C30
 U 1 1 5C056931
 P 8350 3750
-F 0 "C?" H 8258 3704 50  0000 R CNN
+F 0 "C30" H 8258 3704 50  0000 R CNN
 F 1 "10U" H 8258 3795 50  0000 R CNN
-F 2 "" H 8350 3750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8350 3750 50  0001 C CNN
 F 3 "~" H 8350 3750 50  0001 C CNN
 	1    8350 3750
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C31
 U 1 1 5C056A87
 P 9000 3750
-F 0 "C?" H 8909 3704 50  0000 R CNN
+F 0 "C31" H 8909 3704 50  0000 R CNN
 F 1 "100N" H 8909 3795 50  0000 R CNN
-F 2 "" H 9000 3750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9000 3750 50  0001 C CNN
 F 3 "~" H 9000 3750 50  0001 C CNN
 	1    9000 3750
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C32
 U 1 1 5C056A8D
 P 9200 3750
-F 0 "C?" H 9108 3704 50  0000 R CNN
+F 0 "C32" H 9108 3704 50  0000 R CNN
 F 1 "10U" H 9108 3795 50  0000 R CNN
-F 2 "" H 9200 3750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9200 3750 50  0001 C CNN
 F 3 "~" H 9200 3750 50  0001 C CNN
 	1    9200 3750
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C33
 U 1 1 5C056C11
 P 9850 3750
-F 0 "C?" H 9759 3704 50  0000 R CNN
+F 0 "C33" H 9759 3704 50  0000 R CNN
 F 1 "100N" H 9759 3795 50  0000 R CNN
-F 2 "" H 9850 3750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9850 3750 50  0001 C CNN
 F 3 "~" H 9850 3750 50  0001 C CNN
 	1    9850 3750
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C34
 U 1 1 5C056C17
 P 10050 3750
-F 0 "C?" H 9958 3704 50  0000 R CNN
+F 0 "C34" H 9958 3704 50  0000 R CNN
 F 1 "10U" H 9958 3795 50  0000 R CNN
-F 2 "" H 10050 3750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10050 3750 50  0001 C CNN
 F 3 "~" H 10050 3750 50  0001 C CNN
 	1    10050 3750
 	-1   0    0    1   
@@ -203,8 +203,8 @@ L william_dc_dc:PDM1-S24-D15-S U?
 U 1 1 5C063447
 P 1900 3800
 AR Path="/5C063447" Ref="U?"  Part="1" 
-AR Path="/5C04AAC0/5C063447" Ref="U?"  Part="1" 
-F 0 "U?" H 1900 4267 50  0000 C CNN
+AR Path="/5C04AAC0/5C063447" Ref="U9"  Part="1" 
+F 0 "U9" H 1900 4267 50  0000 C CNN
 F 1 "PDM1-S24-D15-S" H 1900 4176 50  0000 C CNN
 F 2 "william_dc_dc:PDM1-XXX-DXX-S" H 2000 3150 50  0001 C CNN
 F 3 "https://www.cui.com/product/resource/digikeypdf/pdm1-s.pdf" H 1650 2950 50  0001 C CNN
@@ -235,20 +235,12 @@ Text Label 4700 3100 0    50   ~ 0
 VDRIVE
 Text Label 4100 3100 0    50   ~ 0
 VCC
-Wire Wire Line
-	2750 3600 2400 3600
 Text Label 2750 3600 2    50   ~ 0
 +15V
-Wire Wire Line
-	2750 3800 2400 3800
 Text Label 2750 3800 2    50   ~ 0
 AGND
 Text Label 2750 4000 2    50   ~ 0
 -15V
-Wire Wire Line
-	2400 4000 2750 4000
-Text Label 4150 4550 0    50   ~ 0
-AGND
 Text Label 7000 4150 0    50   ~ 0
 AGND
 Text HLabel 4100 3100 0    50   Input ~ 0
@@ -298,4 +290,12 @@ Wire Wire Line
 Wire Wire Line
 	4450 3100 4950 3100
 Connection ~ 4450 3100
+Wire Wire Line
+	2400 4000 2750 4000
+Wire Wire Line
+	2400 3600 2750 3600
+Wire Wire Line
+	2750 3800 2400 3800
+Text Label 4350 4550 2    50   ~ 0
+AGND
 $EndSCHEMATC
