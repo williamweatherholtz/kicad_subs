@@ -25,10 +25,6 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD7321.
 	1    4950 3750
 	1    0    0    -1  
 $EndComp
-Text HLabel 4100 3700 0    50   Input ~ 0
-AIN+
-Text HLabel 4100 3800 0    50   Input ~ 0
-AIN-
 Text HLabel 5850 3600 2    50   Input ~ 0
 MOSI
 Text HLabel 5850 3700 2    50   Output ~ 0
@@ -298,4 +294,37 @@ Wire Wire Line
 	2750 3800 2400 3800
 Text Label 4350 4550 2    50   ~ 0
 AGND
+Text HLabel 3500 3650 0    50   Input ~ 0
+AIN+
+Text HLabel 3500 3850 0    50   Input ~ 0
+AIN-
+$Comp
+L Device:C_Small C35
+U 1 1 5BF76BF3
+P 3700 3750
+F 0 "C35" H 3792 3796 50  0000 L CNN
+F 1 "10nF" H 3792 3705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3700 3750 50  0001 C CNN
+F 3 "~" H 3700 3750 50  0001 C CNN
+	1    3700 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3850 4000 3850
+Wire Wire Line
+	4000 3850 4000 3800
+Wire Wire Line
+	4000 3800 4100 3800
+Wire Wire Line
+	4100 3700 4000 3700
+Wire Wire Line
+	4000 3700 4000 3650
+Wire Wire Line
+	4000 3650 3700 3650
+Wire Wire Line
+	3500 3850 3700 3850
+Connection ~ 3700 3850
+Wire Wire Line
+	3700 3650 3500 3650
+Connection ~ 3700 3650
 $EndSCHEMATC
