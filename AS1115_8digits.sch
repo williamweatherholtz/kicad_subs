@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 14
+Sheet 5 15
 Title ""
 Date ""
 Rev ""
@@ -15,9 +15,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Interface_Expansion:AS1115-BSST U3
+L william_display:AS1115-BSST U3
 U 1 1 5BE5F4D9
 P 3700 3200
+AR Path="/5BE5F4D9" Ref="U3"  Part="1" 
+AR Path="/5BE5D4AF/5BE5F4D9" Ref="U3"  Part="1" 
 F 0 "U3" H 3250 4350 50  0000 C CNN
 F 1 "AS1115-BSST" H 3650 3250 50  0000 C CNN
 F 2 "Package_SO:QSOP-24_3.9x8.7mm_P0.635mm" H 3700 3200 50  0001 C CNN
@@ -412,6 +414,8 @@ Wire Wire Line
 	1450 3950 1450 4000
 Wire Wire Line
 	1450 4000 1250 4000
+NoConn ~ 4300 4100
+NoConn ~ 4300 4200
 Wire Bus Line
 	4650 3300 4650 3450
 Wire Bus Line
