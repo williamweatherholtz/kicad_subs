@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:tensile_synchronization-cache
+LIBS:main-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 11
+Sheet 5 5
 Title ""
 Date ""
 Rev ""
@@ -25,7 +25,8 @@ AR Path="/5BC8E4A6/5BBB1F64" Ref="U?"  Part="1"
 AR Path="/5BC9104B/5BBB1F64" Ref="U?"  Part="1" 
 AR Path="/5BF59801/5BBB1F64" Ref="U5"  Part="1" 
 AR Path="/5BF5E300/5BBB1F64" Ref="U6"  Part="1" 
-F 0 "U6" H 5400 3650 50  0000 C CNN
+AR Path="/5C05521A/5BBB1F64" Ref="U5"  Part="1" 
+F 0 "U5" H 5400 3650 50  0000 C CNN
 F 1 "EL3H7-G" H 5550 3250 50  0000 C CNN
 F 2 "Housings_SSOP:SOP-4_4.4x2.8mm_Pitch1.27mm" H 5550 3450 50  0001 C CNN
 F 3 "" H 5550 3450 50  0001 C CNN
@@ -49,7 +50,7 @@ GND
 Text HLabel 4150 3350 0    50   Input ~ 0
 5V+
 $Comp
-L device:Q_NMOS_GSD Q?
+L Device:Q_NMOS_GSD Q?
 U 1 1 5BC01B72
 P 5050 3850
 AR Path="/5AC33549/5BC01B72" Ref="Q?"  Part="1" 
@@ -65,7 +66,8 @@ AR Path="/5BC8E4A6/5BC01B72" Ref="Q?"  Part="1"
 AR Path="/5BC9104B/5BC01B72" Ref="Q?"  Part="1" 
 AR Path="/5BF59801/5BC01B72" Ref="Q7"  Part="1" 
 AR Path="/5BF5E300/5BC01B72" Ref="Q8"  Part="1" 
-F 0 "Q8" H 5250 3900 50  0000 L CNN
+AR Path="/5C05521A/5BC01B72" Ref="Q?"  Part="1" 
+F 0 "Q?" H 5250 3900 50  0000 L CNN
 F 1 "BSS138LT3G" H 5250 3800 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 5250 3950 50  0001 C CNN
 F 3 "" H 5050 3850 50  0001 C CNN
@@ -73,7 +75,7 @@ F 3 "" H 5050 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L Device:R R?
 U 1 1 5BC01B7D
 P 4350 4050
 AR Path="/5AC33549/5BC01B7D" Ref="R?"  Part="1" 
@@ -89,7 +91,8 @@ AR Path="/5BC8E4A6/5BC01B7D" Ref="R?"  Part="1"
 AR Path="/5BC9104B/5BC01B7D" Ref="R?"  Part="1" 
 AR Path="/5BF59801/5BC01B7D" Ref="R21"  Part="1" 
 AR Path="/5BF5E300/5BC01B7D" Ref="R25"  Part="1" 
-F 0 "R25" V 4430 4050 50  0000 C CNN
+AR Path="/5C05521A/5BC01B7D" Ref="R?"  Part="1" 
+F 0 "R?" V 4430 4050 50  0000 C CNN
 F 1 "10K" V 4350 4050 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 4280 4050 50  0001 C CNN
 F 3 "" H 4350 4050 50  0001 C CNN
@@ -97,7 +100,7 @@ F 3 "" H 4350 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L Device:R R?
 U 1 1 5BC01B84
 P 4650 3850
 AR Path="/5AC33549/5BC01B84" Ref="R?"  Part="1" 
@@ -113,7 +116,8 @@ AR Path="/5BC8E4A6/5BC01B84" Ref="R?"  Part="1"
 AR Path="/5BC9104B/5BC01B84" Ref="R?"  Part="1" 
 AR Path="/5BF59801/5BC01B84" Ref="R23"  Part="1" 
 AR Path="/5BF5E300/5BC01B84" Ref="R27"  Part="1" 
-F 0 "R27" V 4730 3850 50  0000 C CNN
+AR Path="/5C05521A/5BC01B84" Ref="R?"  Part="1" 
+F 0 "R?" V 4730 3850 50  0000 C CNN
 F 1 "1K" V 4650 3850 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 4580 3850 50  0001 C CNN
 F 3 "" H 4650 3850 50  0001 C CNN
@@ -143,7 +147,7 @@ Connection ~ 4350 4250
 Wire Wire Line
 	4350 4250 5150 4250
 $Comp
-L device:R R?
+L Device:R R?
 U 1 1 5BC088EE
 P 4650 3350
 AR Path="/5AC33549/5BC088EE" Ref="R?"  Part="1" 
@@ -159,7 +163,8 @@ AR Path="/5BC8E4A6/5BC088EE" Ref="R?"  Part="1"
 AR Path="/5BC9104B/5BC088EE" Ref="R?"  Part="1" 
 AR Path="/5BF59801/5BC088EE" Ref="R22"  Part="1" 
 AR Path="/5BF5E300/5BC088EE" Ref="R26"  Part="1" 
-F 0 "R26" V 4730 3350 50  0000 C CNN
+AR Path="/5C05521A/5BC088EE" Ref="R?"  Part="1" 
+F 0 "R?" V 4730 3350 50  0000 C CNN
 F 1 "750R" V 4650 3350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 4580 3350 50  0001 C CNN
 F 3 "" H 4650 3350 50  0001 C CNN
@@ -177,7 +182,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 3300 5950 3350
 $Comp
-L device:R_Small R?
+L Device:R_Small R?
 U 1 1 5BBB1F8A
 P 5950 3200
 AR Path="/5BBB1F8A" Ref="R?"  Part="1" 
@@ -187,7 +192,8 @@ AR Path="/5BC8E4A6/5BBB1F8A" Ref="R?"  Part="1"
 AR Path="/5BC9104B/5BBB1F8A" Ref="R?"  Part="1" 
 AR Path="/5BF59801/5BBB1F8A" Ref="R24"  Part="1" 
 AR Path="/5BF5E300/5BBB1F8A" Ref="R28"  Part="1" 
-F 0 "R28" H 6009 3246 50  0000 L CNN
+AR Path="/5C05521A/5BBB1F8A" Ref="R?"  Part="1" 
+F 0 "R?" H 6009 3246 50  0000 L CNN
 F 1 "1K" H 6009 3155 50  0000 L CNN
 F 2 "Resistors_SMD:R_0402" H 5950 3200 50  0001 C CNN
 F 3 "~" H 5950 3200 50  0001 C CNN
