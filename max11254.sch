@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 7 8
 Title ""
 Date ""
 Rev ""
@@ -73,14 +73,10 @@ Text HLabel 5250 4200 0    50   Input ~ 0
 A5+
 Text HLabel 5250 4300 0    50   Input ~ 0
 A5-
-Text HLabel 5250 4500 0    50   Input ~ 0
-REF+
-Text HLabel 5250 4600 0    50   Input ~ 0
-REF-
 Text HLabel 5250 4750 0    50   Input ~ 0
 ~RESET~
 Text HLabel 7250 2950 2    50   Input ~ 0
-RDY
+~RDY
 Text HLabel 7250 3100 2    50   Input ~ 0
 MOSI
 Text HLabel 7250 3200 2    50   Output ~ 0
@@ -197,7 +193,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 5500 6350 5500
 Text Label 6150 5050 2    50   ~ 0
-AGND
+AVSS
 Text Label 6350 5050 0    50   ~ 0
 DGND
 Text Label 7300 2650 2    50   ~ 0
@@ -225,7 +221,7 @@ F 3 "~" H 5550 2450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 5200 2650 0    50   ~ 0
-AGND
+AVSS
 Wire Wire Line
 	6350 1950 6350 2250
 Wire Wire Line
@@ -294,4 +290,10 @@ Wire Wire Line
 	5550 2650 5200 2650
 Wire Wire Line
 	6150 2250 5750 2250
+Text Label 5250 4600 2    50   ~ 0
+AVSS
+Text Label 5550 2250 0    50   ~ 0
+AVDD
+Text Label 5250 4500 2    50   ~ 0
+AVDD
 $EndSCHEMATC
