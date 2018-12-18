@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 8
 Title ""
 Date ""
 Rev ""
@@ -15,9 +15,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L william_imu:ICM-20948 U2
+L main-rescue:ICM-20948-william_imu U2
 U 1 1 5C0145EA
 P 5650 3350
+AR Path="/5C0145EA" Ref="U2"  Part="1" 
+AR Path="/5BFF1ADC/5C0145EA" Ref="U2"  Part="1" 
 F 0 "U2" H 6200 4000 50  0000 C CNN
 F 1 "ICM-20948" H 5650 3250 50  0000 C CNN
 F 2 "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm" H 5700 2900 50  0001 C CNN

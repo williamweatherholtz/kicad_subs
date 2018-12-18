@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 14
+Sheet 5 8
 Title ""
 Date ""
 Rev ""
@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L william:MAX11270 U9
+L william:MAX11270 U3
 U 1 1 5B2E54B9
 P 5850 3750
-F 0 "U9" H 5300 4550 50  0000 C CNN
+F 0 "U3" H 5300 4550 50  0000 C CNN
 F 1 "MAX11270" H 6250 4550 50  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 5700 3800 50  0001 C CNN
 F 3 "" H 5700 3800 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "" H 5700 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C17
+L Device:C C21
 U 1 1 5B2E54C5
 P 5550 2600
-F 0 "C17" H 5350 2650 50  0000 L CNN
+F 0 "C21" H 5350 2650 50  0000 L CNN
 F 1 "1U" H 5350 2550 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 5588 2450 50  0001 C CNN
 F 3 "" H 5550 2600 50  0001 C CNN
@@ -37,10 +37,10 @@ F 3 "" H 5550 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C18
+L Device:C C22
 U 1 1 5B2E54CC
 P 6150 2600
-F 0 "C18" H 6265 2646 50  0000 L CNN
+F 0 "C22" H 6265 2646 50  0000 L CNN
 F 1 "1U" H 6265 2555 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 6188 2450 50  0001 C CNN
 F 3 "" H 6150 2600 50  0001 C CNN
@@ -59,8 +59,8 @@ Text HLabel 5150 4400 0    50   Input ~ 0
 ~RESET~
 Text HLabel 6550 3750 2    50   Output ~ 0
 ~DATA_READY~
-Text HLabel 5750 2200 0    50   Input ~ 0
-3V3
+Text HLabel 5450 2250 0    50   Input ~ 0
+VCC
 Text Label 5750 4700 2    50   ~ 0
 AGND
 Text Label 6150 2800 0    50   ~ 0
@@ -82,20 +82,12 @@ Wire Wire Line
 Wire Wire Line
 	5950 2900 5950 2400
 Wire Wire Line
-	5750 2300 5750 2400
-Connection ~ 5750 2400
-Wire Wire Line
-	5750 2300 5850 2300
-Wire Wire Line
-	5950 2300 5950 2400
-Connection ~ 5950 2400
-Wire Wire Line
 	5950 2400 6150 2400
 $Comp
-L Device:C C15
+L Device:C C18
 U 1 1 5B2E6585
 P 4650 3100
-F 0 "C15" H 4450 3150 50  0000 L CNN
+F 0 "C18" H 4450 3150 50  0000 L CNN
 F 1 "10N" H 4400 3050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 4688 2950 50  0001 C CNN
 F 3 "" H 4650 3100 50  0001 C CNN
@@ -103,10 +95,10 @@ F 3 "" H 4650 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C16
+L Device:C C20
 U 1 1 5B2E66DA
 P 4650 3550
-F 0 "C16" H 4450 3600 50  0000 L CNN
+F 0 "C20" H 4450 3600 50  0000 L CNN
 F 1 "10N" H 4400 3500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 4688 3400 50  0001 C CNN
 F 3 "" H 4650 3550 50  0001 C CNN
@@ -130,10 +122,10 @@ AIN+
 Text HLabel 4350 3250 0    50   Input ~ 0
 AIN-
 $Comp
-L Device:C C19
+L Device:C C23
 U 1 1 5B2E9EF3
 P 6900 4050
-F 0 "C19" H 6650 4100 50  0000 L CNN
+F 0 "C23" H 6650 4100 50  0000 L CNN
 F 1 "10N" H 6650 4000 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 6938 3900 50  0001 C CNN
 F 3 "" H 6900 4050 50  0001 C CNN
@@ -143,10 +135,10 @@ $EndComp
 Wire Wire Line
 	6600 4000 6550 4000
 $Comp
-L Device:C C20
+L Device:C C24
 U 1 1 5B2EAA13
 P 6900 4450
-F 0 "C20" H 6650 4500 50  0000 L CNN
+F 0 "C24" H 6650 4500 50  0000 L CNN
 F 1 "10U" H 6650 4400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 6938 4300 50  0001 C CNN
 F 3 "" H 6900 4450 50  0001 C CNN
@@ -159,14 +151,6 @@ Wire Wire Line
 	5950 4700 5950 4600
 Wire Wire Line
 	6900 4600 6900 4700
-Connection ~ 5950 4700
-Wire Wire Line
-	5750 2200 5850 2200
-Wire Wire Line
-	5850 2200 5850 2300
-Connection ~ 5850 2300
-Wire Wire Line
-	5850 2300 5950 2300
 NoConn ~ 6550 3400
 NoConn ~ 6550 3500
 NoConn ~ 6550 3600
@@ -174,9 +158,6 @@ Text Label 4850 4100 2    50   ~ 0
 DGND
 Wire Wire Line
 	4850 4100 5000 4100
-Wire Wire Line
-	5950 4700 5750 4700
-Connection ~ 5750 4700
 Wire Wire Line
 	5750 4700 5750 4600
 Wire Wire Line
@@ -189,7 +170,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 4700 5750 4700
 Text HLabel 4350 3400 0    50   Input ~ 0
-3V3
+VCC
 Text Label 4350 3700 2    50   ~ 0
 AGND
 Wire Wire Line
@@ -214,4 +195,35 @@ Wire Wire Line
 	4350 3250 5150 3250
 Wire Wire Line
 	4350 3400 5150 3400
+$Comp
+L Device:Net-Tie_2 NT1
+U 1 1 5C19759F
+P 5850 2400
+F 0 "NT1" H 5850 2578 50  0000 C CNN
+F 1 "Net-Tie_2" H 5850 2487 50  0000 C CNN
+F 2 "" H 5850 2400 50  0001 C CNN
+F 3 "~" H 5850 2400 50  0001 C CNN
+	1    5850 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 5750 2400
+Connection ~ 5950 2400
+$Comp
+L Device:Net-Tie_2 NT2
+U 1 1 5C1982C7
+P 5850 4700
+F 0 "NT2" H 5850 4878 50  0000 C CNN
+F 1 "Net-Tie_2" H 5850 4787 50  0000 C CNN
+F 2 "" H 5850 4700 50  0001 C CNN
+F 3 "~" H 5850 4700 50  0001 C CNN
+	1    5850 4700
+	-1   0    0    1   
+$EndComp
+Connection ~ 5750 4700
+Connection ~ 5950 4700
+Wire Wire Line
+	5450 2250 5550 2250
+Wire Wire Line
+	5550 2250 5550 2400
+Connection ~ 5550 2400
 $EndSCHEMATC
