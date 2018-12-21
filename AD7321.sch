@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 15
+Sheet 14 14
 Title ""
 Date ""
 Rev ""
@@ -18,7 +18,7 @@ $Comp
 L william_adc:AD7321 U10
 U 1 1 5C04AF13
 P 4950 3750
-F 0 "U10" H 5650 4200 50  0000 C CNN
+F 0 "U10" H 5650 4250 50  0000 C CNN
 F 1 "AD7321" H 4950 3750 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 4650 4550 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD7321.pdf" H 4650 4550 50  0001 C CNN
