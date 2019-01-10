@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:main-cache
+LIBS:v1-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 9
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -15,11 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L main-rescue:ICM-20948-william_imu U2
+L william_imu:ICM-20948 U?
 U 1 1 5C0145EA
 P 5650 3350
-AR Path="/5C0145EA" Ref="U2"  Part="1" 
+AR Path="/5C0145EA" Ref="U?"  Part="1" 
 AR Path="/5BFF1ADC/5C0145EA" Ref="U2"  Part="1" 
+AR Path="/5C3EEBD8/5C0145EA" Ref="U2"  Part="1" 
 F 0 "U2" H 6200 4000 50  0000 C CNN
 F 1 "ICM-20948" H 5650 3250 50  0000 C CNN
 F 2 "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm" H 5700 2900 50  0001 C CNN
@@ -36,23 +37,23 @@ Wire Wire Line
 Text HLabel 4800 2550 0    50   Input ~ 0
 GND
 $Comp
-L Device:C_Small C14
+L Device:C_Small C4
 U 1 1 5C0150F1
 P 6400 4000
-F 0 "C14" H 6309 3954 50  0000 R CNN
+F 0 "C4" H 6309 3954 50  0000 R CNN
 F 1 "100N" H 6309 4045 50  0000 R CNN
-F 2 "" H 6400 4000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6400 4000 50  0001 C CNN
 F 3 "~" H 6400 4000 50  0001 C CNN
 	1    6400 4000
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C12
+L Device:C_Small C2
 U 1 1 5C0151BB
 P 5350 2400
-F 0 "C12" H 5258 2446 50  0000 R CNN
+F 0 "C2" H 5258 2446 50  0000 R CNN
 F 1 "100N" H 5258 2355 50  0000 R CNN
-F 2 "" H 5350 2400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5350 2400 50  0001 C CNN
 F 3 "~" H 5350 2400 50  0001 C CNN
 	1    5350 2400
 	1    0    0    -1  
@@ -76,12 +77,12 @@ Connection ~ 4900 4200
 Text HLabel 6500 2250 2    50   Input ~ 0
 1V8
 $Comp
-L Device:C_Small C13
+L Device:C_Small C3
 U 1 1 5C018283
 P 5900 2400
-F 0 "C13" H 5808 2446 50  0000 R CNN
+F 0 "C3" H 5808 2446 50  0000 R CNN
 F 1 "100N" H 5808 2355 50  0000 R CNN
-F 2 "" H 5900 2400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5900 2400 50  0001 C CNN
 F 3 "~" H 5900 2400 50  0001 C CNN
 	1    5900 2400
 	-1   0    0    -1  
@@ -152,4 +153,10 @@ Text Notes 5050 2200 0    50   ~ 0
 1.71-3.6V
 Text HLabel 4800 2250 0    50   Input ~ 0
 1V8
+Text Notes 2700 3250 0    50   ~ 0
+7 MHz SPI or 400 kHz Fast Mode I²C
+Text Notes 1500 3550 0    50   ~ 0
+FSYNC := Frame synchronization digital input. Connect to GND if unused
+Text Notes 7400 3200 0    50   ~ 0
+INT1 := Can be push-pull or open drain\nInterrupt Source can be:\nDMP Interrupt\nWake on Motion Interrupt\nPLL RDY Interrupt\nI2C Master Interrupt\nRaw Data Ready Interrupt\nFIFO Overflow Interrupt\nFIFO Watermark Interrupt
 $EndSCHEMATC
