@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 14
+Sheet 14 18
 Title ""
 Date ""
 Rev ""
@@ -327,4 +327,51 @@ Connection ~ 3700 3850
 Wire Wire Line
 	3700 3650 3500 3650
 Connection ~ 3700 3650
+Text Notes 6250 1450 0    50   ~ 0
+datasheet pg.6 Application Notes #1: If output power is low, connect a resistor in parallel to increase the load.\n\nmin load = 4mA, max = 30mA targeting 6mA.\n@15V, V/I = R, 15/.006 = 2K5, picking 2K7
+$Comp
+L Device:R_Small R29
+U 1 1 5C59369A
+P 7150 2150
+F 0 "R29" H 7209 2196 50  0000 L CNN
+F 1 "2K7" H 7209 2105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7150 2150 50  0001 C CNN
+F 3 "~" H 7150 2150 50  0001 C CNN
+	1    7150 2150
+	1    0    0    -1  
+$EndComp
+Text Label 6700 1900 0    50   ~ 0
++15V
+Text Label 6700 2400 0    50   ~ 0
+AGND
+Text Label 7250 1900 0    50   ~ 0
+-15V
+Wire Wire Line
+	7150 1900 7150 2050
+Wire Wire Line
+	6700 1900 7150 1900
+Wire Wire Line
+	7150 2250 7150 2400
+Wire Wire Line
+	6700 2400 7150 2400
+Wire Wire Line
+	7750 1900 7750 2050
+Wire Wire Line
+	7250 1900 7750 1900
+Wire Wire Line
+	7750 2250 7750 2400
+Wire Wire Line
+	7750 2400 7150 2400
+Connection ~ 7150 2400
+$Comp
+L Device:R_Small R30
+U 1 1 5C5A6EEF
+P 7750 2150
+F 0 "R30" H 7809 2196 50  0000 L CNN
+F 1 "2K7" H 7809 2105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7750 2150 50  0001 C CNN
+F 3 "~" H 7750 2150 50  0001 C CNN
+	1    7750 2150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

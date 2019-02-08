@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 14
+Sheet 5 18
 Title ""
 Date ""
 Rev ""
@@ -417,6 +417,14 @@ Wire Wire Line
 NoConn ~ 4300 4100
 NoConn ~ 4300 4200
 Wire Bus Line
+	4650 3850 4650 4000
+Wire Bus Line
+	4650 3700 4650 3850
+Wire Bus Line
+	4650 3450 4650 3600
+Wire Bus Line
+	4650 3300 4650 3450
+Wire Bus Line
 	8950 3850 8950 5050
 Wire Bus Line
 	4650 2650 4650 3100
@@ -432,12 +440,4 @@ Wire Bus Line
 	6050 2650 6050 3000
 Wire Bus Line
 	6050 4250 6050 4600
-Wire Bus Line
-	4650 3850 4650 4000
-Wire Bus Line
-	4650 3700 4650 3850
-Wire Bus Line
-	4650 3450 4650 3600
-Wire Bus Line
-	4650 3300 4650 3450
 $EndSCHEMATC

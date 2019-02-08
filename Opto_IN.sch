@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 14
+Sheet 6 18
 Title ""
 Date ""
 Rev ""
@@ -57,7 +57,7 @@ $EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 5BF4DC51
-P 6000 3650
+P 6000 3700
 AR Path="/5BF4DC51" Ref="R?"  Part="1" 
 AR Path="/5BBAEA3B/5BF4DC51" Ref="R?"  Part="1" 
 AR Path="/5BBE2F4A/5BF4DC51" Ref="R?"  Part="1" 
@@ -67,11 +67,11 @@ AR Path="/5BEC9D5D/5BF4DC51" Ref="R14"  Part="1"
 AR Path="/5BEC9D88/5BF4DC51" Ref="R?"  Part="1" 
 AR Path="/5BECA926/5BF4DC51" Ref="R?"  Part="1" 
 AR Path="/5BF2E294/5BF4DC51" Ref="R25"  Part="1" 
-F 0 "R25" H 6059 3696 50  0000 L CNN
-F 1 "10K" H 6059 3605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6000 3650 50  0001 C CNN
-F 3 "~" H 6000 3650 50  0001 C CNN
-	1    6000 3650
+F 0 "R25" H 6059 3746 50  0000 L CNN
+F 1 "10K" H 6059 3655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6000 3700 50  0001 C CNN
+F 3 "~" H 6000 3700 50  0001 C CNN
+	1    6000 3700
 	1    0    0    -1  
 $EndComp
 Text HLabel 4150 3200 0    50   Input ~ 0
@@ -80,7 +80,7 @@ Text HLabel 4150 3300 0    50   Input ~ 0
 IN-
 Text HLabel 4150 2900 0    50   Input ~ 0
 24V+
-Text HLabel 6350 3750 2    50   Input ~ 0
+Text HLabel 6350 3850 2    50   Input ~ 0
 GND
 Text HLabel 6350 3550 2    50   Input ~ 0
 SIG
@@ -158,7 +158,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 3350 6350 3350
 Wire Wire Line
-	6000 3750 6350 3750
+	6000 3850 6350 3850
 Wire Wire Line
 	4300 3300 4750 3300
 Wire Wire Line
@@ -171,6 +171,10 @@ Wire Wire Line
 	4750 3300 5000 3300
 Wire Wire Line
 	5850 3550 6000 3550
+Wire Wire Line
+	6000 3850 6000 3800
+Wire Wire Line
+	6000 3600 6000 3550
 Connection ~ 6000 3550
 Wire Wire Line
 	6000 3550 6350 3550
