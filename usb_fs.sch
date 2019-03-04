@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 18
+Sheet 18 24
 Title ""
 Date ""
 Rev ""
@@ -17,116 +17,141 @@ $EndDescr
 $Comp
 L Connector:USB_A J?
 U 1 1 5C6BFE78
-P 5750 3000
+P 7000 4150
 AR Path="/5C6BFE78" Ref="J?"  Part="1" 
 AR Path="/5C6A983A/5C6BFE78" Ref="J8"  Part="1" 
-F 0 "J8" H 5520 2991 50  0000 R CNN
-F 1 "USB_MSD" H 5520 2900 50  0000 R CNN
-F 2 "william_usb:UJ2-AV-1-TH" H 5900 2950 50  0001 C CNN
-F 3 " ~" H 5900 2950 50  0001 C CNN
-	1    5750 3000
+F 0 "J8" H 6770 4141 50  0000 R CNN
+F 1 "USB_MSD" H 6770 4050 50  0000 R CNN
+F 2 "william_usb:UJ2-AV-1-TH" H 7150 4100 50  0001 C CNN
+F 3 " ~" H 7150 4100 50  0001 C CNN
+	1    7000 4150
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5850 3400 5750 3400
-Connection ~ 5750 3400
+	7100 4550 7000 4550
 $Comp
 L Device:C C?
 U 1 1 5C6BFE88
-P 4850 3200
+P 5700 4250
 AR Path="/5BE5D4AF/5C6BFE88" Ref="C?"  Part="1" 
 AR Path="/5C6BFE88" Ref="C?"  Part="1" 
 AR Path="/5C6A983A/5C6BFE88" Ref="C8"  Part="1" 
-F 0 "C8" H 4965 3246 50  0000 L CNN
-F 1 "10U" H 4965 3155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4888 3050 50  0001 C CNN
-F 3 "~" H 4850 3200 50  0001 C CNN
-	1    4850 3200
+F 0 "C8" H 5815 4296 50  0000 L CNN
+F 1 "10U" H 5815 4205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5738 4100 50  0001 C CNN
+F 3 "~" H 5700 4250 50  0001 C CNN
+	1    5700 4250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 3000 5450 3000
-Wire Wire Line
-	5450 3100 5300 3100
-Text HLabel 2900 2800 0    50   Input ~ 0
-VCC_IN
-Text HLabel 2900 3400 0    50   Input ~ 0
+	6700 4250 6250 4250
+Text HLabel 3200 3950 0    50   Input ~ 0
+5V
+Text HLabel 3200 4550 0    50   Input ~ 0
 GND
-Text HLabel 5300 3000 0    50   Input ~ 0
+Text HLabel 6250 4150 0    50   Input ~ 0
 D+
-Text HLabel 5300 3100 0    50   Input ~ 0
+Text HLabel 6250 4250 0    50   Input ~ 0
 D-
-Text HLabel 2900 3050 0    50   Input ~ 0
-USB_EN
-Text HLabel 4000 3050 2    50   Output ~ 0
-~FAULT
 Wire Wire Line
-	4850 3050 4850 2800
-Connection ~ 4850 2800
+	5700 4100 5700 3950
 Wire Wire Line
-	4850 2800 5050 2800
-Wire Wire Line
-	4850 3350 4850 3400
-Connection ~ 4850 3400
-Wire Wire Line
-	4850 3400 5750 3400
-Wire Wire Line
-	4000 3050 3900 3050
-Wire Wire Line
-	3900 2800 4400 2800
-Wire Wire Line
-	2900 3050 3100 3050
-Wire Wire Line
-	2900 3400 3500 3400
-Wire Wire Line
-	3500 3250 3500 3400
-Connection ~ 3500 3400
-Wire Wire Line
-	3500 3400 4400 3400
-Wire Wire Line
-	2900 2800 3100 2800
-$Comp
-L william_usb:AP2822(A,C,E,G)KAxx-xx U?
-U 1 1 5C80D58A
-P 3500 2900
-F 0 "U?" H 3500 3265 50  0000 C CNN
-F 1 "AP2822(A,C,E,G)KAxx-xx" H 3500 3174 50  0000 C CNN
-F 2 "" H 3400 2750 50  0001 C CNN
-F 3 "" H 3400 2750 50  0001 C CNN
-	1    3500 2900
-	1    0    0    -1  
-$EndComp
-Text HLabel 4900 2600 0    50   Output ~ 0
-VCC_OUT
-Wire Wire Line
-	4900 2600 5050 2600
-Wire Wire Line
-	5050 2600 5050 2800
-Connection ~ 5050 2800
-Wire Wire Line
-	5050 2800 5450 2800
+	5700 4400 5700 4550
 $Comp
 L Device:C C?
 U 1 1 5C872E2D
-P 4400 3200
+P 5500 4250
 AR Path="/5BE5D4AF/5C872E2D" Ref="C?"  Part="1" 
 AR Path="/5C872E2D" Ref="C?"  Part="1" 
-AR Path="/5C6A983A/5C872E2D" Ref="C?"  Part="1" 
-F 0 "C?" H 4515 3246 50  0000 L CNN
-F 1 "100N" H 4515 3155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4438 3050 50  0001 C CNN
-F 3 "~" H 4400 3200 50  0001 C CNN
-	1    4400 3200
-	1    0    0    -1  
+AR Path="/5C6A983A/5C872E2D" Ref="C7"  Part="1" 
+F 0 "C7" H 5615 4296 50  0000 L CNN
+F 1 "100N" H 5615 4205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5538 4100 50  0001 C CNN
+F 3 "~" H 5500 4250 50  0001 C CNN
+	1    5500 4250
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4400 3050 4400 2800
+	5500 4100 5500 3950
 Wire Wire Line
-	4400 3350 4400 3400
+	5500 4400 5500 4550
 Wire Wire Line
-	4400 2800 4850 2800
+	5500 3950 5700 3950
 Wire Wire Line
-	4400 3400 4850 3400
-Connection ~ 4400 2800
-Connection ~ 4400 3400
+	5500 4550 5700 4550
+Wire Wire Line
+	3200 3950 3950 3950
+Connection ~ 7000 4550
+Connection ~ 5700 3950
+Connection ~ 5700 4550
+Wire Wire Line
+	5700 4550 7000 4550
+Wire Wire Line
+	5700 3950 6700 3950
+Text HLabel 3850 4100 0    50   Input ~ 0
+VBUS_DRIVE
+$Comp
+L william_usb:STMPS21x1STR U12
+U 1 1 5C799C60
+P 4400 4050
+F 0 "U12" H 4400 4415 50  0000 C CNN
+F 1 "STMPS21x1STR" H 4400 4324 50  0000 C CNN
+F 2 "" H 4700 4300 50  0001 C CNN
+F 3 "" H 4700 4300 50  0001 C CNN
+	1    4400 4050
+	1    0    0    -1  
+$EndComp
+Text Notes 4050 3450 0    50   ~ 0
+21x1\nFor x = 4,6 EN is active LOW\nFor x = 5,7 EN is active HIGH
+Text HLabel 4950 4100 2    50   Input ~ 0
+FAULT
+Wire Wire Line
+	4950 4100 4850 4100
+Wire Wire Line
+	3850 4100 3950 4100
+Wire Wire Line
+	4850 3950 5500 3950
+Wire Wire Line
+	6250 4150 6700 4150
+Wire Wire Line
+	4400 4350 4400 4550
+Wire Wire Line
+	3200 4550 4400 4550
+Wire Wire Line
+	4400 4550 5500 4550
+Connection ~ 4400 4550
+Connection ~ 5500 4550
+Connection ~ 5500 3950
+Text Label 5950 3950 0    50   ~ 0
+VBUS
+$Sheet
+S 8750 3550 1050 650 
+U 5C7A05F9
+F0 "USB ESD protection" 50
+F1 "../subs/usb_otg_tvs.sch" 50
+F2 "D+" I L 8750 3750 50 
+F3 "D-" I L 8750 3850 50 
+F4 "GND" I L 8750 4050 50 
+F5 "VBUS" I L 8750 3650 50 
+F6 "ID" I L 8750 3950 50 
+$EndSheet
+Text HLabel 8600 3750 0    50   Input ~ 0
+D+
+Text HLabel 8600 3850 0    50   Input ~ 0
+D-
+Text Label 8450 3650 0    50   ~ 0
+VBUS
+Wire Wire Line
+	8600 3750 8750 3750
+Wire Wire Line
+	8600 3850 8750 3850
+NoConn ~ 8600 3950
+Wire Wire Line
+	8600 3950 8750 3950
+Wire Wire Line
+	8450 3650 8750 3650
+Text HLabel 8600 4050 0    50   Input ~ 0
+GND
+Wire Wire Line
+	8600 4050 8750 4050
 $EndSCHEMATC

@@ -1,0 +1,82 @@
+EESchema Schematic File Version 4
+LIBS:main-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 20 24
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R32
+U 1 1 5C8A51F7
+P 6150 3000
+AR Path="/5C6A983A/5C8A51AE/5C8A51F7" Ref="R32"  Part="1" 
+AR Path="/5C96EFA3/5C8A51F7" Ref="R32"  Part="1" 
+AR Path="/5C73BE54/5C752DD0/5C8A51F7" Ref="R46"  Part="1" 
+F 0 "R46" H 6220 3046 50  0000 L CNN
+F 1 "100K" H 6220 2955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6080 3000 50  0001 C CNN
+F 3 "~" H 6150 3000 50  0001 C CNN
+	1    6150 3000
+	1    0    0    -1  
+$EndComp
+Text HLabel 6050 2750 0    50   Input ~ 0
+5V
+Text HLabel 6050 4050 0    50   Input ~ 0
+GND
+Text HLabel 6300 3200 2    50   Output ~ 0
+3V3
+Wire Wire Line
+	6050 2750 6150 2750
+Wire Wire Line
+	6150 2750 6150 2850
+Wire Wire Line
+	6150 3900 6150 4050
+Wire Wire Line
+	6150 4050 6050 4050
+Wire Wire Line
+	6150 3250 6150 3200
+Wire Wire Line
+	6300 3200 6150 3200
+Connection ~ 6150 3200
+Wire Wire Line
+	6150 3200 6150 3150
+Wire Wire Line
+	6150 3600 6150 3550
+$Comp
+L Device:R R33
+U 1 1 5C8A5E6C
+P 6150 3400
+AR Path="/5C6A983A/5C8A51AE/5C8A5E6C" Ref="R33"  Part="1" 
+AR Path="/5C96EFA3/5C8A5E6C" Ref="R33"  Part="1" 
+AR Path="/5C73BE54/5C752DD0/5C8A5E6C" Ref="R47"  Part="1" 
+F 0 "R47" H 6220 3446 50  0000 L CNN
+F 1 "100K" H 6220 3355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6080 3400 50  0001 C CNN
+F 3 "~" H 6150 3400 50  0001 C CNN
+	1    6150 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R34
+U 1 1 5C8A5EB5
+P 6150 3750
+AR Path="/5C6A983A/5C8A51AE/5C8A5EB5" Ref="R34"  Part="1" 
+AR Path="/5C96EFA3/5C8A5EB5" Ref="R34"  Part="1" 
+AR Path="/5C73BE54/5C752DD0/5C8A5EB5" Ref="R48"  Part="1" 
+F 0 "R48" H 6220 3796 50  0000 L CNN
+F 1 "100K" H 6220 3705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6080 3750 50  0001 C CNN
+F 3 "~" H 6150 3750 50  0001 C CNN
+	1    6150 3750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

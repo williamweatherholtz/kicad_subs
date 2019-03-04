@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 18
+Sheet 7 24
 Title ""
 Date ""
 Rev ""
@@ -19,7 +19,7 @@ SW+
 Text HLabel 3300 3350 0    50   Input ~ 0
 SW-
 $Comp
-L Device:R_US R15
+L Device:R R15
 U 1 1 5BEFC0B0
 P 3600 3000
 AR Path="/5BEF83E4/5BEFC0B0" Ref="R15"  Part="1" 
@@ -30,14 +30,14 @@ AR Path="/5BF1AF42/5BEFC0B0" Ref="R17"  Part="1"
 AR Path="/5BF0DB73/5C4840A6/5BEFC0B0" Ref="R19"  Part="1" 
 AR Path="/5BF0DB73/5C485D0D/5BEFC0B0" Ref="R21"  Part="1" 
 F 0 "R21" H 3532 3046 50  0000 R CNN
-F 1 "6.8K" H 3532 2955 50  0000 R CNN
+F 1 "6K8" H 3532 2955 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3640 2990 50  0001 C CNN
 F 3 "~" H 3600 3000 50  0001 C CNN
 	1    3600 3000
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R16
+L Device:R R16
 U 1 1 5BEFC134
 P 4000 3250
 AR Path="/5BEF83E4/5BEFC134" Ref="R16"  Part="1" 

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 18
+Sheet 5 24
 Title ""
 Date ""
 Rev ""
@@ -396,7 +396,7 @@ Text HLabel 1250 3600 0    50   Input ~ 0
 Text Notes 900  4900 0    50   ~ 0
 Iled = 200* Iset\n\n@3V3 and @2V Vf for the led:\nlet Iled = 20mA\nIset should be 100uA\n1.3V / 100uA = 13K
 $Comp
-L Device:R_US R11
+L Device:R R11
 U 1 1 5C38A39E
 P 1450 3800
 F 0 "R11" H 1518 3846 50  0000 L CNN

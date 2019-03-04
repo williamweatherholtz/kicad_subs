@@ -1,0 +1,185 @@
+EESchema Schematic File Version 4
+LIBS:main-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 14 24
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L william_op_amp:LTC2050HVCS5#TRMPBF U?
+U 1 1 5CB3465F
+P 5450 3300
+F 0 "U?" H 5800 4200 50  0000 L CNN
+F 1 "LTC2050HVCS5#TRMPBF" H 5800 4100 50  0000 L CNN
+F 2 "" H 5550 2900 50  0001 C CNN
+F 3 "" H 5550 2900 50  0001 C CNN
+	1    5450 3300
+	1    0    0    -1  
+$EndComp
+Text HLabel 4550 3400 0    50   Input ~ 0
+IN+
+Text HLabel 4550 3200 0    50   Input ~ 0
+IN-
+Text HLabel 5400 2900 0    50   Input ~ 0
+3V3
+Text HLabel 5350 3700 0    50   Input ~ 0
+GND
+Text HLabel 6150 3300 2    50   Output ~ 0
+VOUT
+Text Label 4850 4150 2    50   ~ 0
+VREF
+Wire Wire Line
+	5350 3700 5500 3700
+Wire Wire Line
+	5500 3700 5500 3650
+Text HLabel 7550 2800 0    50   Input ~ 0
+3V3
+Text HLabel 7550 3100 0    50   Input ~ 0
+GND
+$Comp
+L Device:C C?
+U 1 1 5CB3596D
+P 7750 2950
+F 0 "C?" H 7865 2996 50  0000 L CNN
+F 1 "1U" H 7865 2905 50  0000 L CNN
+F 2 "" H 7788 2800 50  0001 C CNN
+F 3 "~" H 7750 2950 50  0001 C CNN
+	1    7750 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 2800 7750 2800
+Wire Wire Line
+	7750 3100 7550 3100
+Wire Wire Line
+	6000 3300 6050 3300
+$Comp
+L Device:R R?
+U 1 1 5CB35C47
+P 4800 3200
+F 0 "R?" V 5007 3200 50  0000 C CNN
+F 1 "200K" V 4916 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4730 3200 50  0001 C CNN
+F 3 "~" H 4800 3200 50  0001 C CNN
+	1    4800 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CB35D29
+P 5000 3950
+F 0 "R?" V 4793 3950 50  0000 C CNN
+F 1 "33K" V 4884 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4930 3950 50  0001 C CNN
+F 3 "~" H 5000 3950 50  0001 C CNN
+	1    5000 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CB3605E
+P 4800 3400
+F 0 "R?" V 5007 3400 50  0000 C CNN
+F 1 "200K" V 4916 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4730 3400 50  0001 C CNN
+F 3 "~" H 4800 3400 50  0001 C CNN
+	1    4800 3400
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CB361AA
+P 5150 2700
+F 0 "R?" V 4943 2700 50  0000 C CNN
+F 1 "33K" V 5034 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5080 2700 50  0001 C CNN
+F 3 "~" H 5150 2700 50  0001 C CNN
+	1    5150 2700
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5000 2700 5000 3200
+Wire Wire Line
+	5000 3200 4950 3200
+Wire Wire Line
+	5000 3200 5150 3200
+Connection ~ 5000 3200
+Wire Wire Line
+	5300 2700 6050 2700
+Wire Wire Line
+	6050 2700 6050 3300
+Connection ~ 6050 3300
+Wire Wire Line
+	6050 3300 6150 3300
+Wire Wire Line
+	5150 3400 5000 3400
+Wire Wire Line
+	4650 3400 4550 3400
+Wire Wire Line
+	4550 3200 4650 3200
+Wire Wire Line
+	5000 3800 5000 3400
+Connection ~ 5000 3400
+Wire Wire Line
+	5000 3400 4950 3400
+Wire Wire Line
+	4850 4150 5000 4150
+Wire Wire Line
+	5000 4150 5000 4100
+Text Label 3450 3500 0    50   ~ 0
+VREF
+Text HLabel 3100 3000 0    50   Input ~ 0
+3V3
+Text HLabel 3100 3900 0    50   Input ~ 0
+GND
+$Comp
+L Device:R R?
+U 1 1 5CB37A11
+P 3300 3700
+F 0 "R?" H 3230 3654 50  0000 R CNN
+F 1 "1K 0R1%" H 3230 3745 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3230 3700 50  0001 C CNN
+F 3 "~" H 3300 3700 50  0001 C CNN
+	1    3300 3700
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CB38959
+P 3300 3300
+F 0 "R?" H 3230 3254 50  0000 R CNN
+F 1 "1K 0R1%" H 3230 3345 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3230 3300 50  0001 C CNN
+F 3 "~" H 3300 3300 50  0001 C CNN
+	1    3300 3300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3300 3450 3300 3500
+Wire Wire Line
+	3100 3000 3300 3000
+Wire Wire Line
+	3300 3000 3300 3150
+Wire Wire Line
+	3100 3900 3300 3900
+Wire Wire Line
+	3300 3900 3300 3850
+Wire Wire Line
+	3450 3500 3300 3500
+Connection ~ 3300 3500
+Wire Wire Line
+	3300 3500 3300 3550
+Wire Wire Line
+	5400 2900 5500 2900
+Wire Wire Line
+	5500 2900 5500 2950
+$EndSCHEMATC

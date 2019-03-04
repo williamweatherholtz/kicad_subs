@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 18
+Sheet 15 24
 Title ""
 Date ""
 Rev ""
@@ -106,7 +106,7 @@ AR Path="/5C4D1AE2/5BE5AA7F" Ref="R?"  Part="1"
 AR Path="/5C4E4A9C/5BE5AA7F" Ref="R1"  Part="1" 
 AR Path="/5C4EE84B/5BE5AA7F" Ref="R27"  Part="1" 
 F 0 "R27" H 5520 3696 50  0000 L CNN
-F 1 "10k" H 5520 3605 50  0000 L CNN
+F 1 "10K" H 5520 3605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5380 3650 50  0001 C CNN
 F 3 "~" H 5450 3650 50  0001 C CNN
 	1    5450 3650

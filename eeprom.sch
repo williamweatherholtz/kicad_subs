@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 17 18
+Sheet 16 24
 Title ""
 Date ""
 Rev ""
@@ -41,29 +41,25 @@ Text HLabel 4250 2650 0    50   Input ~ 0
 VCC
 Text HLabel 4250 3600 0    50   Input ~ 0
 GND
-Text HLabel 3200 2900 0    50   Input ~ 0
+Text HLabel 3250 2900 0    50   Input ~ 0
 GND
-Text HLabel 3200 2550 0    50   Input ~ 0
+Text HLabel 3250 2600 0    50   Input ~ 0
 VCC
 $Comp
-L Device:C_Small C36
+L Device:C C36
 U 1 1 5C4C4CF0
-P 3350 2750
-F 0 "C36" H 3442 2796 50  0000 L CNN
-F 1 "100N" H 3442 2705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3350 2750 50  0001 C CNN
-F 3 "~" H 3350 2750 50  0001 C CNN
-	1    3350 2750
+P 3400 2750
+F 0 "C36" H 3492 2796 50  0000 L CNN
+F 1 "100N" H 3492 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3400 2750 50  0001 C CNN
+F 3 "~" H 3400 2750 50  0001 C CNN
+	1    3400 2750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3200 2550 3350 2550
+	3250 2600 3400 2600
 Wire Wire Line
-	3350 2550 3350 2650
-Wire Wire Line
-	3350 2850 3350 2900
-Wire Wire Line
-	3350 2900 3200 2900
+	3400 2900 3250 2900
 Wire Wire Line
 	4250 2650 5000 2650
 Wire Wire Line
