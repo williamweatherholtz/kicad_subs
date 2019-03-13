@@ -300,11 +300,7 @@ Entry Wire Line
 Entry Wire Line
 	6050 4950 6150 5050
 Wire Bus Line
-	4650 2650 5450 2650
-Wire Bus Line
-	6050 4600 5450 4600
-Wire Bus Line
-	5450 2650 6050 2650
+	6050 4600 5950 4600
 Text HLabel 3000 1850 0    50   Input ~ 0
 3V3
 Text HLabel 3000 4500 0    50   Input ~ 0
@@ -330,11 +326,9 @@ IRQ
 Wire Wire Line
 	3100 3100 2950 3100
 Connection ~ 6050 2650
-Connection ~ 5450 2650
 Wire Bus Line
-	5450 2650 5450 4600
+	5950 2650 5950 4600
 Connection ~ 6050 4600
-Connection ~ 4650 2650
 Connection ~ 4650 3450
 Connection ~ 4650 3850
 $Comp
@@ -417,27 +411,33 @@ Wire Wire Line
 NoConn ~ 4300 4100
 NoConn ~ 4300 4200
 Wire Bus Line
-	4650 3850 4650 4000
+	5950 2650 6050 2650
 Wire Bus Line
-	4650 3700 4650 3850
+	4650 2650 5950 2650
 Wire Bus Line
-	4650 3450 4650 3600
-Wire Bus Line
-	4650 3300 4650 3450
-Wire Bus Line
-	8950 3850 8950 5050
-Wire Bus Line
-	4650 2650 4650 3100
-Wire Bus Line
-	4650 2300 4650 2650
-Wire Bus Line
-	6050 4600 6050 4950
-Wire Bus Line
-	8950 2800 8950 3450
-Wire Bus Line
-	6050 2300 6050 2650
+	6050 4250 6050 4600
 Wire Bus Line
 	6050 2650 6050 3000
 Wire Bus Line
-	6050 4250 6050 4600
+	6050 2300 6050 2650
+Wire Bus Line
+	8950 2800 8950 3450
+Wire Bus Line
+	6050 4600 6050 4950
+Wire Bus Line
+	4650 2300 4650 2650
+Wire Bus Line
+	4650 2650 4650 3100
+Wire Bus Line
+	8950 3850 8950 5050
+Wire Bus Line
+	4650 3300 4650 3450
+Wire Bus Line
+	4650 3450 4650 3600
+Wire Bus Line
+	4650 3700 4650 3850
+Wire Bus Line
+	4650 3850 4650 4000
+Connection ~ 5950 2650
+Connection ~ 4650 2650
 $EndSCHEMATC

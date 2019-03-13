@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 22 24
+Sheet 20 24
 Title ""
 Date ""
 Rev ""
@@ -332,9 +332,9 @@ S 8600 2600 700  350
 U 5C752DD0
 F0 "input_level_shifter" 50
 F1 "../subs/5V_to_3V3_divider.sch" 50
-F2 "5V" I L 8600 2700 50 
-F3 "GND" I L 8600 2850 50 
-F4 "3V3" O R 9300 2750 50 
+F2 "GND" I L 8600 2850 50 
+F3 "SIG_5V" I L 8600 2700 50 
+F4 "SIG_3V3" O R 9300 2750 50 
 $EndSheet
 Text HLabel 7400 2600 2    50   BiDi ~ 0
 RTS

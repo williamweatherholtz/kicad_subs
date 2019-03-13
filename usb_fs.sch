@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 24
+Sheet 17 24
 Title ""
 Date ""
 Rev ""
@@ -57,28 +57,6 @@ Wire Wire Line
 	5700 4100 5700 3950
 Wire Wire Line
 	5700 4400 5700 4550
-$Comp
-L Device:C C?
-U 1 1 5C872E2D
-P 5500 4250
-AR Path="/5BE5D4AF/5C872E2D" Ref="C?"  Part="1" 
-AR Path="/5C872E2D" Ref="C?"  Part="1" 
-AR Path="/5C6A983A/5C872E2D" Ref="C7"  Part="1" 
-F 0 "C7" H 5615 4296 50  0000 L CNN
-F 1 "100N" H 5615 4205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5538 4100 50  0001 C CNN
-F 3 "~" H 5500 4250 50  0001 C CNN
-	1    5500 4250
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 4100 5500 3950
-Wire Wire Line
-	5500 4400 5500 4550
-Wire Wire Line
-	5500 3950 5700 3950
-Wire Wire Line
-	5500 4550 5700 4550
 Wire Wire Line
 	3200 3950 3950 3950
 Connection ~ 7000 4550
@@ -87,7 +65,7 @@ Connection ~ 5700 4550
 Wire Wire Line
 	5700 4550 7000 4550
 Wire Wire Line
-	5700 3950 6700 3950
+	5700 3950 6200 3950
 Text HLabel 3850 4100 0    50   Input ~ 0
 VBUS_DRIVE
 $Comp
@@ -96,7 +74,7 @@ U 1 1 5C799C60
 P 4400 4050
 F 0 "U12" H 4400 4415 50  0000 C CNN
 F 1 "STMPS21x1STR" H 4400 4324 50  0000 C CNN
-F 2 "" H 4700 4300 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 4700 4300 50  0001 C CNN
 F 3 "" H 4700 4300 50  0001 C CNN
 	1    4400 4050
 	1    0    0    -1  
@@ -110,18 +88,12 @@ Wire Wire Line
 Wire Wire Line
 	3850 4100 3950 4100
 Wire Wire Line
-	4850 3950 5500 3950
-Wire Wire Line
 	6250 4150 6700 4150
 Wire Wire Line
 	4400 4350 4400 4550
 Wire Wire Line
 	3200 4550 4400 4550
-Wire Wire Line
-	4400 4550 5500 4550
 Connection ~ 4400 4550
-Connection ~ 5500 4550
-Connection ~ 5500 3950
 Text Label 5950 3950 0    50   ~ 0
 VBUS
 $Sheet
@@ -154,4 +126,17 @@ Text HLabel 8600 4050 0    50   Input ~ 0
 GND
 Wire Wire Line
 	8600 4050 8750 4050
+Text HLabel 6000 3700 0    50   Output ~ 0
+5V_PROT
+Wire Wire Line
+	6000 3700 6200 3700
+Wire Wire Line
+	6200 3700 6200 3950
+Connection ~ 6200 3950
+Wire Wire Line
+	6200 3950 6700 3950
+Wire Wire Line
+	4850 3950 5700 3950
+Wire Wire Line
+	4400 4550 5700 4550
 $EndSCHEMATC

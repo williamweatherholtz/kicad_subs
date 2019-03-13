@@ -14,17 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L william_adc:ADS8887IDRCx U9
-U 1 1 5C8C9B3E
-P 7100 3450
-F 0 "U9" H 7650 3950 50  0000 C CNN
-F 1 "ADS8887IDRCx" H 7100 3400 50  0000 C CNN
-F 2 "" H 6850 3450 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ads8887.pdf" H 6850 3450 50  0001 C CNN
-	1    7100 3450
-	1    0    0    -1  
-$EndComp
 Text HLabel 6200 3600 0    50   Input ~ 0
 3V3
 Text HLabel 6200 4250 0    50   Input ~ 0
@@ -58,8 +47,8 @@ L Device:L L1
 U 1 1 5C8CA4A5
 P 7100 2800
 F 0 "L1" V 7290 2800 50  0000 C CNN
-F 1 "22N" V 7199 2800 50  0000 C CNN
-F 2 "" H 7100 2800 50  0001 C CNN
+F 1 "2N2" V 7199 2800 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 7100 2800 50  0001 C CNN
 F 3 "~" H 7100 2800 50  0001 C CNN
 	1    7100 2800
 	0    -1   -1   0   
@@ -139,4 +128,15 @@ Wire Wire Line
 	5050 2250 5050 2300
 Wire Wire Line
 	5050 2300 4850 2300
+$Comp
+L william_adc:ADS8887IDGSx U9
+U 1 1 5C8D0F63
+P 7100 3450
+F 0 "U9" H 7650 3950 50  0000 C CNN
+F 1 "ADS8887IDGSx" H 7100 3400 50  0000 C CNN
+F 2 "Package_SO:TSSOP-10_3x3mm_P0.5mm" H 6850 3450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ads8887.pdf" H 6850 3450 50  0001 C CNN
+	1    7100 3450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
