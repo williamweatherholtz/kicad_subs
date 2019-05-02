@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:main-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 20 24
+Sheet 20 23
 Title ""
 Date ""
 Rev ""
@@ -17,44 +17,44 @@ $EndDescr
 $Comp
 L Connector:DB9_Male J?
 U 1 1 5C747539
-P 6800 2700
+P 3800 2350
 AR Path="/5C747539" Ref="J?"  Part="1" 
 AR Path="/5C73BE54/5C747539" Ref="J18"  Part="1" 
-F 0 "J18" H 6720 2008 50  0000 C CNN
-F 1 "LS2208-7AZR0100DR" H 6720 2099 50  0000 C CNN
-F 2 "william_dsub:LD09P24A4GX00LF" H 6800 2700 50  0001 C CNN
-F 3 "https://cdn.barcodesinc.com/themes/barcodesinc/pdf/Symbol/ls2208.pdf" H 6800 2700 50  0001 C CNN
-	1    6800 2700
+F 0 "J18" H 3720 1658 50  0000 C CNN
+F 1 "LS2208-7AZR0100DR" H 3720 1749 50  0000 C CNN
+F 2 "william_dsub:LD09P24A4GX00LF" H 3800 2350 50  0001 C CNN
+F 3 "https://cdn.barcodesinc.com/themes/barcodesinc/pdf/Symbol/ls2208.pdf" H 3800 2350 50  0001 C CNN
+	1    3800 2350
 	-1   0    0    1   
 $EndComp
-Text Label 7400 2500 0    50   ~ 0
-RX_5V
+Text Label 4400 2150 0    50   ~ 0
+RS232_RX
 Wire Wire Line
-	7400 2500 7100 2500
+	4400 2150 4100 2150
 Wire Wire Line
-	7100 2600 7400 2600
+	4100 2250 4400 2250
 Wire Wire Line
-	7400 2700 7100 2700
+	4400 2350 4100 2350
 Wire Wire Line
-	7100 2800 7400 2800
+	4100 2450 4400 2450
 Wire Wire Line
-	7400 3100 7100 3100
+	4400 2750 4100 2750
 Wire Wire Line
-	7400 2300 7100 2300
+	4400 1950 4100 1950
 Wire Wire Line
-	7100 2400 7400 2400
+	4100 2050 4400 2050
 Wire Wire Line
-	7400 2900 7100 2900
+	4400 2550 4100 2550
 Wire Wire Line
-	7100 3000 7400 3000
-NoConn ~ 7400 3000
-NoConn ~ 7400 2900
-NoConn ~ 7400 2400
-NoConn ~ 7400 2300
-Text Notes 3800 1800 0    50   ~ 0
+	4100 2650 4400 2650
+NoConn ~ 4400 2650
+NoConn ~ 4400 2550
+NoConn ~ 4400 2050
+NoConn ~ 4400 1950
+Text Notes 750  2750 0    50   ~ 0
 Barcode Scanner\n5V @ 175mA max
 $Bitmap
-Pos 4600 2300
+Pos 1550 3250
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 02 37 00 00 00 F7 08 03 00 00 00 D6 81 85 
@@ -325,35 +325,70 @@ BC 95 9D 34 F9 5D 76 62 62 62 62 62 62 62 62 E2 49 FC 3F 0A B8 FD 02 ED 46 5F 54
 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text Notes 3900 3400 0    50   ~ 0
+Text Notes 850  4350 0    50   ~ 0
 the uC pins need to be 5V tolerant\nSince uC TX doesn't drive @ 5V we can read, but not write\nshould be ok; we only want to read barcode\n\ngun should have F connector, need M on board
-$Sheet
-S 8600 2600 700  350 
-U 5C752DD0
-F0 "input_level_shifter" 50
-F1 "../subs/5V_to_3V3_divider.sch" 50
-F2 "GND" I L 8600 2850 50 
-F3 "SIG_5V" I L 8600 2700 50 
-F4 "SIG_3V3" O R 9300 2750 50 
-$EndSheet
-Text HLabel 7400 2600 2    50   BiDi ~ 0
-RTS
-Text HLabel 9450 2750 2    50   Input ~ 0
+Text HLabel 4400 2750 2    50   Input ~ 0
+GND
+Text HLabel 6850 2600 2    50   Input ~ 0
 RX
-Text HLabel 7400 2800 2    50   BiDi ~ 0
-CTS
-Text HLabel 7400 2700 2    50   Output ~ 0
+Text HLabel 6850 2350 2    50   Output ~ 0
 TX
-Text Label 8250 2700 0    50   ~ 0
-RX_5V
-Wire Wire Line
-	8250 2700 8600 2700
-Text HLabel 7400 3100 2    50   Input ~ 0
+Text HLabel 6850 2450 2    50   Output ~ 0
+CTS
+Text HLabel 6850 2700 2    50   Input ~ 0
+RTS
+$Sheet
+S 5650 2100 1100 850 
+U 5CC468E3
+F0 "Sheet5CC468E2" 50
+F1 "../subs/max3232.sch" 50
+F2 "GND" I R 6750 2850 50 
+F3 "RS232_T1" O L 5650 2350 50 
+F4 "RS232_T2" O L 5650 2450 50 
+F5 "RS232_R1" I L 5650 2600 50 
+F6 "RS232_R2" I L 5650 2700 50 
+F7 "LOGIC_T1" O R 6750 2350 50 
+F8 "LOGIC_T2" O R 6750 2450 50 
+F9 "LOGIC_R1" I R 6750 2600 50 
+F10 "LOGIC_R2" I R 6750 2700 50 
+F11 "3V3" I R 6750 2200 50 
+$EndSheet
+Text Label 4400 2250 0    50   ~ 0
+RS232_RTS
+Text Label 4400 2350 0    50   ~ 0
+RS232_TX
+Text Label 4400 2450 0    50   ~ 0
+RS232_CTS
+Text HLabel 6850 2200 2    50   Input ~ 0
+3V3
+Text HLabel 6850 2850 2    50   Input ~ 0
 GND
-Text HLabel 8450 2850 0    50   Input ~ 0
-GND
 Wire Wire Line
-	8450 2850 8600 2850
+	6850 2850 6750 2850
 Wire Wire Line
-	9450 2750 9300 2750
+	5150 2700 5650 2700
+Wire Wire Line
+	5650 2600 5150 2600
+Wire Wire Line
+	5150 2450 5650 2450
+Wire Wire Line
+	5650 2350 5150 2350
+Wire Wire Line
+	6750 2700 6850 2700
+Wire Wire Line
+	6850 2600 6750 2600
+Wire Wire Line
+	6750 2450 6850 2450
+Wire Wire Line
+	6850 2350 6750 2350
+Wire Wire Line
+	6750 2200 6850 2200
+Text Label 5150 2600 0    50   ~ 0
+RS232_RX
+Text Label 5150 2700 0    50   ~ 0
+RS232_RTS
+Text Label 5150 2350 0    50   ~ 0
+RS232_TX
+Text Label 5150 2450 0    50   ~ 0
+RS232_CTS
 $EndSCHEMATC

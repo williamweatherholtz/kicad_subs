@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:main-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -18,6 +18,8 @@ $Comp
 L Connector:Micro_SD_Card_Det J6
 U 1 1 5C784337
 P 7850 2450
+AR Path="/5C784337" Ref="J6"  Part="1" 
+AR Path="/5C784214/5C784337" Ref="J6"  Part="1" 
 F 0 "J6" H 7800 3267 50  0000 C CNN
 F 1 "Micro_SD_Card_Det" H 7800 3176 50  0000 C CNN
 F 2 "william_storage:114-00841-68" H 9900 3150 50  0001 C CNN
