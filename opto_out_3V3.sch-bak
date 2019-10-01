@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 14
+Sheet 7 14
 Title ""
 Date ""
 Rev ""
@@ -35,9 +35,20 @@ AR Path="/5D91E863/5BBB1F64" Ref="U?"  Part="1"
 AR Path="/5D91E865/5BBB1F64" Ref="U?"  Part="1" 
 AR Path="/5D91E867/5BBB1F64" Ref="U?"  Part="1" 
 AR Path="/5D91E869/5BBB1F64" Ref="U?"  Part="1" 
-F 0 "U?" H 5400 3650 50  0000 C CNN
+AR Path="/5D98F871/5BBB1F64" Ref="U?"  Part="1" 
+AR Path="/5D990DDF/5BBB1F64" Ref="U7"  Part="1" 
+AR Path="/5D9AFC11/5BBB1F64" Ref="U8"  Part="1" 
+AR Path="/5D9B2C9D/5BBB1F64" Ref="U?"  Part="1" 
+AR Path="/5D9B2CC2/5BBB1F64" Ref="U?"  Part="1" 
+AR Path="/5D9B87B9/5BBB1F64" Ref="U9"  Part="1" 
+AR Path="/5D9B87DE/5BBB1F64" Ref="U10"  Part="1" 
+AR Path="/5D9BD603/5BBB1F64" Ref="U11"  Part="1" 
+AR Path="/5D9BD628/5BBB1F64" Ref="U12"  Part="1" 
+AR Path="/5D9BD644/5BBB1F64" Ref="U13"  Part="1" 
+AR Path="/5D9BD667/5BBB1F64" Ref="U14"  Part="1" 
+F 0 "U7" H 5400 3650 50  0000 C CNN
 F 1 "EL3H7-G" H 5550 3250 50  0000 C CNN
-F 2 "Housings_SSOP:SOP-4_4.4x2.8mm_Pitch1.27mm" H 5550 3450 50  0001 C CNN
+F 2 "Package_SO:SOP-4_4.4x2.8mm_P1.27mm" H 5550 3450 50  0001 C CNN
 F 3 "" H 5550 3450 50  0001 C CNN
 	1    5550 3450
 	1    0    0    -1  
@@ -51,13 +62,13 @@ OUT-
 Text HLabel 6250 3550 2    50   Input ~ 0
 GND_ISO
 Text Notes 4050 3000 0    50   ~ 0
-Vf := 1.2V (typ)\nImax := 50mA\nIled := 5mA\n\nVin - Vf = Vres\n5V - 1.2V = 3.8V\n\nVres/Iled = Rres\n3.8V/ .005A = 760R\n\n(E24) 750R
+Vf := 1.2V (typ)\nImax := 50mA\nIled := 5mA\n\nVin - Vf = Vres\n3.3V - 1.2V = 2.5V\n\nVres/Iled = Rres\n2.5V/ .005A = 500R\n\n(E24) 470R
 Wire Wire Line
 	5850 3550 6250 3550
 Text HLabel 4150 4250 0    50   Input ~ 0
 GND
 Text HLabel 4150 3350 0    50   Input ~ 0
-5V+
+3V3
 $Comp
 L Device:Q_NMOS_GSD Q?
 U 1 1 5BC01B72
@@ -85,9 +96,20 @@ AR Path="/5D91E863/5BC01B72" Ref="Q?"  Part="1"
 AR Path="/5D91E865/5BC01B72" Ref="Q?"  Part="1" 
 AR Path="/5D91E867/5BC01B72" Ref="Q?"  Part="1" 
 AR Path="/5D91E869/5BC01B72" Ref="Q?"  Part="1" 
-F 0 "Q?" H 5250 3900 50  0000 L CNN
+AR Path="/5D98F871/5BC01B72" Ref="Q?"  Part="1" 
+AR Path="/5D990DDF/5BC01B72" Ref="Q1"  Part="1" 
+AR Path="/5D9AFC11/5BC01B72" Ref="Q2"  Part="1" 
+AR Path="/5D9B2C9D/5BC01B72" Ref="Q?"  Part="1" 
+AR Path="/5D9B2CC2/5BC01B72" Ref="Q?"  Part="1" 
+AR Path="/5D9B87B9/5BC01B72" Ref="Q3"  Part="1" 
+AR Path="/5D9B87DE/5BC01B72" Ref="Q4"  Part="1" 
+AR Path="/5D9BD603/5BC01B72" Ref="Q5"  Part="1" 
+AR Path="/5D9BD628/5BC01B72" Ref="Q6"  Part="1" 
+AR Path="/5D9BD644/5BC01B72" Ref="Q7"  Part="1" 
+AR Path="/5D9BD667/5BC01B72" Ref="Q8"  Part="1" 
+F 0 "Q1" H 5250 3900 50  0000 L CNN
 F 1 "BSS138LT3G" H 5250 3800 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 5250 3950 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5250 3950 50  0001 C CNN
 F 3 "" H 5050 3850 50  0001 C CNN
 	1    5050 3850
 	1    0    0    -1  
@@ -119,9 +141,20 @@ AR Path="/5D91E863/5BC01B7D" Ref="R?"  Part="1"
 AR Path="/5D91E865/5BC01B7D" Ref="R?"  Part="1" 
 AR Path="/5D91E867/5BC01B7D" Ref="R?"  Part="1" 
 AR Path="/5D91E869/5BC01B7D" Ref="R?"  Part="1" 
-F 0 "R?" V 4430 4050 50  0000 C CNN
+AR Path="/5D98F871/5BC01B7D" Ref="R?"  Part="1" 
+AR Path="/5D990DDF/5BC01B7D" Ref="R13"  Part="1" 
+AR Path="/5D9AFC11/5BC01B7D" Ref="R17"  Part="1" 
+AR Path="/5D9B2C9D/5BC01B7D" Ref="R?"  Part="1" 
+AR Path="/5D9B2CC2/5BC01B7D" Ref="R?"  Part="1" 
+AR Path="/5D9B87B9/5BC01B7D" Ref="R21"  Part="1" 
+AR Path="/5D9B87DE/5BC01B7D" Ref="R25"  Part="1" 
+AR Path="/5D9BD603/5BC01B7D" Ref="R29"  Part="1" 
+AR Path="/5D9BD628/5BC01B7D" Ref="R33"  Part="1" 
+AR Path="/5D9BD644/5BC01B7D" Ref="R37"  Part="1" 
+AR Path="/5D9BD667/5BC01B7D" Ref="R41"  Part="1" 
+F 0 "R13" V 4430 4050 50  0000 C CNN
 F 1 "10K" V 4350 4050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 4280 4050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4280 4050 50  0001 C CNN
 F 3 "" H 4350 4050 50  0001 C CNN
 	1    4350 4050
 	1    0    0    -1  
@@ -153,9 +186,20 @@ AR Path="/5D91E863/5BC01B84" Ref="R?"  Part="1"
 AR Path="/5D91E865/5BC01B84" Ref="R?"  Part="1" 
 AR Path="/5D91E867/5BC01B84" Ref="R?"  Part="1" 
 AR Path="/5D91E869/5BC01B84" Ref="R?"  Part="1" 
-F 0 "R?" V 4730 3850 50  0000 C CNN
+AR Path="/5D98F871/5BC01B84" Ref="R?"  Part="1" 
+AR Path="/5D990DDF/5BC01B84" Ref="R15"  Part="1" 
+AR Path="/5D9AFC11/5BC01B84" Ref="R19"  Part="1" 
+AR Path="/5D9B2C9D/5BC01B84" Ref="R?"  Part="1" 
+AR Path="/5D9B2CC2/5BC01B84" Ref="R?"  Part="1" 
+AR Path="/5D9B87B9/5BC01B84" Ref="R23"  Part="1" 
+AR Path="/5D9B87DE/5BC01B84" Ref="R27"  Part="1" 
+AR Path="/5D9BD603/5BC01B84" Ref="R31"  Part="1" 
+AR Path="/5D9BD628/5BC01B84" Ref="R35"  Part="1" 
+AR Path="/5D9BD644/5BC01B84" Ref="R39"  Part="1" 
+AR Path="/5D9BD667/5BC01B84" Ref="R43"  Part="1" 
+F 0 "R15" V 4730 3850 50  0000 C CNN
 F 1 "1K" V 4650 3850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 4580 3850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4580 3850 50  0001 C CNN
 F 3 "" H 4650 3850 50  0001 C CNN
 	1    4650 3850
 	0    1    1    0   
@@ -209,9 +253,20 @@ AR Path="/5D91E863/5BC088EE" Ref="R?"  Part="1"
 AR Path="/5D91E865/5BC088EE" Ref="R?"  Part="1" 
 AR Path="/5D91E867/5BC088EE" Ref="R?"  Part="1" 
 AR Path="/5D91E869/5BC088EE" Ref="R?"  Part="1" 
-F 0 "R?" V 4730 3350 50  0000 C CNN
-F 1 "750R" V 4650 3350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 4580 3350 50  0001 C CNN
+AR Path="/5D98F871/5BC088EE" Ref="R?"  Part="1" 
+AR Path="/5D990DDF/5BC088EE" Ref="R14"  Part="1" 
+AR Path="/5D9AFC11/5BC088EE" Ref="R18"  Part="1" 
+AR Path="/5D9B2C9D/5BC088EE" Ref="R?"  Part="1" 
+AR Path="/5D9B2CC2/5BC088EE" Ref="R?"  Part="1" 
+AR Path="/5D9B87B9/5BC088EE" Ref="R22"  Part="1" 
+AR Path="/5D9B87DE/5BC088EE" Ref="R26"  Part="1" 
+AR Path="/5D9BD603/5BC088EE" Ref="R30"  Part="1" 
+AR Path="/5D9BD628/5BC088EE" Ref="R34"  Part="1" 
+AR Path="/5D9BD644/5BC088EE" Ref="R38"  Part="1" 
+AR Path="/5D9BD667/5BC088EE" Ref="R42"  Part="1" 
+F 0 "R14" V 4730 3350 50  0000 C CNN
+F 1 "500R" V 4650 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4580 3350 50  0001 C CNN
 F 3 "" H 4650 3350 50  0001 C CNN
 	1    4650 3350
 	0    1    1    0   
@@ -247,9 +302,20 @@ AR Path="/5D91E863/5BBB1F8A" Ref="R?"  Part="1"
 AR Path="/5D91E865/5BBB1F8A" Ref="R?"  Part="1" 
 AR Path="/5D91E867/5BBB1F8A" Ref="R?"  Part="1" 
 AR Path="/5D91E869/5BBB1F8A" Ref="R?"  Part="1" 
-F 0 "R?" H 6009 3246 50  0000 L CNN
+AR Path="/5D98F871/5BBB1F8A" Ref="R?"  Part="1" 
+AR Path="/5D990DDF/5BBB1F8A" Ref="R16"  Part="1" 
+AR Path="/5D9AFC11/5BBB1F8A" Ref="R20"  Part="1" 
+AR Path="/5D9B2C9D/5BBB1F8A" Ref="R?"  Part="1" 
+AR Path="/5D9B2CC2/5BBB1F8A" Ref="R?"  Part="1" 
+AR Path="/5D9B87B9/5BBB1F8A" Ref="R24"  Part="1" 
+AR Path="/5D9B87DE/5BBB1F8A" Ref="R28"  Part="1" 
+AR Path="/5D9BD603/5BBB1F8A" Ref="R32"  Part="1" 
+AR Path="/5D9BD628/5BBB1F8A" Ref="R36"  Part="1" 
+AR Path="/5D9BD644/5BBB1F8A" Ref="R40"  Part="1" 
+AR Path="/5D9BD667/5BBB1F8A" Ref="R44"  Part="1" 
+F 0 "R16" H 6009 3246 50  0000 L CNN
 F 1 "1K" H 6009 3155 50  0000 L CNN
-F 2 "Resistors_SMD:R_0402" H 5950 3200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5950 3200 50  0001 C CNN
 F 3 "~" H 5950 3200 50  0001 C CNN
 	1    5950 3200
 	1    0    0    -1  
