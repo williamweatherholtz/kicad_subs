@@ -477,7 +477,7 @@ U 1 1 5D9984C0
 P 1300 1850
 F 0 "J18" H 1293 2448 50  0000 C CNN
 F 1 "TC2030-IDC" H 1293 2357 50  0000 C CNN
-F 2 "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical" H 1150 1950 50  0001 C CNN
+F 2 "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical" H 1150 1950 50  0001 C CNN
 F 3 "http://www.tag-connect.com/Materials/TC2030-IDC.pdf" H 1150 1950 50  0001 C CNN
 	1    1300 1850
 	-1   0    0    -1  
