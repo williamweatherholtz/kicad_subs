@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 14
+Sheet 2 18
 Title ""
 Date ""
 Rev ""
@@ -447,7 +447,6 @@ NoConn ~ 4600 4900
 NoConn ~ 4600 5100
 NoConn ~ 6800 5300
 NoConn ~ 6800 5200
-NoConn ~ 6800 4900
 NoConn ~ 6800 4400
 NoConn ~ 6800 4000
 NoConn ~ 6800 3300
@@ -468,7 +467,6 @@ START_R
 Text HLabel 6800 3000 2    50   Input ~ 0
 START_L
 NoConn ~ 6800 2900
-NoConn ~ 6800 4800
 NoConn ~ 6800 5000
 NoConn ~ 6800 5100
 $Comp
@@ -482,4 +480,8 @@ F 3 "http://www.tag-connect.com/Materials/TC2030-IDC.pdf" H 1150 1950 50  0001 C
 	1    1300 1850
 	-1   0    0    -1  
 $EndComp
+Text HLabel 6800 4800 2    50   Output ~ 0
+MTR_ON
+Text HLabel 6800 4900 2    50   Output ~ 0
+CLUTCH_ON
 $EndSCHEMATC
