@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 18
+Sheet 10 18
 Title ""
 Date ""
 Rev ""
@@ -22,20 +22,6 @@ Wire Wire Line
 	5900 3450 5950 3450
 Wire Wire Line
 	6250 3850 6250 3650
-Wire Wire Line
-	5250 3450 5450 3450
-Wire Wire Line
-	5250 3850 5450 3850
-Wire Wire Line
-	5450 3500 5450 3450
-Connection ~ 5450 3450
-Wire Wire Line
-	5450 3450 5600 3450
-Wire Wire Line
-	5450 3800 5450 3850
-Connection ~ 5450 3850
-Wire Wire Line
-	5450 3850 6250 3850
 Text HLabel 6450 3050 2    50   Input ~ 0
 LOAD-
 Wire Wire Line
@@ -76,29 +62,6 @@ F 3 "~" H 5750 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R5
-U 1 1 5BE5AA7F
-P 5450 3650
-AR Path="/5BE5A530/5BE5AA7F" Ref="R5"  Part="1" 
-AR Path="/5BE5D36F/5BE5AA7F" Ref="R7"  Part="1" 
-AR Path="/5BE5D37A/5BE5AA7F" Ref="R9"  Part="1" 
-AR Path="/5BE5D381/5BE5AA7F" Ref="R?"  Part="1" 
-AR Path="/5C3B8390/5BE5AA7F" Ref="R?"  Part="1" 
-AR Path="/5C3C14B8/5BE5AA7F" Ref="R?"  Part="1" 
-AR Path="/5C4D1AE2/5BE5AA7F" Ref="R?"  Part="1" 
-AR Path="/5C4E4A9C/5BE5AA7F" Ref="R1"  Part="1" 
-AR Path="/5C4EE84B/5BE5AA7F" Ref="R27"  Part="1" 
-AR Path="/5D986736/5BE5AA7F" Ref="R?"  Part="1" 
-AR Path="/5D98C5E1/5BE5AA7F" Ref="R?"  Part="1" 
-AR Path="/5DD45A74/5DD45DBE/5BE5AA7F" Ref="R49"  Part="1" 
-F 0 "R49" H 5520 3696 50  0000 L CNN
-F 1 "10K" H 5520 3605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5380 3650 50  0001 C CNN
-F 3 "~" H 5450 3650 50  0001 C CNN
-	1    5450 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L william_fets:IRF7458TRPBF Q11
 U 1 1 5DD46952
 P 6150 3450
@@ -109,4 +72,8 @@ F 3 "https://www.infineon.com/dgdl/irf7458pbf.pdf?fileId=5546d462533600a4015355f
 	1    6150 3450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5250 3450 5600 3450
+Wire Wire Line
+	5250 3850 6250 3850
 $EndSCHEMATC

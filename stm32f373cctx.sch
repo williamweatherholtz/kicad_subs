@@ -419,9 +419,9 @@ Text Label 4600 2800 0    50   ~ 0
 VSS
 Text Label 3500 3050 0    50   ~ 0
 VSS
-Text HLabel 6800 3600 2    50   Output ~ 0
-LED_ERR
 Text HLabel 6800 3700 2    50   Output ~ 0
+LED_ERR
+Text HLabel 6800 3600 2    50   Output ~ 0
 LED_RDY
 Text HLabel 4600 5300 0    50   Output ~ 0
 STATE_2
@@ -439,7 +439,6 @@ Text HLabel 6800 3200 2    50   Input ~ 0
 MISC_IN_0
 Text HLabel 6800 3100 2    50   Input ~ 0
 MISC_IN_1
-NoConn ~ 4600 4300
 NoConn ~ 4600 4400
 NoConn ~ 4600 4600
 NoConn ~ 4600 4700
@@ -448,9 +447,7 @@ NoConn ~ 4600 5100
 NoConn ~ 6800 5300
 NoConn ~ 6800 5200
 NoConn ~ 6800 4400
-NoConn ~ 6800 4000
 NoConn ~ 6800 3300
-NoConn ~ 6800 2600
 Text Label 900  7550 0    50   ~ 0
 VREFSD
 Wire Wire Line
@@ -466,7 +463,6 @@ Text HLabel 6800 2700 2    50   Input ~ 0
 START_R
 Text HLabel 6800 3000 2    50   Input ~ 0
 START_L
-NoConn ~ 6800 2900
 NoConn ~ 6800 5000
 NoConn ~ 6800 5100
 $Comp
@@ -480,8 +476,13 @@ F 3 "http://www.tag-connect.com/Materials/TC2030-IDC.pdf" H 1150 1950 50  0001 C
 	1    1300 1850
 	-1   0    0    -1  
 $EndComp
-Text HLabel 6800 4800 2    50   Output ~ 0
+Text HLabel 6800 2900 2    50   Output ~ 0
 MTR_ON
-Text HLabel 6800 4900 2    50   Output ~ 0
+Text HLabel 4600 4300 0    50   Output ~ 0
 CLUTCH_ON
+NoConn ~ 6800 4800
+NoConn ~ 6800 4900
+Text HLabel 6800 2600 2    50   Input ~ 0
+ADJUST
+NoConn ~ 6800 4000
 $EndSCHEMATC
