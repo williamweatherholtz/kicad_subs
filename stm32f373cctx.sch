@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 14
+Sheet 2 18
 Title ""
 Date ""
 Rev ""
@@ -27,41 +27,30 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    5850 3900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x06 J18
-U 1 1 5D8E98BD
-P 1100 1850
-F 0 "J18" H 1018 2267 50  0000 C CNN
-F 1 "SWD" H 1018 2176 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1100 1850 50  0001 C CNN
-F 3 "~" H 1100 1850 50  0001 C CNN
-	1    1100 1850
-	-1   0    0    -1  
-$EndComp
-Text Label 1600 1650 0    50   ~ 0
+Text Label 1900 1600 0    50   ~ 0
 VCC
-Text Label 1600 1750 0    50   ~ 0
+Text Label 1900 1900 0    50   ~ 0
 SWCLK
-Text Label 1600 1850 0    50   ~ 0
+Text Label 1900 2000 0    50   ~ 0
 GND
-Text Label 1600 1950 0    50   ~ 0
+Text Label 1900 1700 0    50   ~ 0
 SWDIO
-Text Label 1600 2050 0    50   ~ 0
+Text Label 1900 1800 0    50   ~ 0
 ~RST
-Text Label 1600 2150 0    50   ~ 0
+Text Label 1900 2100 0    50   ~ 0
 SWO
 Wire Wire Line
-	1600 1650 1300 1650
+	1900 1600 1600 1600
 Wire Wire Line
-	1300 1750 1600 1750
+	1600 1900 1900 1900
 Wire Wire Line
-	1300 1850 1600 1850
+	1600 2000 1900 2000
 Wire Wire Line
-	1600 1950 1300 1950
+	1900 1700 1600 1700
 Wire Wire Line
-	1300 2050 1600 2050
+	1600 1800 1900 1800
 Wire Wire Line
-	1600 2150 1300 2150
+	1900 2100 1600 2100
 Text Label 6800 3900 0    50   ~ 0
 SWCLK
 Text Label 6800 3800 0    50   ~ 0
@@ -430,9 +419,9 @@ Text Label 4600 2800 0    50   ~ 0
 VSS
 Text Label 3500 3050 0    50   ~ 0
 VSS
-Text HLabel 6800 3600 2    50   Output ~ 0
-LED_ERR
 Text HLabel 6800 3700 2    50   Output ~ 0
+LED_ERR
+Text HLabel 6800 3600 2    50   Output ~ 0
 LED_RDY
 Text HLabel 4600 5300 0    50   Output ~ 0
 STATE_2
@@ -450,7 +439,6 @@ Text HLabel 6800 3200 2    50   Input ~ 0
 MISC_IN_0
 Text HLabel 6800 3100 2    50   Input ~ 0
 MISC_IN_1
-NoConn ~ 4600 4300
 NoConn ~ 4600 4400
 NoConn ~ 4600 4600
 NoConn ~ 4600 4700
@@ -458,11 +446,8 @@ NoConn ~ 4600 4900
 NoConn ~ 4600 5100
 NoConn ~ 6800 5300
 NoConn ~ 6800 5200
-NoConn ~ 6800 4900
 NoConn ~ 6800 4400
-NoConn ~ 6800 4000
 NoConn ~ 6800 3300
-NoConn ~ 6800 2600
 Text Label 900  7550 0    50   ~ 0
 VREFSD
 Wire Wire Line
@@ -478,4 +463,26 @@ Text HLabel 6800 2700 2    50   Input ~ 0
 START_R
 Text HLabel 6800 3000 2    50   Input ~ 0
 START_L
+NoConn ~ 6800 5000
+NoConn ~ 6800 5100
+$Comp
+L william_connectors:TC2030-IDC J18
+U 1 1 5D9984C0
+P 1300 1850
+F 0 "J18" H 1293 2448 50  0000 C CNN
+F 1 "TC2030-IDC" H 1293 2357 50  0000 C CNN
+F 2 "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical" H 1150 1950 50  0001 C CNN
+F 3 "http://www.tag-connect.com/Materials/TC2030-IDC.pdf" H 1150 1950 50  0001 C CNN
+	1    1300 1850
+	-1   0    0    -1  
+$EndComp
+Text HLabel 6800 2900 2    50   Output ~ 0
+MTR_ON
+Text HLabel 4600 4300 0    50   Output ~ 0
+CLUTCH_ON
+NoConn ~ 6800 4800
+NoConn ~ 6800 4900
+Text HLabel 6800 2600 2    50   Input ~ 0
+ADJUST
+NoConn ~ 6800 4000
 $EndSCHEMATC
