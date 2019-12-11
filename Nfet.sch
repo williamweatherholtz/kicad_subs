@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:main-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 9
+Sheet 5 5
 Title ""
 Date ""
 Rev ""
@@ -67,6 +66,7 @@ AR Path="/5C4E4A9C/5BE5A6E3" Ref="Q4"  Part="1"
 AR Path="/5C4EE84B/5BE5A6E3" Ref="Q5"  Part="1" 
 AR Path="/5D986736/5BE5A6E3" Ref="Q?"  Part="1" 
 AR Path="/5D98C5E1/5BE5A6E3" Ref="Q?"  Part="1" 
+AR Path="/5E03117E/5BE5A6E3" Ref="Q?"  Part="1" 
 F 0 "Q?" H 6355 3496 50  0000 L CNN
 F 1 "BSS138LT3G" H 6355 3405 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SC-59" H 6350 3550 50  0001 C CNN
@@ -89,6 +89,7 @@ AR Path="/5C4E4A9C/5BE5AA31" Ref="R26"  Part="1"
 AR Path="/5C4EE84B/5BE5AA31" Ref="R28"  Part="1" 
 AR Path="/5D986736/5BE5AA31" Ref="R?"  Part="1" 
 AR Path="/5D98C5E1/5BE5AA31" Ref="R?"  Part="1" 
+AR Path="/5E03117E/5BE5AA31" Ref="R?"  Part="1" 
 F 0 "R?" V 5543 3450 50  0000 C CNN
 F 1 "1K" V 5634 3450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5680 3450 50  0001 C CNN
@@ -111,6 +112,7 @@ AR Path="/5C4E4A9C/5BE5AA7F" Ref="R1"  Part="1"
 AR Path="/5C4EE84B/5BE5AA7F" Ref="R27"  Part="1" 
 AR Path="/5D986736/5BE5AA7F" Ref="R?"  Part="1" 
 AR Path="/5D98C5E1/5BE5AA7F" Ref="R?"  Part="1" 
+AR Path="/5E03117E/5BE5AA7F" Ref="R?"  Part="1" 
 F 0 "R?" H 5520 3696 50  0000 L CNN
 F 1 "10K" H 5520 3605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5380 3650 50  0001 C CNN

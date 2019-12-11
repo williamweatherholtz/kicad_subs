@@ -288,14 +288,14 @@ Text HLabel 3800 4150 0    50   Input ~ 0
 SWITCH2
 Text HLabel 3800 4250 0    50   Input ~ 0
 SWITCH3
-Text HLabel 3800 4350 0    50   Input ~ 0
+Text HLabel 5800 3550 2    50   Input ~ 0
 SWITCH4
-Text HLabel 3800 4450 0    50   Input ~ 0
+Text HLabel 5800 3650 2    50   Input ~ 0
 SWITCH5
 Wire Wire Line
-	3800 4450 4150 4450
+	5800 3650 5450 3650
 Wire Wire Line
-	3800 4350 4150 4350
+	5800 3550 5450 3550
 Wire Wire Line
 	3800 4250 4150 4250
 Wire Wire Line
@@ -323,8 +323,6 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    4850 3550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3600 2550 4150 2550
 $Comp
 L Connector_Generic:Conn_01x06 J2
 U 1 1 60CDF96D
@@ -384,4 +382,17 @@ Connection ~ 2250 5350
 Wire Wire Line
 	2250 5050 2750 5050
 Connection ~ 2250 5050
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5E2268F5
+P 3350 2550
+F 0 "#FLG0103" H 3350 2625 50  0001 C CNN
+F 1 "PWR_FLAG" H 3350 2723 50  0000 C CNN
+F 2 "" H 3350 2550 50  0001 C CNN
+F 3 "~" H 3350 2550 50  0001 C CNN
+	1    3350 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 2550 4150 2550
 $EndSCHEMATC
