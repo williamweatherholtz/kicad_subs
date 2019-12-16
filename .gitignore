@@ -6,7 +6,10 @@
 *.bck
 *.kicad_pcb-bak
 *.sch-bak
+<<<<<<< HEAD
 *.pro
+=======
+>>>>>>> 3ef313f92a094c11da2805cad2906f95fff98f7a
 *~
 _autosave-*
 *.tmp
