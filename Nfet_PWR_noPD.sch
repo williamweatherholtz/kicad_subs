@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:main-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 18
+Sheet 9 19
 Title ""
 Date ""
 Rev ""
@@ -67,7 +66,7 @@ U 1 1 5DD46952
 P 6150 3450
 F 0 "Q11" H 6356 3496 50  0000 L CNN
 F 1 "IRF7458TRPBF" H 6356 3405 50  0000 L CNN
-F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 6000 3650 50  0001 C CNN
+F 2 "william_mosfet:SO-8_3.9x4.9mm_P1.27mm" H 6000 3650 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/irf7458pbf.pdf?fileId=5546d462533600a4015355fecb231bfe" H 6150 3450 50  0001 C CNN
 	1    6150 3450
 	1    0    0    -1  

@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:main-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 18
+Sheet 5 19
 Title ""
 Date ""
 Rev ""
@@ -34,7 +33,7 @@ AR Path="/5D93C4A2/5DD57F44" Ref="U6"  Part="1"
 AR Path="/5DC22088/5DD57F44" Ref="U?"  Part="1" 
 F 0 "U5" H 5400 3650 50  0000 C CNN
 F 1 "EL3H7-G" H 5550 3250 50  0000 C CNN
-F 2 "Package_SO:SOP-4_4.4x2.8mm_P1.27mm" H 5550 3450 50  0001 C CNN
+F 2 "Package_SO:SOP-4_4.4x2.6mm_P1.27mm" H 5550 3450 50  0001 C CNN
 F 3 "" H 5550 3450 50  0001 C CNN
 	1    5550 3450
 	1    0    0    -1  
@@ -149,6 +148,7 @@ AR Path="/5D93BBB8/5BBEB592" Ref="D2"  Part="1"
 AR Path="/5D93C499/5BBEB592" Ref="D3"  Part="1" 
 AR Path="/5D93C4A2/5BBEB592" Ref="D4"  Part="1" 
 AR Path="/5DC22088/5BBEB592" Ref="D?"  Part="1" 
+AR Path="/5BBEB592" Ref="D3"  Part="1" 
 F 0 "D3" V 4704 3529 50  0000 L CNN
 F 1 "BAS21LT1G" V 4795 3529 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4700 3600 50  0001 C CNN

@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:main-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 18
+Sheet 2 19
 Title ""
 Date ""
 Rev ""
@@ -440,7 +439,6 @@ MISC_IN_0
 Text HLabel 6800 3100 2    50   Input ~ 0
 MISC_IN_1
 NoConn ~ 4600 4400
-NoConn ~ 4600 4600
 NoConn ~ 4600 4700
 NoConn ~ 4600 4900
 NoConn ~ 4600 5100
@@ -469,6 +467,8 @@ $Comp
 L william_connectors:TC2030-IDC J18
 U 1 1 5D9984C0
 P 1300 1850
+AR Path="/5D9984C0" Ref="J18"  Part="1" 
+AR Path="/5D8E750A/5D9984C0" Ref="J18"  Part="1" 
 F 0 "J18" H 1293 2448 50  0000 C CNN
 F 1 "TC2030-IDC" H 1293 2357 50  0000 C CNN
 F 2 "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical" H 1150 1950 50  0001 C CNN
@@ -485,4 +485,5 @@ NoConn ~ 6800 4900
 Text HLabel 6800 2600 2    50   Input ~ 0
 ADJUST
 NoConn ~ 6800 4000
+NoConn ~ 4600 4600
 $EndSCHEMATC

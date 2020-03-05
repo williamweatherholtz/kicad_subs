@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:main-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 18
+Sheet 6 19
 Title ""
 Date ""
 Rev ""
@@ -106,6 +105,7 @@ U 1 1 5DC02A55
 P 6150 3450
 AR Path="/5DBFCE24/5DC02A55" Ref="Q9"  Part="1" 
 AR Path="/5DD0BFD1/5DC02A55" Ref="Q10"  Part="1" 
+AR Path="/5DC02A55" Ref="Q9"  Part="1" 
 F 0 "Q9" H 6356 3496 50  0000 L CNN
 F 1 "AON7524" H 6356 3405 50  0000 L CNN
 F 2 "william_mosfet:AlphaOmega_DFN-8_EP_3x3mm_0.65pitch_1.75x2.35mmEP" H 6000 3650 50  0001 C CNN
