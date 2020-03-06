@@ -1,0 +1,556 @@
+EESchema Schematic File Version 5
+EELAYER 31 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+Connection ~ 8450 5050
+Connection ~ 8550 5050
+Connection ~ 2200 3100
+Connection ~ 2200 5350
+Connection ~ 2200 3500
+Connection ~ 2200 4950
+Connection ~ 7800 3350
+Wire Wire Line
+	1200 3100 1300 3100
+Wire Wire Line
+	1200 3500 1300 3500
+Wire Wire Line
+	1200 3950 2200 3950
+Wire Wire Line
+	1200 4950 1300 4950
+Wire Wire Line
+	1200 5350 1300 5350
+Wire Wire Line
+	1200 5800 2200 5800
+Wire Wire Line
+	1600 3100 1700 3100
+Wire Wire Line
+	1600 3500 1700 3500
+Wire Wire Line
+	1600 4950 1700 4950
+Wire Wire Line
+	1600 5350 1700 5350
+Wire Wire Line
+	2000 3100 2200 3100
+Wire Wire Line
+	2000 3500 2200 3500
+Wire Wire Line
+	2000 4950 2200 4950
+Wire Wire Line
+	2000 5350 2200 5350
+Wire Wire Line
+	2200 2600 2300 2600
+Wire Wire Line
+	2200 2700 2200 2600
+Wire Wire Line
+	2200 3000 2200 3100
+Wire Wire Line
+	2200 3100 2400 3100
+Wire Wire Line
+	2200 3150 2200 3100
+Wire Wire Line
+	2200 3450 2200 3500
+Wire Wire Line
+	2200 3500 2400 3500
+Wire Wire Line
+	2200 3550 2200 3500
+Wire Wire Line
+	2200 3950 2200 3850
+Wire Wire Line
+	2200 4450 2300 4450
+Wire Wire Line
+	2200 4550 2200 4450
+Wire Wire Line
+	2200 4850 2200 4950
+Wire Wire Line
+	2200 4950 2400 4950
+Wire Wire Line
+	2200 5000 2200 4950
+Wire Wire Line
+	2200 5300 2200 5350
+Wire Wire Line
+	2200 5350 2400 5350
+Wire Wire Line
+	2200 5400 2200 5350
+Wire Wire Line
+	2200 5800 2200 5700
+Wire Wire Line
+	2700 3100 2800 3100
+Wire Wire Line
+	2700 3500 2800 3500
+Wire Wire Line
+	2700 4950 2800 4950
+Wire Wire Line
+	2700 5350 2800 5350
+Wire Wire Line
+	5350 3250 5450 3250
+Wire Wire Line
+	5350 3350 5450 3350
+Wire Wire Line
+	5350 3850 5450 3850
+Wire Wire Line
+	5350 5100 5450 5100
+Wire Wire Line
+	5350 5200 5450 5200
+Wire Wire Line
+	5350 5700 5450 5700
+Wire Wire Line
+	5450 2750 5350 2750
+Wire Wire Line
+	5450 2850 5450 2750
+Wire Wire Line
+	5450 3250 5450 3150
+Wire Wire Line
+	5450 3450 5450 3350
+Wire Wire Line
+	5450 3850 5450 3750
+Wire Wire Line
+	5450 4600 5350 4600
+Wire Wire Line
+	5450 4700 5450 4600
+Wire Wire Line
+	5450 5100 5450 5000
+Wire Wire Line
+	5450 5300 5450 5200
+Wire Wire Line
+	5450 5700 5450 5600
+Wire Wire Line
+	7000 3950 7800 3950
+Wire Wire Line
+	7000 4400 7800 4400
+Wire Wire Line
+	7600 5050 8450 5050
+Wire Wire Line
+	7650 3350 7800 3350
+Wire Wire Line
+	7700 2900 7800 2900
+Wire Wire Line
+	7800 2400 7700 2400
+Wire Wire Line
+	7800 2500 7800 2400
+Wire Wire Line
+	7800 2900 7800 2800
+Wire Wire Line
+	7800 3350 7800 3750
+Wire Wire Line
+	7800 3350 8500 3350
+Wire Wire Line
+	7800 4050 7000 4050
+Wire Wire Line
+	7800 4500 7000 4500
+Wire Wire Line
+	8450 4950 8450 5050
+Wire Wire Line
+	8450 5050 8550 5050
+Wire Wire Line
+	8500 3350 8500 3450
+Wire Wire Line
+	8550 5050 8550 4950
+Wire Wire Line
+	9200 3750 9300 3750
+Wire Wire Line
+	9200 4650 9400 4650
+Wire Wire Line
+	9300 3950 9200 3950
+Wire Wire Line
+	9400 4350 9200 4350
+Wire Wire Line
+	9800 4150 9200 4150
+Wire Wire Line
+	9800 4350 9800 4150
+Wire Wire Line
+	9800 4650 9800 5050
+Wire Wire Line
+	9800 5050 8550 5050
+Text Notes 2350 2150 0    50   ~ 0
+FILTER LAYOUT & VALUES FROM APPLICATION ON DATASHEET
+Text Label 2800 3100 0    50   ~ 0
+FILTERED_IN_R+
+Text Label 2800 3500 0    50   ~ 0
+FILTERED_IN_R-
+Text Label 2800 4950 0    50   ~ 0
+FILTERED_IN_L+
+Text Label 2800 5350 0    50   ~ 0
+FILTERED_IN_L-
+Text Label 5350 3250 2    50   ~ 0
+FILTERED_IN_R-
+Text Label 5350 3350 2    50   ~ 0
+FILTERED_IN_R+
+Text Label 5350 5100 2    50   ~ 0
+FILTERED_IN_L-
+Text Label 5350 5200 2    50   ~ 0
+FILTERED_IN_L+
+Text Label 7000 3950 0    50   ~ 0
+FILTERED_IN_R-
+Text Label 7000 4050 0    50   ~ 0
+FILTERED_IN_R+
+Text Label 7000 4400 0    50   ~ 0
+FILTERED_IN_L-
+Text Label 7000 4500 0    50   ~ 0
+FILTERED_IN_L+
+Text HLabel 1200 3100 0    50   Input ~ 0
+IN_R+
+Text HLabel 1200 3500 0    50   Input ~ 0
+IN_R-
+Text HLabel 1200 3950 0    50   Input ~ 0
+GND
+Text HLabel 1200 4950 0    50   Input ~ 0
+IN_L+
+Text HLabel 1200 5350 0    50   Input ~ 0
+IN_L-
+Text HLabel 1200 5800 0    50   Input ~ 0
+GND
+Text HLabel 2300 2600 2    50   Output ~ 0
+OUT_R
+Text HLabel 2300 4450 2    50   Output ~ 0
+OUT_L
+Text HLabel 5350 2750 0    50   Output ~ 0
+OUT_R
+Text HLabel 5350 3850 0    50   Input ~ 0
+GND
+Text HLabel 5350 4600 0    50   Output ~ 0
+OUT_R
+Text HLabel 5350 5700 0    50   Input ~ 0
+GND
+Text HLabel 7600 5050 0    50   Input ~ 0
+GND
+Text HLabel 7650 3350 0    50   Input ~ 0
+3V3
+Text HLabel 7700 2400 0    50   Input ~ 0
+3V3
+Text HLabel 7700 2900 0    50   Input ~ 0
+GND
+Text HLabel 9300 3750 2    50   Output ~ 0
+OUT_R
+Text HLabel 9300 3950 2    50   Output ~ 0
+OUT_L
+$Comp
+L Device:R R?
+U 1 1 5E51428F
+P 1850 3100
+F 0 "R?" V 2057 3100 50  0000 C CNN
+F 1 "33K" V 1966 3100 50  0000 C CNN
+F 2 "" V 1780 3100 50  0001 C CNN
+F 3 "~" H 1850 3100 50  0001 C CNN
+	1    1850 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E578005
+P 1850 3500
+F 0 "R?" V 2057 3500 50  0000 C CNN
+F 1 "33K" V 1966 3500 50  0000 C CNN
+F 2 "" V 1780 3500 50  0001 C CNN
+F 3 "~" H 1850 3500 50  0001 C CNN
+	1    1850 3500
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E584D74
+P 1850 4950
+F 0 "R?" V 2057 4950 50  0000 C CNN
+F 1 "33K" V 1966 4950 50  0000 C CNN
+F 2 "" V 1780 4950 50  0001 C CNN
+F 3 "~" H 1850 4950 50  0001 C CNN
+	1    1850 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E584D7E
+P 1850 5350
+F 0 "R?" V 2057 5350 50  0000 C CNN
+F 1 "33K" V 1966 5350 50  0000 C CNN
+F 2 "" V 1780 5350 50  0001 C CNN
+F 3 "~" H 1850 5350 50  0001 C CNN
+	1    1850 5350
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E590DE1
+P 2200 2850
+F 0 "R?" H 2270 2896 50  0000 L CNN
+F 1 "68K" H 2270 2805 50  0000 L CNN
+F 2 "" V 2130 2850 50  0001 C CNN
+F 3 "~" H 2200 2850 50  0001 C CNN
+	1    2200 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E5182DD
+P 2200 3700
+F 0 "R?" H 2270 3746 50  0000 L CNN
+F 1 "68K" H 2270 3655 50  0000 L CNN
+F 2 "" V 2130 3700 50  0001 C CNN
+F 3 "~" H 2200 3700 50  0001 C CNN
+	1    2200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E5949FE
+P 2200 4700
+F 0 "R?" H 2270 4746 50  0000 L CNN
+F 1 "68K" H 2270 4655 50  0000 L CNN
+F 2 "" V 2130 4700 50  0001 C CNN
+F 3 "~" H 2200 4700 50  0001 C CNN
+	1    2200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E596A17
+P 2200 5550
+F 0 "R?" H 2270 5596 50  0000 L CNN
+F 1 "68K" H 2270 5505 50  0000 L CNN
+F 2 "" V 2130 5550 50  0001 C CNN
+F 3 "~" H 2200 5550 50  0001 C CNN
+	1    2200 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E51513E
+P 2550 3100
+F 0 "R?" V 2757 3100 50  0000 C CNN
+F 1 "100K" V 2666 3100 50  0000 C CNN
+F 2 "" V 2480 3100 50  0001 C CNN
+F 3 "~" H 2550 3100 50  0001 C CNN
+	1    2550 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E588E8F
+P 2550 3500
+F 0 "R?" V 2757 3500 50  0000 C CNN
+F 1 "100K" V 2666 3500 50  0000 C CNN
+F 2 "" V 2480 3500 50  0001 C CNN
+F 3 "~" H 2550 3500 50  0001 C CNN
+	1    2550 3500
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E58A976
+P 2550 4950
+F 0 "R?" V 2757 4950 50  0000 C CNN
+F 1 "100K" V 2666 4950 50  0000 C CNN
+F 2 "" V 2480 4950 50  0001 C CNN
+F 3 "~" H 2550 4950 50  0001 C CNN
+	1    2550 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E58A980
+P 2550 5350
+F 0 "R?" V 2757 5350 50  0000 C CNN
+F 1 "100K" V 2666 5350 50  0000 C CNN
+F 2 "" V 2480 5350 50  0001 C CNN
+F 3 "~" H 2550 5350 50  0001 C CNN
+	1    2550 5350
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E513AFA
+P 1450 3100
+AR Path="/5E50B445/5E513AFA" Ref="C?"  Part="1" 
+AR Path="/5E50B445/5E51255D/5E513AFA" Ref="C?"  Part="1" 
+F 0 "C?" V 1702 3100 50  0000 C CNN
+F 1 "1U" V 1611 3100 50  0000 C CNN
+F 2 "" H 1488 2950 50  0001 C CNN
+F 3 "~" H 1450 3100 50  0001 C CNN
+	1    1450 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E57BED5
+P 1450 3500
+AR Path="/5E50B445/5E57BED5" Ref="C?"  Part="1" 
+AR Path="/5E50B445/5E51255D/5E57BED5" Ref="C?"  Part="1" 
+F 0 "C?" V 1702 3500 50  0000 C CNN
+F 1 "1U" V 1611 3500 50  0000 C CNN
+F 2 "" H 1488 3350 50  0001 C CNN
+F 3 "~" H 1450 3500 50  0001 C CNN
+	1    1450 3500
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E57D963
+P 1450 4950
+AR Path="/5E50B445/5E57D963" Ref="C?"  Part="1" 
+AR Path="/5E50B445/5E51255D/5E57D963" Ref="C?"  Part="1" 
+F 0 "C?" V 1702 4950 50  0000 C CNN
+F 1 "1U" V 1611 4950 50  0000 C CNN
+F 2 "" H 1488 4800 50  0001 C CNN
+F 3 "~" H 1450 4950 50  0001 C CNN
+	1    1450 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E57D96D
+P 1450 5350
+AR Path="/5E50B445/5E57D96D" Ref="C?"  Part="1" 
+AR Path="/5E50B445/5E51255D/5E57D96D" Ref="C?"  Part="1" 
+F 0 "C?" V 1702 5350 50  0000 C CNN
+F 1 "1U" V 1611 5350 50  0000 C CNN
+F 2 "" H 1488 5200 50  0001 C CNN
+F 3 "~" H 1450 5350 50  0001 C CNN
+	1    1450 5350
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E5158AD
+P 2200 3300
+AR Path="/5E50B445/5E5158AD" Ref="C?"  Part="1" 
+AR Path="/5E50B445/5E51255D/5E5158AD" Ref="C?"  Part="1" 
+F 0 "C?" H 2085 3254 50  0000 R CNN
+F 1 "150P" H 2085 3345 50  0000 R CNN
+F 2 "" H 2238 3150 50  0001 C CNN
+F 3 "~" H 2200 3300 50  0001 C CNN
+	1    2200 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E587078
+P 2200 5150
+AR Path="/5E50B445/5E587078" Ref="C?"  Part="1" 
+AR Path="/5E50B445/5E51255D/5E587078" Ref="C?"  Part="1" 
+F 0 "C?" H 2085 5104 50  0000 R CNN
+F 1 "150P" H 2085 5195 50  0000 R CNN
+F 2 "" H 2238 5000 50  0001 C CNN
+F 3 "~" H 2200 5150 50  0001 C CNN
+	1    2200 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E52CAEC
+P 5450 3000
+AR Path="/5E50B445/5E52CAEC" Ref="C?"  Part="1" 
+AR Path="/5E50B445/5E51255D/5E52CAEC" Ref="C?"  Part="1" 
+F 0 "C?" H 5335 2954 50  0000 R CNN
+F 1 "15PF" H 5335 3045 50  0000 R CNN
+F 2 "" H 5488 2850 50  0001 C CNN
+F 3 "~" H 5450 3000 50  0001 C CNN
+	1    5450 3000
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E5A4207
+P 5450 3600
+AR Path="/5E50B445/5E5A4207" Ref="C?"  Part="1" 
+AR Path="/5E50B445/5E51255D/5E5A4207" Ref="C?"  Part="1" 
+F 0 "C?" H 5335 3554 50  0000 R CNN
+F 1 "15PF" H 5335 3645 50  0000 R CNN
+F 2 "" H 5488 3450 50  0001 C CNN
+F 3 "~" H 5450 3600 50  0001 C CNN
+	1    5450 3600
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E5A6283
+P 5450 4850
+AR Path="/5E50B445/5E5A6283" Ref="C?"  Part="1" 
+AR Path="/5E50B445/5E51255D/5E5A6283" Ref="C?"  Part="1" 
+F 0 "C?" H 5335 4804 50  0000 R CNN
+F 1 "15PF" H 5335 4895 50  0000 R CNN
+F 2 "" H 5488 4700 50  0001 C CNN
+F 3 "~" H 5450 4850 50  0001 C CNN
+	1    5450 4850
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E5A628D
+P 5450 5450
+AR Path="/5E50B445/5E5A628D" Ref="C?"  Part="1" 
+AR Path="/5E50B445/5E51255D/5E5A628D" Ref="C?"  Part="1" 
+F 0 "C?" H 5335 5404 50  0000 R CNN
+F 1 "15PF" H 5335 5495 50  0000 R CNN
+F 2 "" H 5488 5300 50  0001 C CNN
+F 3 "~" H 5450 5450 50  0001 C CNN
+	1    5450 5450
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E522575
+P 7800 2650
+AR Path="/5E50B445/5E522575" Ref="C?"  Part="1" 
+AR Path="/5E50B445/5E51255D/5E522575" Ref="C?"  Part="1" 
+F 0 "C?" H 7685 2696 50  0000 R CNN
+F 1 "1U" H 7685 2605 50  0000 R CNN
+F 2 "" H 7838 2500 50  0001 C CNN
+F 3 "~" H 7800 2650 50  0001 C CNN
+	1    7800 2650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E5138C1
+P 9400 4500
+AR Path="/5E50B445/5E5138C1" Ref="C?"  Part="1" 
+AR Path="/5E50B445/5E51255D/5E5138C1" Ref="C?"  Part="1" 
+F 0 "C?" H 9515 4546 50  0000 L CNN
+F 1 "1U" H 9515 4455 50  0000 L CNN
+F 2 "" H 9438 4350 50  0001 C CNN
+F 3 "~" H 9400 4500 50  0001 C CNN
+	1    9400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E5138C9
+P 9800 4500
+AR Path="/5E50B445/5E5138C9" Ref="C?"  Part="1" 
+AR Path="/5E50B445/5E51255D/5E5138C9" Ref="C?"  Part="1" 
+F 0 "C?" H 9915 4546 50  0000 L CNN
+F 1 "1U" H 9915 4455 50  0000 L CNN
+F 2 "" H 9838 4350 50  0001 C CNN
+F 3 "~" H 9800 4500 50  0001 C CNN
+	1    9800 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L william_audio:DRV602 U?
+U 1 1 5E5138B9
+P 8500 4150
+AR Path="/5E50B445/5E5138B9" Ref="U?"  Part="1" 
+AR Path="/5E50B445/5E51255D/5E5138B9" Ref="U?"  Part="1" 
+F 0 "U?" H 8850 4750 60  0000 C CNN
+F 1 "DRV602" H 8500 4150 60  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 8600 4050 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/drv602.pdf" H 8250 4350 60  0001 C CNN
+	1    8500 4150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
