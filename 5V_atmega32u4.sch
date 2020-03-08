@@ -3,7 +3,7 @@ EELAYER 31 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -18,25 +18,25 @@ Comment7 ""
 Comment8 ""
 Comment9 ""
 $EndDescr
-Connection ~ 2450 3950
-Connection ~ 7700 1650
-Connection ~ 8100 1650
+Connection ~ 2400 2100
+Connection ~ 2600 1500
+Connection ~ 8550 1650
+Connection ~ 2400 1500
+Connection ~ 5600 5600
 Connection ~ 2000 3450
 Connection ~ 2000 3950
-Connection ~ 2400 2100
-Connection ~ 8100 1150
-Connection ~ 5600 1800
 Connection ~ 5700 1800
-Connection ~ 8550 1650
-Connection ~ 7700 1150
-Connection ~ 2400 1100
-Connection ~ 2800 1100
-Connection ~ 2600 1500
-Connection ~ 2400 2600
-Connection ~ 5600 5600
-Connection ~ 2400 1500
 Connection ~ 2450 3350
 Connection ~ 2850 3250
+Connection ~ 7700 1150
+Connection ~ 8100 1650
+Connection ~ 2450 3950
+Connection ~ 5600 1800
+Connection ~ 8100 1150
+Connection ~ 2400 2600
+Connection ~ 2400 1100
+Connection ~ 2800 1100
+Connection ~ 7700 1650
 Wire Wire Line
 	1750 3250 2850 3250
 Wire Wire Line

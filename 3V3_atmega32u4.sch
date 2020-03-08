@@ -3,7 +3,7 @@ EELAYER 31 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 10
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -18,24 +18,24 @@ Comment7 ""
 Comment8 ""
 Comment9 ""
 $EndDescr
-Connection ~ 2400 2600
-Connection ~ 7700 1150
-Connection ~ 5600 1800
-Connection ~ 2450 3350
-Connection ~ 2000 3950
-Connection ~ 2000 3450
-Connection ~ 2800 1100
-Connection ~ 8100 1150
 Connection ~ 7700 1650
-Connection ~ 2400 2100
-Connection ~ 8100 1650
-Connection ~ 5700 1800
 Connection ~ 2450 3950
-Connection ~ 5600 5600
-Connection ~ 2850 3250
-Connection ~ 2400 1500
-Connection ~ 2400 1100
 Connection ~ 8550 1650
+Connection ~ 2400 1100
+Connection ~ 2000 3950
+Connection ~ 2400 2100
+Connection ~ 8100 1150
+Connection ~ 5600 1800
+Connection ~ 8100 1650
+Connection ~ 2450 3350
+Connection ~ 2000 3450
+Connection ~ 2400 2600
+Connection ~ 2400 1500
+Connection ~ 2850 3250
+Connection ~ 5700 1800
+Connection ~ 7700 1150
+Connection ~ 2800 1100
+Connection ~ 5600 5600
 Wire Wire Line
 	1750 3250 2850 3250
 Wire Wire Line
@@ -593,6 +593,7 @@ U 1 1 5E2F4893
 P 8900 2700
 AR Path="/5E2F4893" Ref="J8"  Part="1" 
 AR Path="/5E1A8B1B/5E1FC528/5E2F4893" Ref="J8"  Part="1" 
+AR Path="/00000000/5E2F4893" Ref="J8"  Part="1" 
 F 0 "J8" H 8620 2796 50  0000 R CNN
 F 1 "AVR-ISP-6" H 8620 2705 50  0000 R CNN
 F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" V 8650 2750 50  0001 C CNN
@@ -606,6 +607,7 @@ U 1 1 5E1FCA92
 P 5700 3700
 AR Path="/5E1FCA92" Ref="U2"  Part="1" 
 AR Path="/5E1A8B1B/5E1FC528/5E1FCA92" Ref="U2"  Part="1" 
+AR Path="/00000000/5E1FCA92" Ref="U2"  Part="1" 
 F 0 "U2" H 6150 5450 50  0000 C CNN
 F 1 "ATmega32U4-AU" H 5600 3600 50  0000 C CNN
 F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 5700 3700 50  0001 C CIN
