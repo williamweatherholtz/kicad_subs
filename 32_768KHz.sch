@@ -48,17 +48,6 @@ Wire Wire Line
 Connection ~ 5150 4050
 Text Notes 4850 2650 0    50   ~ 0
 Cl = (C1*C2)/(C1 + C2) + Cparasitic\n\nlet C1 = C2\nCl = C1*C1/2*C1 + Cparasitic\nCl = C1/2 + Cparasitic\nCl - Cparasitic = C1/2\n2(Cl - Cparasitic) = C1\nC1 = 2(Cl - Cparasitic)\nCparasitic appx= 2pF - 5pF\n
-$Comp
-L Device:Crystal Y2
-U 1 1 5EEE4FBD
-P 5400 3700
-F 0 "Y2" H 5400 3968 50  0000 C CNN
-F 1 "ECX-.327-CDX-1293" H 5400 3877 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm" H 5400 3700 50  0001 C CNN
-F 3 "~" H 5400 3700 50  0001 C CNN
-	1    5400 3700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5150 4050 5650 4050
 Text Notes 6650 4100 0    50   ~ 0
@@ -83,4 +72,15 @@ $EndComp
 Connection ~ 5650 3700
 Wire Wire Line
 	5650 3700 5750 3700
+$Comp
+L william_crystal:ECX-.327-CDX-1293 Y2
+U 1 1 5EE21633
+P 5400 3700
+F 0 "Y2" H 5400 3968 50  0000 C CNN
+F 1 "ECX-.327-CDX-1293" H 5400 3877 50  0000 C CNN
+F 2 "william_crystal:ECX-.327-CDX-1293" H 5400 3700 50  0001 C CNN
+F 3 "~" H 5400 3700 50  0001 C CNN
+	1    5400 3700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

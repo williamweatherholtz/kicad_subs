@@ -364,11 +364,11 @@ Wire Wire Line
 	4400 3100 4900 3100
 Text Label 6550 3700 0    50   ~ 0
 SWO
-Text Label 8300 3400 0    50   ~ 0
+Text Label 6550 4700 0    50   ~ 0
 TIM4_CH1
-Text Label 8300 3500 0    50   ~ 0
+Text Label 6550 4600 0    50   ~ 0
 TIM4_CH2
-Text Label 8450 3700 0    50   ~ 0
+Text Label 6550 4800 0    50   ~ 0
 TIM4_CH3
 Text HLabel 7700 5600 0    50   Input ~ 0
 VBAT
@@ -413,20 +413,20 @@ Text Label 4400 3100 0    50   ~ 0
 SDIO_CMD
 Text HLabel 7000 4400 2    50   Output ~ 0
 SPI2_SCK
-Text HLabel 8900 3700 2    50   Output ~ 0
+Text HLabel 7000 4800 2    50   Output ~ 0
 TIM4_CH3
 Wire Wire Line
 	6300 4400 7000 4400
 Wire Wire Line
-	8200 3700 8900 3700
-Text HLabel 8750 3500 2    50   Output ~ 0
+	6300 4800 7000 4800
+Text HLabel 7000 4600 2    50   Output ~ 0
 TIM4_CH2
 Wire Wire Line
-	8050 3500 8750 3500
-Text HLabel 8750 3400 2    50   Output ~ 0
+	6300 4600 7000 4600
+Text HLabel 7000 4700 2    50   Output ~ 0
 TIM4_CH1
 Wire Wire Line
-	8050 3400 8750 3400
+	6300 4700 7000 4700
 Text HLabel 7000 3600 2    50   Output ~ 0
 SDIO_CK
 Wire Wire Line
@@ -468,20 +468,20 @@ Wire Wire Line
 Wire Wire Line
 	6300 4100 7000 4100
 Wire Wire Line
-	6300 2900 7000 2900
+	4900 4000 4200 4000
 Wire Wire Line
 	6300 3900 7000 3900
 Wire Wire Line
-	6300 2800 7000 2800
+	4900 3900 4200 3900
 Text HLabel 7000 3900 2    50   Input ~ 0
 EXTI_0
 Text HLabel 7000 4000 2    50   Input ~ 0
 EXTI_1
 Text HLabel 7000 4100 2    50   Input ~ 0
 EXTI_2
-Text HLabel 7000 2800 2    50   Input ~ 0
+Text HLabel 4200 3900 0    50   Input ~ 0
 EXTI_3
-Text HLabel 7000 2900 2    50   Input ~ 0
+Text HLabel 4200 4000 0    50   Input ~ 0
 EXTI_4
 Text HLabel 4400 3600 0    50   Input ~ 0
 EXTI_5
@@ -489,25 +489,21 @@ Text HLabel 4400 3700 0    50   Input ~ 0
 EXTI_6
 Text HLabel 7000 3200 2    50   Input ~ 0
 EXTI_7
-Text HLabel 6800 4200 2    50   Input ~ 0
+Text HLabel 7000 4200 2    50   Input ~ 0
 EXTI_8
-Text HLabel 6800 4300 2    50   Input ~ 0
+Text HLabel 7000 4300 2    50   Input ~ 0
 EXTI_9
 Wire Wire Line
 	4400 3600 4900 3600
 Wire Wire Line
 	4400 3700 4900 3700
 Wire Wire Line
-	6800 4200 6300 4200
+	7000 4200 6300 4200
 Wire Wire Line
-	6800 4300 6300 4300
+	7000 4300 6300 4300
 NoConn ~ 4900 4600
 NoConn ~ 4900 4200
 NoConn ~ 4900 3300
-NoConn ~ 6300 4500
-NoConn ~ 6300 4600
-NoConn ~ 6300 4700
-NoConn ~ 6300 4800
 NoConn ~ 6300 1800
 NoConn ~ 6300 1900
 NoConn ~ 6300 2000
@@ -562,4 +558,8 @@ Wire Wire Line
 	4900 4500 4400 4500
 Wire Wire Line
 	7000 3200 6300 3200
+Text HLabel 7000 4500 2    50   Input ~ 0
+EXTI_10
+Wire Wire Line
+	7000 4500 6300 4500
 $EndSCHEMATC
