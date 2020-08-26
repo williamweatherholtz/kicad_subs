@@ -1,5 +1,5 @@
-EESchema Schematic File Version 5
-EELAYER 31 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -12,11 +12,6 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
-Comment5 ""
-Comment6 ""
-Comment7 ""
-Comment8 ""
-Comment9 ""
 $EndDescr
 Connection ~ 5900 3100
 Connection ~ 4850 3600
@@ -73,7 +68,7 @@ Ireg[mA] = 1000V / Rprog[kΩ]\nPROG <-> Rprog <-> GND
 Text Notes 6850 3200 0    50   ~ 0
 LOW ON CHARGING\nHIGH Z OTHERWISE \n(OPEN DRAIN)
 Text Notes 7100 2600 0    50   ~ 0
-Blue
+Blue pref, for low current consumption
 Text HLabel 2300 2900 0    50   Input ~ 0
 VIN
 Text HLabel 2300 3400 0    50   Input ~ 0
