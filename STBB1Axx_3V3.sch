@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 13
+Sheet 8 10
 Title ""
 Date ""
 Rev ""
@@ -20,9 +20,10 @@ P 6550 2700
 AR Path="/5C3F7E47/5C19AC23" Ref="U?"  Part="1" 
 AR Path="/5C3FDE71/5C19AC23" Ref="U?"  Part="1" 
 AR Path="/5C3FF9CB/5C19AC23" Ref="U?"  Part="1" 
-AR Path="/5EC42040/5C19AC23" Ref="U1"  Part="1" 
+AR Path="/5EC42040/5C19AC23" Ref="U?"  Part="1" 
 AR Path="/5EC44D2D/5C19AC23" Ref="U?"  Part="1" 
-F 0 "U1" H 7050 3200 50  0000 L CNN
+AR Path="/5F8899D0/5C19AC23" Ref="U5"  Part="1" 
+F 0 "U5" H 7050 3200 50  0000 L CNN
 F 1 "STBB1-Axx" H 6400 2700 50  0000 L CNN
 F 2 "Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.7x2.5mm" H 6250 2850 50  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/20/a6/10/e0/63/85/43/c1/DM00037824.pdf/files/DM00037824.pdf/jcr:content/translations/en.DM00037824.pdf" H 6250 2850 50  0001 C CNN
@@ -38,9 +39,10 @@ P 5750 2500
 AR Path="/5C3F7E47/5C3F8159" Ref="L?"  Part="1" 
 AR Path="/5C3FDE71/5C3F8159" Ref="L?"  Part="1" 
 AR Path="/5C3FF9CB/5C3F8159" Ref="L?"  Part="1" 
-AR Path="/5EC42040/5C3F8159" Ref="L1"  Part="1" 
+AR Path="/5EC42040/5C3F8159" Ref="L?"  Part="1" 
 AR Path="/5EC44D2D/5C3F8159" Ref="L?"  Part="1" 
-F 0 "L1" H 5709 2454 50  0000 R CNN
+AR Path="/5F8899D0/5C3F8159" Ref="L2"  Part="1" 
+F 0 "L2" H 5709 2454 50  0000 R CNN
 F 1 "2U2" H 5709 2545 50  0000 R CNN
 F 2 "william_inductor:L_Taiyo-Yuden_MD-4040" H 5750 2500 50  0001 C CNN
 F 3 "~" H 5750 2500 50  0001 C CNN
@@ -70,9 +72,10 @@ P 7850 2800
 AR Path="/5C3F7E47/5C3F962C" Ref="C?"  Part="1" 
 AR Path="/5C3FDE71/5C3F962C" Ref="C?"  Part="1" 
 AR Path="/5C3FF9CB/5C3F962C" Ref="C?"  Part="1" 
-AR Path="/5EC42040/5C3F962C" Ref="C3"  Part="1" 
+AR Path="/5EC42040/5C3F962C" Ref="C?"  Part="1" 
 AR Path="/5EC44D2D/5C3F962C" Ref="C?"  Part="1" 
-F 0 "C3" H 7965 2846 50  0000 L CNN
+AR Path="/5F8899D0/5C3F962C" Ref="C23"  Part="1" 
+F 0 "C23" H 7965 2846 50  0000 L CNN
 F 1 "22U" H 7965 2755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7888 2650 50  0001 C CNN
 F 3 "~" H 7850 2800 50  0001 C CNN
@@ -95,12 +98,13 @@ Wire Wire Line
 Text Notes 2800 2450 0    50   ~ 0
 Inductor NRS4018T2R2MDGJ
 $Comp
-L Device:R_US R4
+L Device:R_US R?
 U 1 1 5C4016F0
 P 7350 2550
-AR Path="/5EC42040/5C4016F0" Ref="R4"  Part="1" 
+AR Path="/5EC42040/5C4016F0" Ref="R?"  Part="1" 
 AR Path="/5EC44D2D/5C4016F0" Ref="R?"  Part="1" 
-F 0 "R4" H 7418 2596 50  0000 L CNN
+AR Path="/5F8899D0/5C4016F0" Ref="R20"  Part="1" 
+F 0 "R20" H 7418 2596 50  0000 L CNN
 F 1 "560K" H 7418 2505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7390 2540 50  0001 C CNN
 F 3 "~" H 7350 2550 50  0001 C CNN
@@ -108,12 +112,13 @@ F 3 "~" H 7350 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R5
+L Device:R_US R?
 U 1 1 5C40195B
 P 7350 3200
-AR Path="/5EC42040/5C40195B" Ref="R5"  Part="1" 
+AR Path="/5EC42040/5C40195B" Ref="R?"  Part="1" 
 AR Path="/5EC44D2D/5C40195B" Ref="R?"  Part="1" 
-F 0 "R5" H 7418 3246 50  0000 L CNN
+AR Path="/5F8899D0/5C40195B" Ref="R21"  Part="1" 
+F 0 "R21" H 7418 3246 50  0000 L CNN
 F 1 "100K" H 7418 3155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7390 3190 50  0001 C CNN
 F 3 "~" H 7350 3200 50  0001 C CNN
@@ -133,9 +138,10 @@ P 5200 2800
 AR Path="/5C3F7E47/5C4065EB" Ref="C?"  Part="1" 
 AR Path="/5C3FDE71/5C4065EB" Ref="C?"  Part="1" 
 AR Path="/5C3FF9CB/5C4065EB" Ref="C?"  Part="1" 
-AR Path="/5EC42040/5C4065EB" Ref="C2"  Part="1" 
+AR Path="/5EC42040/5C4065EB" Ref="C?"  Part="1" 
 AR Path="/5EC44D2D/5C4065EB" Ref="C?"  Part="1" 
-F 0 "C2" H 5315 2846 50  0000 L CNN
+AR Path="/5F8899D0/5C4065EB" Ref="C22"  Part="1" 
+F 0 "C22" H 5315 2846 50  0000 L CNN
 F 1 "10U" H 5315 2755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5238 2650 50  0001 C CNN
 F 3 "~" H 5200 2800 50  0001 C CNN
@@ -177,9 +183,10 @@ P 8050 2800
 AR Path="/5C3F7E47/5C414242" Ref="C?"  Part="1" 
 AR Path="/5C3FDE71/5C414242" Ref="C?"  Part="1" 
 AR Path="/5C3FF9CB/5C414242" Ref="C?"  Part="1" 
-AR Path="/5EC42040/5C414242" Ref="C4"  Part="1" 
+AR Path="/5EC42040/5C414242" Ref="C?"  Part="1" 
 AR Path="/5EC44D2D/5C414242" Ref="C?"  Part="1" 
-F 0 "C4" H 8165 2846 50  0000 L CNN
+AR Path="/5F8899D0/5C414242" Ref="C24"  Part="1" 
+F 0 "C24" H 8165 2846 50  0000 L CNN
 F 1 "100N" H 8165 2755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8088 2650 50  0001 C CNN
 F 3 "~" H 8050 2800 50  0001 C CNN
@@ -204,9 +211,10 @@ P 5000 2800
 AR Path="/5C3F7E47/5C418C6E" Ref="C?"  Part="1" 
 AR Path="/5C3FDE71/5C418C6E" Ref="C?"  Part="1" 
 AR Path="/5C3FF9CB/5C418C6E" Ref="C?"  Part="1" 
-AR Path="/5EC42040/5C418C6E" Ref="C1"  Part="1" 
+AR Path="/5EC42040/5C418C6E" Ref="C?"  Part="1" 
 AR Path="/5EC44D2D/5C418C6E" Ref="C?"  Part="1" 
-F 0 "C1" H 5115 2846 50  0000 L CNN
+AR Path="/5F8899D0/5C418C6E" Ref="C21"  Part="1" 
+F 0 "C21" H 5115 2846 50  0000 L CNN
 F 1 "100N" H 5115 2755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5038 2650 50  0001 C CNN
 F 3 "~" H 5000 2800 50  0001 C CNN

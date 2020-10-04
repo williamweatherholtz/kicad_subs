@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 3 10
 Title ""
 Date ""
 Rev ""
@@ -41,10 +41,10 @@ Wire Wire Line
 Wire Wire Line
 	3900 2500 4350 2500
 $Comp
-L Device:R R3
+L Device:R R4
 U 1 1 5F76696E
 P 4550 3000
-F 0 "R3" H 4620 3046 50  0000 L CNN
+F 0 "R4" H 4620 3046 50  0000 L CNN
 F 1 "10K" H 4620 2955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 3000 50  0001 C CNN
 F 3 "~" H 4550 3000 50  0001 C CNN

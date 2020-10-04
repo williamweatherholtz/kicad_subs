@@ -1,0 +1,328 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L william_dc_dc:PAM2423AECADJR U4
+U 1 1 5F859E56
+P 5350 3350
+F 0 "U4" H 5350 3817 50  0000 C CNN
+F 1 "PAM2423AECADJR" H 5350 3726 50  0000 C CNN
+F 2 "Package_SO:HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.4x3.2mm_ThermalVias" H 4750 3950 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Diodes%20PDFs/PAM2421,22,23.pdf" H 5000 3100 50  0001 C CNN
+	1    5350 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C13
+U 1 1 5F85A461
+P 2600 3400
+F 0 "C13" H 2718 3446 50  0000 L CNN
+F 1 "470U" H 2718 3355 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 2638 3250 50  0001 C CNN
+F 3 "~" H 2600 3400 50  0001 C CNN
+F 4 "860010273011" H 2600 3400 50  0001 C CNN "MPN"
+	1    2600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C14
+U 1 1 5F85A814
+P 3050 3400
+F 0 "C14" H 3165 3446 50  0000 L CNN
+F 1 "10U" H 3165 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3088 3250 50  0001 C CNN
+F 3 "~" H 3050 3400 50  0001 C CNN
+	1    3050 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C16
+U 1 1 5F85AACF
+P 3500 3400
+F 0 "C16" H 3615 3446 50  0000 L CNN
+F 1 "1U" H 3615 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3538 3250 50  0001 C CNN
+F 3 "~" H 3500 3400 50  0001 C CNN
+	1    3500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C15
+U 1 1 5F85AD96
+P 3150 4600
+F 0 "C15" H 3265 4646 50  0000 L CNN
+F 1 "2N2" H 3265 4555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3188 4450 50  0001 C CNN
+F 3 "~" H 3150 4600 50  0001 C CNN
+	1    3150 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 5F85B01D
+P 3150 4300
+F 0 "R17" H 3220 4346 50  0000 L CNN
+F 1 "51K" H 3220 4255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 4300 50  0001 C CNN
+F 3 "~" H 3150 4300 50  0001 C CNN
+	1    3150 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C17
+U 1 1 5F85B4BE
+P 3550 4450
+F 0 "C17" H 3665 4496 50  0000 L CNN
+F 1 "47P" H 3665 4405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3588 4300 50  0001 C CNN
+F 3 "~" H 3550 4450 50  0001 C CNN
+	1    3550 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L1
+U 1 1 5F85C0E6
+P 5350 2700
+F 0 "L1" V 5540 2700 50  0000 C CNN
+F 1 "6U8" V 5449 2700 50  0000 C CNN
+F 2 "Inductor_SMD:L_Bourns_SRN6045TA" H 5350 2700 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/SRN6045TA.pdf" H 5350 2700 50  0001 C CNN
+F 4 "SRN6045TA-6R8M" V 5350 2700 50  0001 C CNN "MPN"
+	1    5350 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C18
+U 1 1 5F85C965
+P 5950 3700
+F 0 "C18" H 6065 3746 50  0000 L CNN
+F 1 "10N" H 6065 3655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5988 3550 50  0001 C CNN
+F 3 "~" H 5950 3700 50  0001 C CNN
+	1    5950 3700
+	1    0    0    -1  
+$EndComp
+Text Notes 5850 3300 0    50   ~ 0
+V_FB := 1.262V
+Text HLabel 2500 3150 0    50   Input ~ 0
+VIN
+Text HLabel 7950 2700 2    50   Input ~ 0
+6V5
+Text HLabel 5150 3850 0    50   Input ~ 0
+GND
+Text HLabel 4850 3350 0    50   Input ~ 0
+EN
+$Comp
+L Device:D_Schottky D3
+U 1 1 5F85ECBA
+P 6250 2700
+F 0 "D3" H 6250 2483 50  0000 C CNN
+F 1 "SS34" H 6250 2574 50  0000 C CNN
+F 2 "Diode_SMD:D_SMC" H 6250 2700 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/SS39-D.PDF" H 6250 2700 50  0001 C CNN
+F 4 "SS34" H 6250 2700 50  0001 C CNN "MPN"
+	1    6250 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 5F85F62A
+P 6750 3150
+F 0 "R18" H 6820 3196 50  0000 L CNN
+F 1 "91K" H 6820 3105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6680 3150 50  0001 C CNN
+F 3 "~" H 6750 3150 50  0001 C CNN
+	1    6750 3150
+	1    0    0    -1  
+$EndComp
+Text HLabel 2500 3650 0    50   Input ~ 0
+GND
+Wire Wire Line
+	2500 3150 2600 3150
+Wire Wire Line
+	3500 3150 3500 3250
+Wire Wire Line
+	3500 3550 3500 3650
+Wire Wire Line
+	3500 3650 3050 3650
+Wire Wire Line
+	2600 3550 2600 3650
+Connection ~ 2600 3650
+Wire Wire Line
+	2600 3650 2500 3650
+Wire Wire Line
+	3050 3550 3050 3650
+Connection ~ 3050 3650
+Wire Wire Line
+	3050 3650 2600 3650
+Wire Wire Line
+	2600 3250 2600 3150
+Connection ~ 2600 3150
+Wire Wire Line
+	2600 3150 3050 3150
+Wire Wire Line
+	3050 3250 3050 3150
+Connection ~ 3050 3150
+Wire Wire Line
+	3050 3150 3500 3150
+Text HLabel 3050 4850 0    50   Input ~ 0
+GND
+Wire Wire Line
+	3050 4850 3150 4850
+Wire Wire Line
+	3550 4850 3550 4600
+Wire Wire Line
+	3150 4750 3150 4850
+Connection ~ 3150 4850
+Wire Wire Line
+	3150 4850 3550 4850
+Text Label 3650 4100 0    50   ~ 0
+COMP
+Wire Wire Line
+	3650 4100 3550 4100
+Wire Wire Line
+	3150 4100 3150 4150
+Wire Wire Line
+	3550 4300 3550 4100
+Connection ~ 3550 4100
+Wire Wire Line
+	3550 4100 3150 4100
+Text Label 4600 3550 0    50   ~ 0
+COMP
+Wire Wire Line
+	4600 3550 4850 3550
+Wire Wire Line
+	5150 3850 5250 3850
+Wire Wire Line
+	5450 3850 5450 3750
+Wire Wire Line
+	5250 3750 5250 3850
+Connection ~ 5250 3850
+Wire Wire Line
+	5250 3850 5450 3850
+Wire Wire Line
+	3500 3150 4600 3150
+Connection ~ 3500 3150
+Wire Wire Line
+	5200 2700 4600 2700
+Wire Wire Line
+	4600 2700 4600 3150
+Connection ~ 4600 3150
+Wire Wire Line
+	4600 3150 4850 3150
+Wire Wire Line
+	5500 2700 5950 2700
+Wire Wire Line
+	5950 2700 5950 3150
+Wire Wire Line
+	5950 3150 5850 3150
+Wire Wire Line
+	5950 3850 5450 3850
+Connection ~ 5450 3850
+Wire Wire Line
+	5950 3550 5850 3550
+$Comp
+L Device:R R19
+U 1 1 5F868B16
+P 6750 3550
+F 0 "R19" H 6820 3596 50  0000 L CNN
+F 1 "22K" H 6820 3505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6680 3550 50  0001 C CNN
+F 3 "~" H 6750 3550 50  0001 C CNN
+	1    6750 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 3700 6750 3850
+Wire Wire Line
+	6750 3850 5950 3850
+Connection ~ 5950 3850
+$Comp
+L Device:CP C20
+U 1 1 5F86A2A7
+P 7850 3250
+F 0 "C20" H 7968 3296 50  0000 L CNN
+F 1 "470U" H 7968 3205 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 7888 3100 50  0001 C CNN
+F 3 "~" H 7850 3250 50  0001 C CNN
+F 4 "860010273011" H 7850 3250 50  0001 C CNN "MPN"
+	1    7850 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C19
+U 1 1 5F86A5FD
+P 7400 3250
+F 0 "C19" H 7515 3296 50  0000 L CNN
+F 1 "10U" H 7515 3205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7438 3100 50  0001 C CNN
+F 3 "~" H 7400 3250 50  0001 C CNN
+	1    7400 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2700 5950 2700
+Connection ~ 5950 2700
+Wire Wire Line
+	6400 2700 6750 2700
+Wire Wire Line
+	6750 2700 6750 3000
+Wire Wire Line
+	5850 3350 6750 3350
+Wire Wire Line
+	6750 3350 6750 3300
+Wire Wire Line
+	6750 3400 6750 3350
+Connection ~ 6750 3350
+Wire Wire Line
+	7400 3100 7400 2700
+Wire Wire Line
+	7400 2700 6750 2700
+Connection ~ 6750 2700
+Wire Wire Line
+	7850 3100 7850 2700
+Wire Wire Line
+	7850 2700 7600 2700
+Connection ~ 7400 2700
+Wire Wire Line
+	7850 3400 7850 3850
+Wire Wire Line
+	7850 3850 7400 3850
+Connection ~ 6750 3850
+Wire Wire Line
+	7400 3400 7400 3850
+Connection ~ 7400 3850
+Wire Wire Line
+	7400 3850 6750 3850
+Wire Wire Line
+	7950 2700 7850 2700
+Connection ~ 7850 2700
+Text Notes 4300 3400 0    50   ~ 0
+> 1.4V 
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F8A657A
+P 7600 2700
+F 0 "#FLG0101" H 7600 2775 50  0001 C CNN
+F 1 "PWR_FLAG" H 7600 2873 50  0000 C CNN
+F 2 "" H 7600 2700 50  0001 C CNN
+F 3 "~" H 7600 2700 50  0001 C CNN
+	1    7600 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 7600 2700
+Wire Wire Line
+	7600 2700 7400 2700
+$EndSCHEMATC
