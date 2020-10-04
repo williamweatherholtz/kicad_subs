@@ -22,8 +22,8 @@ AR Path="/5C3FDE71/5C19AC23" Ref="U?"  Part="1"
 AR Path="/5C3FF9CB/5C19AC23" Ref="U?"  Part="1" 
 AR Path="/5EC42040/5C19AC23" Ref="U?"  Part="1" 
 AR Path="/5EC44D2D/5C19AC23" Ref="U?"  Part="1" 
-AR Path="/5F8899D0/5C19AC23" Ref="U5"  Part="1" 
-F 0 "U5" H 7050 3200 50  0000 L CNN
+AR Path="/5F8899D0/5C19AC23" Ref="U6"  Part="1" 
+F 0 "U6" H 7050 3200 50  0000 L CNN
 F 1 "STBB1-Axx" H 6400 2700 50  0000 L CNN
 F 2 "Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.7x2.5mm" H 6250 2850 50  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/20/a6/10/e0/63/85/43/c1/DM00037824.pdf/files/DM00037824.pdf/jcr:content/translations/en.DM00037824.pdf" H 6250 2850 50  0001 C CNN

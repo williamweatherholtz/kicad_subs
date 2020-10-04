@@ -13,31 +13,11 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L dk_RF-Transceiver-Modules:ESP32-WROOM-32 MOD1
-U 1 1 5F78B3B3
-P 6250 2500
-F 0 "MOD1" H 6900 2550 60  0000 C CNN
-F 1 "ESP32-WROOM-32" V 6450 1600 60  0000 C CNN
-F 2 "digikey-footprints:ESP32-WROOM-32D" H 6450 2700 60  0001 L CNN
-F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 6450 2800 60  0001 L CNN
-F 4 "1904-1010-1-ND" H 6450 2900 60  0001 L CNN "Digi-Key_PN"
-F 5 "ESP32-WROOM-32" H 6450 3000 60  0001 L CNN "MPN"
-F 6 "RF/IF and RFID" H 6450 3100 60  0001 L CNN "Category"
-F 7 "RF Transceiver Modules" H 6450 3200 60  0001 L CNN "Family"
-F 8 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 6450 3300 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/espressif-systems/ESP32-WROOM-32/1904-1010-1-ND/8544305" H 6450 3400 60  0001 L CNN "DK_Detail_Page"
-F 10 "SMD MODULE, ESP32-D0WDQ6, 32MBIT" H 6450 3500 60  0001 L CNN "Description"
-F 11 "Espressif Systems" H 6450 3600 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 6450 3700 60  0001 L CNN "Status"
-	1    6250 2500
-	1    0    0    -1  
-$EndComp
-Text HLabel 6350 2300 0    50   Input ~ 0
+Text HLabel 8700 1750 0    50   Input ~ 0
 3V3
-Text Label 7150 3400 0    50   ~ 0
+Text Label 9400 2150 0    50   ~ 0
 ESP_TX
-Text Label 7150 3500 0    50   ~ 0
+Text Label 9400 2350 0    50   ~ 0
 ESP_RX
 $Sheet
 S 1800 3600 1100 600 
@@ -97,13 +77,13 @@ Text HLabel 1550 900  0    50   Input ~ 0
 3V3
 Text HLabel 1550 1400 0    50   Input ~ 0
 GND
-Text HLabel 6150 4700 0    50   Input ~ 0
+Text HLabel 8700 4750 0    50   Input ~ 0
 GND
 $Comp
-L Switch:SW_SPST SW3
+L Switch:SW_SPST SW2
 U 1 1 5F7A68A0
 P 2300 6250
-F 0 "SW3" V 2346 6348 50  0000 L CNN
+F 0 "SW2" V 2346 6348 50  0000 L CNN
 F 1 "SW_BOOT" V 2255 6348 50  0000 L CNN
 F 2 "william_switch:TS-1187A-x-x-x" H 2300 6250 50  0001 C CNN
 F 3 "~" H 2300 6250 50  0001 C CNN
@@ -111,10 +91,10 @@ F 3 "~" H 2300 6250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_SPST SW2
+L Switch:SW_SPST SW1
 U 1 1 5F7A70D6
 P 1300 6250
-F 0 "SW2" V 1254 6348 50  0000 L CNN
+F 0 "SW1" V 1254 6348 50  0000 L CNN
 F 1 "SW_EN" V 1345 6348 50  0000 L CNN
 F 2 "william_switch:TS-1187A-x-x-x" H 1300 6250 50  0001 C CNN
 F 3 "~" H 1300 6250 50  0001 C CNN
@@ -186,12 +166,12 @@ Wire Wire Line
 Connection ~ 1300 6550
 Wire Wire Line
 	1300 6550 1500 6550
-Text Label 5300 2600 0    50   ~ 0
+Text Label 7750 2050 0    50   ~ 0
 EN
-Text Label 5300 2700 0    50   ~ 0
+Text Label 9850 2050 2    50   ~ 0
 BOOT
 Wire Wire Line
-	5300 2600 5750 2600
+	7750 2050 8200 2050
 $Comp
 L Device:R R12
 U 1 1 5F7AED8F
@@ -267,28 +247,9 @@ Wire Wire Line
 	4050 6850 4050 7250
 Connection ~ 4050 7250
 Wire Wire Line
-	6350 2300 6450 2300
+	8700 1750 8800 1750
 Wire Wire Line
-	6450 2300 6450 2400
-Wire Wire Line
-	6150 4700 6250 4700
-Wire Wire Line
-	6550 4700 6550 4600
-Wire Wire Line
-	6450 4600 6450 4700
-Connection ~ 6450 4700
-Wire Wire Line
-	6450 4700 6550 4700
-Wire Wire Line
-	6350 4600 6350 4700
-Connection ~ 6350 4700
-Wire Wire Line
-	6350 4700 6450 4700
-Wire Wire Line
-	6250 4600 6250 4700
-Connection ~ 6250 4700
-Wire Wire Line
-	6250 4700 6350 4700
+	8800 1750 8800 1850
 $Comp
 L Device:C C8
 U 1 1 5F7B9509
@@ -354,100 +315,115 @@ Wire Wire Line
 Wire Wire Line
 	2650 1400 2650 1300
 Connection ~ 2150 1400
-Text HLabel 5050 2800 0    50   Input ~ 0
+Text HLabel 10100 2250 2    50   Input ~ 0
 IO2
-Text HLabel 5050 2900 0    50   Input ~ 0
+Text HLabel 10100 2450 2    50   Input ~ 0
 IO4
-Text HLabel 5050 3000 0    50   Input ~ 0
+Text HLabel 10100 2550 2    50   Input ~ 0
 IO5
-Text HLabel 5050 3100 0    50   Input ~ 0
+Text HLabel 10100 2650 2    50   Input ~ 0
 IO12
-Text HLabel 5050 3200 0    50   Input ~ 0
+Text HLabel 10100 2750 2    50   Input ~ 0
 IO13
-Text HLabel 5050 3300 0    50   Input ~ 0
+Text HLabel 10100 2850 2    50   Input ~ 0
 IO14
-Text HLabel 5050 3400 0    50   Input ~ 0
+Text HLabel 10100 2950 2    50   Input ~ 0
 IO15
-Text HLabel 5050 3500 0    50   Input ~ 0
+Text HLabel 10100 3050 2    50   Input ~ 0
 IO16
-Text HLabel 5050 3600 0    50   Input ~ 0
+Text HLabel 10100 3150 2    50   Input ~ 0
 IO17
-Text HLabel 5050 3700 0    50   Input ~ 0
+Text HLabel 10100 3250 2    50   Input ~ 0
 IO18
-Text HLabel 5050 3800 0    50   Input ~ 0
+Text HLabel 10100 3350 2    50   Input ~ 0
 IO19
-Text HLabel 5050 3900 0    50   Input ~ 0
+Text HLabel 10100 3450 2    50   Input ~ 0
 IO21
-Text HLabel 5050 4000 0    50   Input ~ 0
+Text HLabel 10100 3550 2    50   Input ~ 0
 IO22
-Text HLabel 5050 4100 0    50   Input ~ 0
+Text HLabel 10100 3650 2    50   Input ~ 0
 IO23
-Text HLabel 5050 4200 0    50   Input ~ 0
+Text HLabel 10100 3750 2    50   Input ~ 0
 IO25
-Text HLabel 5050 4300 0    50   Input ~ 0
+Text HLabel 10100 3850 2    50   Input ~ 0
 IO26
-Text HLabel 5050 4400 0    50   Input ~ 0
+Text HLabel 10100 3950 2    50   Input ~ 0
 IO27
-Text HLabel 7150 4000 2    50   Input ~ 0
+Text HLabel 9400 4050 2    50   Input ~ 0
 IO32
-Text HLabel 7150 3900 2    50   Input ~ 0
+Text HLabel 9400 4150 2    50   Input ~ 0
 IO33
-Text HLabel 7150 3800 2    50   Input ~ 0
+Text HLabel 9400 4250 2    50   Input ~ 0
 IO34
-Text HLabel 7150 3700 2    50   Input ~ 0
+Text HLabel 9400 4350 2    50   Input ~ 0
 IO35
 Wire Wire Line
-	5050 4400 5750 4400
+	10100 3950 9400 3950
 Wire Wire Line
-	5050 2800 5750 2800
+	10100 2250 9400 2250
 Wire Wire Line
-	5050 2900 5750 2900
+	10100 2450 9400 2450
 Wire Wire Line
-	5050 3000 5750 3000
+	10100 2550 9400 2550
 Wire Wire Line
-	5050 3100 5750 3100
+	10100 2650 9400 2650
 Wire Wire Line
-	5050 3200 5750 3200
+	10100 2750 9400 2750
 Wire Wire Line
-	5050 3300 5750 3300
+	10100 2850 9400 2850
 Wire Wire Line
-	5050 3400 5750 3400
+	10100 2950 9400 2950
 Wire Wire Line
-	5050 3500 5750 3500
+	10100 3050 9400 3050
 Wire Wire Line
-	5050 3600 5750 3600
+	10100 3150 9400 3150
 Wire Wire Line
-	5050 3700 5750 3700
+	10100 3250 9400 3250
 Wire Wire Line
-	5050 3800 5750 3800
+	10100 3350 9400 3350
 Wire Wire Line
-	5050 3900 5750 3900
+	10100 3450 9400 3450
 Wire Wire Line
-	5050 4000 5750 4000
+	10100 3550 9400 3550
 Wire Wire Line
-	5050 4100 5750 4100
+	10100 3650 9400 3650
 Wire Wire Line
-	5050 4200 5750 4200
+	10100 3750 9400 3750
 Wire Wire Line
-	5050 4300 5750 4300
-Text HLabel 7150 2600 2    50   Input ~ 0
+	10100 3850 9400 3850
+Text HLabel 8200 2250 0    50   Input ~ 0
 SENSOR_VP
-Text HLabel 7150 2700 2    50   Input ~ 0
+Text HLabel 8200 2350 0    50   Input ~ 0
 SENSOR_VN
-Text HLabel 7150 2800 2    50   Input ~ 0
+Text HLabel 8200 3450 0    50   Input ~ 0
 SHD_SD2
-Text HLabel 7150 2900 2    50   Input ~ 0
+Text HLabel 8200 3550 0    50   Input ~ 0
 SWP_SD3
-Text HLabel 7150 3000 2    50   Input ~ 0
+Text HLabel 8200 3750 0    50   Input ~ 0
 SCS_CMD
-Text HLabel 7150 3100 2    50   Input ~ 0
+Text HLabel 8200 3650 0    50   Input ~ 0
 SCK_CLK
-Text HLabel 7150 3200 2    50   Input ~ 0
+Text HLabel 8200 3250 0    50   Input ~ 0
 SDO_SD0
-Text HLabel 7150 3300 2    50   Input ~ 0
+Text HLabel 8200 3350 0    50   Input ~ 0
 SDI_SD1
 Wire Wire Line
-	5050 2700 5750 2700
-Text HLabel 5050 2700 0    50   Input ~ 0
+	10050 2050 9400 2050
+Text HLabel 10050 2050 2    50   Input ~ 0
 IO0
+$Comp
+L RF_Module:ESP32-WROOM-32 U3
+U 1 1 5F963B89
+P 8800 3250
+F 0 "U3" H 9200 4600 50  0000 C CNN
+F 1 "ESP32-WROOM-32" V 8800 3350 50  0000 C CNN
+F 2 "RF_Module:ESP32-WROOM-32" H 8800 1750 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 8500 3300 50  0001 C CNN
+	1    8800 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 4750 8800 4750
+Wire Wire Line
+	8800 4750 8800 4650
 $EndSCHEMATC
