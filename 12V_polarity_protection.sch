@@ -23,6 +23,7 @@ F 0 "Q1" V 4892 2600 50  0000 C CNN
 F 1 "SI7615ADN-T1-GE3" V 4801 2600 50  0000 C CNN
 F 2 "Package_SO:Vishay_PowerPAK_1212-8_Single" H 4750 2700 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/62667/si7615adn.pdf" H 4550 2600 50  0001 C CNN
+F 4 "SI7615ADN-T1-GE3" V 4550 2600 50  0001 C CNN "MPN"
 	1    4550 2600
 	0    -1   -1   0   
 $EndComp
