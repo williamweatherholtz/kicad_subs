@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 11
+Sheet 3 17
 Title ""
 Date ""
 Rev ""
@@ -33,15 +33,15 @@ Wire Wire Line
 Wire Wire Line
 	5700 5100 5700 5000
 Connection ~ 5600 5100
-Text HLabel 5300 1400 0    50   Input ~ 0
-VBAT
 $Comp
-L Device:C_Small C13
+L Device:C_Small C17
 U 1 1 5B322B70
 P 1000 2550
-AR Path="/5F7173C7/5B322B70" Ref="C13"  Part="1" 
-AR Path="/5F7270DA/5B322B70" Ref="C27"  Part="1" 
-F 0 "C27" H 1092 2596 50  0000 L CNN
+AR Path="/5F7173C7/5B322B70" Ref="C17"  Part="1" 
+AR Path="/5F7270DA/5B322B70" Ref="C?"  Part="1" 
+AR Path="/5F7429EF/5B322B70" Ref="C?"  Part="1" 
+AR Path="/5F8813F3/5B322B70" Ref="C28"  Part="1" 
+F 0 "C28" H 1092 2596 50  0000 L CNN
 F 1 "2U2" H 1092 2505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 1000 2550 50  0001 C CNN
 F 3 "" H 1000 2550 50  0001 C CNN
@@ -53,14 +53,11 @@ Wire Wire Line
 Wire Wire Line
 	1000 2400 700  2400
 Wire Wire Line
-	5500 1250 5500 1400
-Wire Wire Line
 	5500 1400 5500 1500
 Wire Wire Line
 	5500 1400 5600 1400
 Wire Wire Line
 	5600 1400 5600 1500
-Connection ~ 5500 1400
 Wire Wire Line
 	5600 1400 5700 1400
 Wire Wire Line
@@ -72,12 +69,14 @@ Wire Wire Line
 	5800 1400 5800 1500
 Connection ~ 5700 1400
 $Comp
-L Device:C C15
+L Device:C C19
 U 1 1 5B32459A
 P 4100 6950
-AR Path="/5F7173C7/5B32459A" Ref="C15"  Part="1" 
-AR Path="/5F7270DA/5B32459A" Ref="C29"  Part="1" 
-F 0 "C29" H 4215 6996 50  0000 L CNN
+AR Path="/5F7173C7/5B32459A" Ref="C19"  Part="1" 
+AR Path="/5F7270DA/5B32459A" Ref="C?"  Part="1" 
+AR Path="/5F7429EF/5B32459A" Ref="C?"  Part="1" 
+AR Path="/5F8813F3/5B32459A" Ref="C30"  Part="1" 
+F 0 "C30" H 4215 6996 50  0000 L CNN
 F 1 "10U" H 4215 6905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4138 6800 50  0001 C CNN
 F 3 "" H 4100 6950 50  0001 C CNN
@@ -85,12 +84,14 @@ F 3 "" H 4100 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C16
+L Device:C C20
 U 1 1 5B324834
 P 4600 6950
-AR Path="/5F7173C7/5B324834" Ref="C16"  Part="1" 
-AR Path="/5F7270DA/5B324834" Ref="C30"  Part="1" 
-F 0 "C30" H 4715 6996 50  0000 L CNN
+AR Path="/5F7173C7/5B324834" Ref="C20"  Part="1" 
+AR Path="/5F7270DA/5B324834" Ref="C?"  Part="1" 
+AR Path="/5F7429EF/5B324834" Ref="C?"  Part="1" 
+AR Path="/5F8813F3/5B324834" Ref="C31"  Part="1" 
+F 0 "C31" H 4715 6996 50  0000 L CNN
 F 1 "100N" H 4715 6905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4638 6800 50  0001 C CNN
 F 3 "" H 4600 6950 50  0001 C CNN
@@ -98,12 +99,14 @@ F 3 "" H 4600 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C14
+L Device:C C18
 U 1 1 5B3391D6
 P 3700 6950
-AR Path="/5F7173C7/5B3391D6" Ref="C14"  Part="1" 
-AR Path="/5F7270DA/5B3391D6" Ref="C28"  Part="1" 
-F 0 "C28" H 3815 6996 50  0000 L CNN
+AR Path="/5F7173C7/5B3391D6" Ref="C18"  Part="1" 
+AR Path="/5F7270DA/5B3391D6" Ref="C?"  Part="1" 
+AR Path="/5F7429EF/5B3391D6" Ref="C?"  Part="1" 
+AR Path="/5F8813F3/5B3391D6" Ref="C29"  Part="1" 
+F 0 "C29" H 3815 6996 50  0000 L CNN
 F 1 "10U" H 3815 6905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3738 6800 50  0001 C CNN
 F 3 "" H 3700 6950 50  0001 C CNN
@@ -139,12 +142,14 @@ Wire Wire Line
 Connection ~ 4600 6800
 Connection ~ 4600 7100
 $Comp
-L Device:C_Small C12
+L Device:C_Small C16
 U 1 1 5C181CA8
 P 1000 1800
-AR Path="/5F7173C7/5C181CA8" Ref="C12"  Part="1" 
-AR Path="/5F7270DA/5C181CA8" Ref="C26"  Part="1" 
-F 0 "C26" H 908 1754 50  0000 R CNN
+AR Path="/5F7173C7/5C181CA8" Ref="C16"  Part="1" 
+AR Path="/5F7270DA/5C181CA8" Ref="C?"  Part="1" 
+AR Path="/5F7429EF/5C181CA8" Ref="C?"  Part="1" 
+AR Path="/5F8813F3/5C181CA8" Ref="C27"  Part="1" 
+F 0 "C27" H 908 1754 50  0000 R CNN
 F 1 "10N" H 908 1845 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1000 1800 50  0001 C CNN
 F 3 "~" H 1000 1800 50  0001 C CNN
@@ -160,37 +165,39 @@ Wire Wire Line
 Text HLabel 5300 1250 0    50   Input ~ 0
 VCC
 $Sheet
-S 1200 6900 1000 550 
+S 1200 5800 1000 550 
 U 5C241710
 F0 "crystal" 50
-F1 "../subs/../subs/../subs/24MHz_4pin.sch" 50
-F2 "GND" I L 1200 7350 50 
-F3 "OSC_IN" I L 1200 7000 50 
-F4 "OSC_OUT" O L 1200 7100 50 
+F1 "../subs/../subs/../subs/../subs/24MHz_4pin.sch" 50
+F2 "GND" I L 1200 6250 50 
+F3 "OSC_IN" I L 1200 5900 50 
+F4 "OSC_OUT" O L 1200 6000 50 
 $EndSheet
-Text Label 750  7000 0    50   ~ 0
+Text Label 750  5900 0    50   ~ 0
 OSC_IN
-Text Label 750  7100 0    50   ~ 0
+Text Label 750  6000 0    50   ~ 0
 OSC_OUT
-Text HLabel 950  7350 0    50   Input ~ 0
+Text HLabel 950  6250 0    50   Input ~ 0
 GND
 Wire Wire Line
-	750  7000 1200 7000
+	750  5900 1200 5900
 Wire Wire Line
-	950  7350 1200 7350
+	950  6250 1200 6250
 Wire Wire Line
-	750  7100 1200 7100
+	750  6000 1200 6000
 Wire Wire Line
 	4600 6800 5050 6800
 Wire Wire Line
 	4600 7100 5050 7100
 $Comp
-L Device:C C17
+L Device:C C21
 U 1 1 5C258388
 P 5050 6950
-AR Path="/5F7173C7/5C258388" Ref="C17"  Part="1" 
-AR Path="/5F7270DA/5C258388" Ref="C31"  Part="1" 
-F 0 "C31" H 5165 6996 50  0000 L CNN
+AR Path="/5F7173C7/5C258388" Ref="C21"  Part="1" 
+AR Path="/5F7270DA/5C258388" Ref="C?"  Part="1" 
+AR Path="/5F7429EF/5C258388" Ref="C?"  Part="1" 
+AR Path="/5F8813F3/5C258388" Ref="C32"  Part="1" 
+F 0 "C32" H 5165 6996 50  0000 L CNN
 F 1 "100N" H 5165 6905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5088 6800 50  0001 C CNN
 F 3 "" H 5050 6950 50  0001 C CNN
@@ -204,12 +211,14 @@ Connection ~ 5050 7100
 Wire Wire Line
 	5050 7100 5500 7100
 $Comp
-L Device:C C18
+L Device:C C22
 U 1 1 5C258E81
 P 5500 6950
-AR Path="/5F7173C7/5C258E81" Ref="C18"  Part="1" 
-AR Path="/5F7270DA/5C258E81" Ref="C32"  Part="1" 
-F 0 "C32" H 5615 6996 50  0000 L CNN
+AR Path="/5F7173C7/5C258E81" Ref="C22"  Part="1" 
+AR Path="/5F7270DA/5C258E81" Ref="C?"  Part="1" 
+AR Path="/5F7429EF/5C258E81" Ref="C?"  Part="1" 
+AR Path="/5F8813F3/5C258E81" Ref="C33"  Part="1" 
+F 0 "C33" H 5615 6996 50  0000 L CNN
 F 1 "100N" H 5615 6905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5538 6800 50  0001 C CNN
 F 3 "" H 5500 6950 50  0001 C CNN
@@ -217,12 +226,14 @@ F 3 "" H 5500 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C19
+L Device:C C23
 U 1 1 5C258E87
 P 5950 6950
-AR Path="/5F7173C7/5C258E87" Ref="C19"  Part="1" 
-AR Path="/5F7270DA/5C258E87" Ref="C33"  Part="1" 
-F 0 "C33" H 6065 6996 50  0000 L CNN
+AR Path="/5F7173C7/5C258E87" Ref="C23"  Part="1" 
+AR Path="/5F7270DA/5C258E87" Ref="C?"  Part="1" 
+AR Path="/5F7429EF/5C258E87" Ref="C?"  Part="1" 
+AR Path="/5F8813F3/5C258E87" Ref="C34"  Part="1" 
+F 0 "C34" H 6065 6996 50  0000 L CNN
 F 1 "100N" H 6065 6905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5988 6800 50  0001 C CNN
 F 3 "" H 5950 6950 50  0001 C CNN
@@ -242,12 +253,14 @@ Connection ~ 5950 7100
 Wire Wire Line
 	5950 7100 6400 7100
 $Comp
-L Device:C C20
+L Device:C C24
 U 1 1 5C259B50
 P 6400 6950
-AR Path="/5F7173C7/5C259B50" Ref="C20"  Part="1" 
-AR Path="/5F7270DA/5C259B50" Ref="C34"  Part="1" 
-F 0 "C34" H 6515 6996 50  0000 L CNN
+AR Path="/5F7173C7/5C259B50" Ref="C24"  Part="1" 
+AR Path="/5F7270DA/5C259B50" Ref="C?"  Part="1" 
+AR Path="/5F7429EF/5C259B50" Ref="C?"  Part="1" 
+AR Path="/5F8813F3/5C259B50" Ref="C35"  Part="1" 
+F 0 "C35" H 6515 6996 50  0000 L CNN
 F 1 "100N" H 6515 6905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6438 6800 50  0001 C CNN
 F 3 "" H 6400 6950 50  0001 C CNN
@@ -262,19 +275,6 @@ Wire Wire Line
 	1000 2650 1000 2750
 Wire Wire Line
 	1000 1650 1000 1700
-$Comp
-L william_microcontrollers:STM32F446RCTx U3
-U 1 1 5EE908A1
-P 5600 3200
-AR Path="/5F7173C7/5EE908A1" Ref="U3"  Part="1" 
-AR Path="/5F7270DA/5EE908A1" Ref="U7"  Part="1" 
-F 0 "U7" H 6150 4900 50  0000 C CNN
-F 1 "STM32F446RCTx" H 5600 3200 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 5000 1500 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141306.pdf" H 5600 3200 50  0001 C CNN
-	1    5600 3200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5700 5100 5800 5100
 Wire Wire Line
@@ -286,11 +286,7 @@ Wire Wire Line
 	5900 1400 5900 1500
 Connection ~ 5800 1400
 Wire Wire Line
-	5500 1250 5300 1250
-Wire Wire Line
-	5300 1400 5400 1400
-Wire Wire Line
-	5400 1400 5400 1500
+	5400 1250 5300 1250
 Text Label 4400 1700 0    50   ~ 0
 ~RST~
 Wire Wire Line
@@ -301,35 +297,6 @@ Text Label 4400 2100 0    50   ~ 0
 VCAP1
 Wire Wire Line
 	4400 2100 4900 2100
-Text HLabel 950  6350 0    50   Input ~ 0
-GND
-Wire Wire Line
-	950  6350 1200 6350
-Text Label 4300 4700 0    50   ~ 0
-OSC_LSE_IN
-Text Label 4300 4800 0    50   ~ 0
-OSC_LSE_OUT
-Wire Wire Line
-	4300 4700 4900 4700
-Wire Wire Line
-	4300 4800 4900 4800
-$Sheet
-S 1200 5900 1000 550 
-U 5EECCCAE
-F0 "sheet5EECCCAE" 50
-F1 "../subs/../subs/32_768KHz.sch" 50
-F2 "GND" I L 1200 6350 50 
-F3 "OSC_IN" I L 1200 6000 50 
-F4 "OSC_OUT" O L 1200 6100 50 
-$EndSheet
-Text Label 600  6000 0    50   ~ 0
-OSC_LSE_IN
-Text Label 600  6100 0    50   ~ 0
-OSC_LSE_OUT
-Wire Wire Line
-	600  6000 1200 6000
-Wire Wire Line
-	600  6100 1200 6100
 Wire Wire Line
 	900  3800 1000 3800
 Text Label 4400 1900 0    50   ~ 0
@@ -348,24 +315,6 @@ Wire Wire Line
 	4400 3400 4900 3400
 Wire Wire Line
 	4900 3500 4400 3500
-Text Label 6550 1700 0    50   ~ 0
-ADC1_IN0
-Text Label 6550 2200 0    50   ~ 0
-SPI1_SCK
-Text Label 6550 2300 0    50   ~ 0
-SPI1_MISO
-Text Label 6550 2400 0    50   ~ 0
-SPI1_MOSI
-Text Label 6550 3400 0    50   ~ 0
-SDIO_D1
-Text Label 6550 3500 0    50   ~ 0
-SDIO_D2
-Text Label 6550 3600 0    50   ~ 0
-SDIO_CK
-Text Label 6550 4400 0    50   ~ 0
-SPI2_SCK
-Text Label 4400 4100 0    50   ~ 0
-SDIO_D0
 Wire Wire Line
 	4400 4100 4900 4100
 Text Label 6550 3000 0    50   ~ 0
@@ -376,145 +325,38 @@ Text Label 6550 3100 0    50   ~ 0
 SWCLK
 Wire Wire Line
 	6550 3100 6300 3100
-Text Label 4400 4400 0    50   ~ 0
-SDIO_D3
 Wire Wire Line
 	4400 4400 4900 4400
 Wire Wire Line
 	4400 3100 4900 3100
 Text Label 6550 3700 0    50   ~ 0
 SWO
-Text Label 6550 4700 0    50   ~ 0
-TIM4_CH1
-Text Label 6550 4600 0    50   ~ 0
-TIM4_CH2
-Text Label 6550 4800 0    50   ~ 0
-TIM4_CH3
-Text HLabel 7700 5600 0    50   Input ~ 0
-VBAT
-$Comp
-L Device:C C21
-U 1 1 5EFF6740
-P 7800 5850
-AR Path="/5F7173C7/5EFF6740" Ref="C21"  Part="1" 
-AR Path="/5F7270DA/5EFF6740" Ref="C35"  Part="1" 
-F 0 "C35" H 7915 5896 50  0000 L CNN
-F 1 "100N" H 7915 5805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7838 5700 50  0001 C CNN
-F 3 "" H 7800 5850 50  0001 C CNN
-	1    7800 5850
-	1    0    0    -1  
-$EndComp
-Text HLabel 7700 6100 0    50   Input ~ 0
-GND
-Wire Wire Line
-	7700 6100 7800 6100
-Wire Wire Line
-	7800 6100 7800 6000
-Wire Wire Line
-	7800 5700 7800 5600
-Wire Wire Line
-	7800 5600 7700 5600
 Text HLabel 3600 6800 0    50   Input ~ 0
 VCC
-Text HLabel 4400 3100 0    50   Output ~ 0
-SDIO_CMD
-Text HLabel 4400 3400 0    50   Output ~ 0
-SPI2_MOSI
-Text HLabel 4400 3500 0    50   Input ~ 0
-SPI2_MISO
-Text HLabel 4400 4100 0    50   Output ~ 0
-SDIO_D0
-Text HLabel 4400 4400 0    50   Output ~ 0
-SDIO_D3
-Text Label 4400 3500 0    50   ~ 0
-SPI2_MISO
-Text Label 4400 3400 0    50   ~ 0
-SPI2_MOSI
-Text Label 4400 3100 0    50   ~ 0
-SDIO_CMD
-Text HLabel 7000 4400 2    50   Output ~ 0
-SPI2_SCK
-Text HLabel 7000 4800 2    50   Output ~ 0
-TIM4_CH3
 Wire Wire Line
 	6300 4400 7000 4400
 Wire Wire Line
 	6300 4800 7000 4800
-Text HLabel 7000 4600 2    50   Output ~ 0
-TIM4_CH2
 Wire Wire Line
 	6300 4600 7000 4600
-Text HLabel 7000 4700 2    50   Output ~ 0
-TIM4_CH1
 Wire Wire Line
 	6300 4700 7000 4700
-Text HLabel 7000 3600 2    50   Output ~ 0
-SDIO_CK
 Wire Wire Line
 	6300 3600 7000 3600
-Text HLabel 7000 3500 2    50   Output ~ 0
-SDIO_D2
-Text HLabel 7000 3400 2    50   Output ~ 0
-SDIO_D1
 Wire Wire Line
 	6300 3400 7000 3400
 Wire Wire Line
 	6300 3500 7000 3500
 Wire Wire Line
 	6550 3700 6300 3700
-Text HLabel 7000 2400 2    50   Output ~ 0
-SPI1_MOSI
-Text HLabel 7000 2300 2    50   Input ~ 0
-SPI1_MISO
-Text HLabel 7000 2200 2    50   Output ~ 0
-SPI1_SCK
-Wire Wire Line
-	6300 2200 7000 2200
-Wire Wire Line
-	6300 2300 7000 2300
-Wire Wire Line
-	6300 2400 7000 2400
-Text HLabel 7000 1700 2    50   Input ~ 0
-ADC1_IN0
 Wire Wire Line
 	6300 1700 7000 1700
-Text Label 6550 2100 0    50   ~ 0
-SPI1_NSS
-Text HLabel 7000 2100 2    50   Output ~ 0
-SPI1_NSS
-Wire Wire Line
-	6300 2100 7000 2100
 Wire Wire Line
 	6300 4000 7000 4000
 Wire Wire Line
 	6300 4100 7000 4100
 Wire Wire Line
-	4900 4000 4200 4000
-Wire Wire Line
 	6300 3900 7000 3900
-Wire Wire Line
-	4900 3900 4200 3900
-Text HLabel 7000 3900 2    50   Input ~ 0
-EXTI_0
-Text HLabel 7000 4000 2    50   Input ~ 0
-EXTI_1
-Text HLabel 7000 4100 2    50   Input ~ 0
-EXTI_2
-Text HLabel 4200 3900 0    50   Input ~ 0
-EXTI_3
-Text HLabel 4200 4000 0    50   Input ~ 0
-EXTI_4
-Text HLabel 4400 3600 0    50   Input ~ 0
-EXTI_5
-Text HLabel 4400 3700 0    50   Input ~ 0
-EXTI_6
-Text HLabel 7000 3200 2    50   Input ~ 0
-EXTI_7
-Text HLabel 7000 4200 2    50   Input ~ 0
-EXTI_8
-Text HLabel 7000 4300 2    50   Input ~ 0
-EXTI_9
 Wire Wire Line
 	4400 3600 4900 3600
 Wire Wire Line
@@ -523,23 +365,19 @@ Wire Wire Line
 	7000 4200 6300 4200
 Wire Wire Line
 	7000 4300 6300 4300
-NoConn ~ 4900 4600
-NoConn ~ 4900 4200
-NoConn ~ 4900 3300
-NoConn ~ 6300 1800
-NoConn ~ 6300 1900
-NoConn ~ 6300 2000
 Wire Wire Line
 	1400 5050 1250 5050
 $Comp
-L william_connectors:TC2030-IDC J9
+L william_connectors:TC2030-IDC J11
 U 1 1 5EDE31E7
 P 950 4800
-AR Path="/5F7173C7/5EDE31E7" Ref="J9"  Part="1" 
-AR Path="/5F7270DA/5EDE31E7" Ref="J10"  Part="1" 
-F 0 "J10" H 943 5398 50  0000 C CNN
+AR Path="/5F7173C7/5EDE31E7" Ref="J11"  Part="1" 
+AR Path="/5F7270DA/5EDE31E7" Ref="J?"  Part="1" 
+AR Path="/5F7429EF/5EDE31E7" Ref="J?"  Part="1" 
+AR Path="/5F8813F3/5EDE31E7" Ref="J12"  Part="1" 
+F 0 "J12" H 943 5398 50  0000 C CNN
 F 1 "TC2030-IDC" H 943 5307 50  0000 C CNN
-F 2 "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical" H 800 4900 50  0001 C CNN
+F 2 "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical" H 800 4900 50  0001 C CNN
 F 3 "http://www.tag-connect.com/Materials/TC2030-IDC.pdf" H 800 4900 50  0001 C CNN
 	1    950  4800
 	-1   0    0    -1  
@@ -568,22 +406,167 @@ Wire Wire Line
 	1400 4550 1250 4550
 Wire Wire Line
 	1000 3100 1000 3800
-Text HLabel 4400 4300 0    50   Output ~ 0
-SPI3_SCK
 Wire Wire Line
 	4400 4300 4900 4300
-Text HLabel 7000 3800 2    50   Input ~ 0
-SPI3_MISO
 Wire Wire Line
 	7000 3800 6300 3800
-Text HLabel 4400 4500 0    50   Output ~ 0
-SPI3_MOSI
 Wire Wire Line
 	4900 4500 4400 4500
 Wire Wire Line
 	7000 3200 6300 3200
-Text HLabel 7000 4500 2    50   Input ~ 0
-EXTI_10
 Wire Wire Line
 	7000 4500 6300 4500
+$Comp
+L william_microcontrollers:STM32F446RCTx U6
+U 1 1 5EE908A1
+P 5600 3200
+AR Path="/5F7173C7/5EE908A1" Ref="U6"  Part="1" 
+AR Path="/5F7270DA/5EE908A1" Ref="U?"  Part="1" 
+AR Path="/5F7429EF/5EE908A1" Ref="U?"  Part="1" 
+AR Path="/5F8813F3/5EE908A1" Ref="U7"  Part="1" 
+F 0 "U7" H 6150 4900 50  0000 C CNN
+F 1 "STM32F446RCTx" H 5600 3200 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 5000 1500 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141306.pdf" H 5600 3200 50  0001 C CNN
+	1    5600 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 1250 5400 1400
+Wire Wire Line
+	5500 1400 5400 1400
+Connection ~ 5500 1400
+Connection ~ 5400 1400
+Wire Wire Line
+	5400 1400 5400 1500
+Wire Wire Line
+	6300 1800 7000 1800
+Wire Wire Line
+	6300 2000 7000 2000
+Wire Wire Line
+	6300 1900 7000 1900
+Wire Wire Line
+	6300 2100 7000 2100
+Wire Wire Line
+	6300 2200 7000 2200
+Wire Wire Line
+	6300 2400 7000 2400
+Wire Wire Line
+	6300 2300 7000 2300
+Wire Wire Line
+	6300 2500 7000 2500
+Wire Wire Line
+	6300 2600 7000 2600
+Wire Wire Line
+	6300 2700 7000 2700
+Wire Wire Line
+	6300 2900 7000 2900
+Wire Wire Line
+	6300 2800 7000 2800
+Wire Wire Line
+	4400 3300 4900 3300
+Wire Wire Line
+	4900 3800 4400 3800
+Wire Wire Line
+	4400 3900 4900 3900
+Wire Wire Line
+	4400 4000 4900 4000
+Wire Wire Line
+	4400 4200 4900 4200
+Wire Wire Line
+	4400 4700 4900 4700
+Wire Wire Line
+	4400 4600 4900 4600
+Wire Wire Line
+	4900 4800 4400 4800
+Text HLabel 7000 1700 2    50   Input ~ 0
+PA0
+Text HLabel 7000 1800 2    50   Input ~ 0
+PA1
+Text HLabel 7000 1900 2    50   Input ~ 0
+PA2
+Text HLabel 7000 2000 2    50   Input ~ 0
+PA3
+Text HLabel 7000 2100 2    50   Input ~ 0
+PA4
+Text HLabel 7000 2200 2    50   Input ~ 0
+PA5
+Text HLabel 7000 2300 2    50   Input ~ 0
+PA6
+Text HLabel 7000 2400 2    50   Input ~ 0
+PA7
+Text HLabel 7000 2500 2    50   Input ~ 0
+PA8
+Text HLabel 7000 2600 2    50   Input ~ 0
+PA9
+Text HLabel 7000 2700 2    50   Input ~ 0
+PA10
+Text HLabel 7000 2800 2    50   Input ~ 0
+PA11
+Text HLabel 7000 2900 2    50   Input ~ 0
+PA12
+Text HLabel 7000 3200 2    50   Input ~ 0
+PA15
+Text HLabel 7000 3400 2    50   Input ~ 0
+PB0
+Text HLabel 7000 3500 2    50   Input ~ 0
+PB1
+Text HLabel 7000 3600 2    50   Input ~ 0
+PB2
+Text HLabel 7000 3800 2    50   Input ~ 0
+PB4
+Text HLabel 7000 3900 2    50   Input ~ 0
+PB5
+Text HLabel 7000 4000 2    50   Input ~ 0
+PB6
+Text HLabel 7000 4100 2    50   Input ~ 0
+PB7
+Text HLabel 7000 4200 2    50   Input ~ 0
+PB8
+Text HLabel 7000 4300 2    50   Input ~ 0
+PB9
+Text HLabel 7000 4400 2    50   Input ~ 0
+PB10
+Text HLabel 7000 4500 2    50   Input ~ 0
+PB12
+Text HLabel 7000 4600 2    50   Input ~ 0
+PB13
+Text HLabel 7000 4700 2    50   Input ~ 0
+PB14
+Text HLabel 7000 4800 2    50   Input ~ 0
+PB15
+Text HLabel 4400 3300 0    50   Input ~ 0
+PC0
+Text HLabel 4400 3400 0    50   Input ~ 0
+PC1
+Text HLabel 4400 3500 0    50   Input ~ 0
+PC2
+Text HLabel 4400 3600 0    50   Input ~ 0
+PC3
+Text HLabel 4400 3700 0    50   Input ~ 0
+PC4
+Text HLabel 4400 3800 0    50   Input ~ 0
+PC5
+Text HLabel 4400 3900 0    50   Input ~ 0
+PC6
+Text HLabel 4400 4000 0    50   Input ~ 0
+PC7
+Text HLabel 4400 4100 0    50   Input ~ 0
+PC8
+Text HLabel 4400 4200 0    50   Input ~ 0
+PC9
+Text HLabel 4400 4300 0    50   Input ~ 0
+PC10
+Text HLabel 4400 4400 0    50   Input ~ 0
+PC11
+Text HLabel 4400 4500 0    50   Input ~ 0
+PC12
+Text HLabel 4400 4600 0    50   Input ~ 0
+PC13
+Text HLabel 4400 4700 0    50   Input ~ 0
+PC14
+Text HLabel 4400 4800 0    50   Input ~ 0
+PC15
+Text HLabel 4400 3100 0    50   Input ~ 0
+PD2
 $EndSCHEMATC

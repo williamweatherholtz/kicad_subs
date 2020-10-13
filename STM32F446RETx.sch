@@ -198,7 +198,7 @@ $Sheet
 S 1050 6950 1000 550 
 U 5C241710
 F0 "crystal" 50
-F1 "../subs/../subs/24MHz_4pin.sch" 50
+F1 "../subs/../subs/../subs/24MHz_4pin.sch" 50
 F2 "GND" I L 1050 7400 50 
 F3 "OSC_IN" I L 1050 7050 50 
 F4 "OSC_OUT" O L 1050 7150 50 
@@ -426,7 +426,7 @@ $Sheet
 S 2750 5350 1000 550 
 U 5EECCCAE
 F0 "sheet5EECCCAE" 50
-F1 "../subs/../subs/24MHz_4pin.sch" 50
+F1 "../subs/../subs/../subs/24MHz_4pin.sch" 50
 F2 "GND" I L 2750 5800 50 
 F3 "OSC_IN" I L 2750 5450 50 
 F4 "OSC_OUT" O L 2750 5550 50 

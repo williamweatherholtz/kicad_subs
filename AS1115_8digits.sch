@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:main-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 23
+Sheet 3 12
 Title ""
 Date ""
 Rev ""
@@ -15,11 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L william_display:AS1115-BSST U3
+L william_display:AS1115-BSST U?
 U 1 1 5BE5F4D9
 P 3700 3200
-AR Path="/5BE5F4D9" Ref="U3"  Part="1" 
-AR Path="/5BE5D4AF/5BE5F4D9" Ref="U3"  Part="1" 
+AR Path="/5BE5F4D9" Ref="U?"  Part="1" 
+AR Path="/5BE5D4AF/5BE5F4D9" Ref="U?"  Part="1" 
+AR Path="/5F72315B/5BE5F4D9" Ref="U3"  Part="1" 
 F 0 "U3" H 3250 4350 50  0000 C CNN
 F 1 "AS1115-BSST" H 3650 3250 50  0000 C CNN
 F 2 "Package_SO:QSOP-24_3.9x8.7mm_P0.635mm" H 3700 3200 50  0001 C CNN
@@ -32,7 +32,8 @@ L william_display:LTC-4727JR U?
 U 1 1 5BE6286B
 P 7500 2700
 AR Path="/5BE5D4AF/5BE5F6E5/5BE6286B" Ref="U?"  Part="1" 
-AR Path="/5BE5D4AF/5BE6286B" Ref="U4"  Part="1" 
+AR Path="/5BE5D4AF/5BE6286B" Ref="U?"  Part="1" 
+AR Path="/5F72315B/5BE6286B" Ref="U4"  Part="1" 
 F 0 "U4" H 7500 3367 50  0000 C CNN
 F 1 "LTC-4727JR" H 7500 3276 50  0000 C CNN
 F 2 "william_display:LTC-4X27JR" H 7500 2100 50  0001 C CNN
@@ -45,7 +46,8 @@ L william_display:LTC-4727JR U?
 U 1 1 5BE629A7
 P 7500 4650
 AR Path="/5BE5D4AF/5BE5F6E5/5BE629A7" Ref="U?"  Part="1" 
-AR Path="/5BE5D4AF/5BE629A7" Ref="U5"  Part="1" 
+AR Path="/5BE5D4AF/5BE629A7" Ref="U?"  Part="1" 
+AR Path="/5F72315B/5BE629A7" Ref="U5"  Part="1" 
 F 0 "U5" H 7500 5317 50  0000 C CNN
 F 1 "LTC-4727JR" H 7500 5226 50  0000 C CNN
 F 2 "william_display:LTC-4X27JR" H 7500 4050 50  0001 C CNN
@@ -332,10 +334,10 @@ Connection ~ 6050 4600
 Connection ~ 4650 3450
 Connection ~ 4650 3850
 $Comp
-L Device:C C10
+L Device:C C15
 U 1 1 5C24603B
 P 1700 2700
-F 0 "C10" H 1815 2746 50  0000 L CNN
+F 0 "C15" H 1815 2746 50  0000 L CNN
 F 1 "10U" H 1815 2655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 1738 2550 50  0001 C CNN
 F 3 "~" H 1700 2700 50  0001 C CNN
@@ -343,36 +345,22 @@ F 3 "~" H 1700 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C9
+L Device:C C14
 U 1 1 5C246073
 P 1400 2700
-F 0 "C9" H 1286 2654 50  0000 R CNN
+F 0 "C14" H 1286 2654 50  0000 R CNN
 F 1 "100N" H 1286 2745 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1438 2550 50  0001 C CNN
 F 3 "~" H 1400 2700 50  0001 C CNN
 	1    1400 2700
 	1    0    0    1   
 $EndComp
-Text HLabel 1300 3100 0    50   Input ~ 0
+Text HLabel 1300 2950 0    50   Input ~ 0
 GND
 Wire Wire Line
-	1400 2550 1550 2550
+	1700 2850 1700 2950
 Wire Wire Line
-	1700 2850 1550 2850
-Wire Wire Line
-	1300 2300 1550 2300
-Wire Wire Line
-	1550 2300 1550 2550
-Connection ~ 1550 2550
-Wire Wire Line
-	1550 2550 1700 2550
-Wire Wire Line
-	1550 2850 1550 3100
-Wire Wire Line
-	1550 3100 1300 3100
-Connection ~ 1550 2850
-Wire Wire Line
-	1550 2850 1400 2850
+	1700 2950 1400 2950
 Text Notes 4400 4250 0    50   ~ 0
 ADDRESS: 0b000_0011\n
 Text Notes 6550 2050 0    50   ~ 0
@@ -383,17 +371,15 @@ Wire Wire Line
 	2750 2600 3100 2600
 Text Label 1250 4000 2    50   ~ 0
 ISET
-Text HLabel 1300 2300 0    50   Input ~ 0
-3V3
 Text HLabel 1250 3600 0    50   Input ~ 0
 3V3
 Text Notes 900  4900 0    50   ~ 0
 Iled = 200* Iset\n\n@3V3 and @2V Vf for the led:\nlet Iled = 20mA\nIset should be 100uA\n1.3V / 100uA = 13K
 $Comp
-L Device:R R11
+L Device:R R12
 U 1 1 5C38A39E
 P 1450 3800
-F 0 "R11" H 1518 3846 50  0000 L CNN
+F 0 "R12" H 1518 3846 50  0000 L CNN
 F 1 "13K" H 1518 3755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1490 3790 50  0001 C CNN
 F 3 "~" H 1450 3800 50  0001 C CNN
@@ -414,6 +400,34 @@ Wire Bus Line
 	5950 2650 6050 2650
 Wire Bus Line
 	4650 2650 5950 2650
+Connection ~ 5950 2650
+Connection ~ 4650 2650
+Wire Wire Line
+	1700 2450 1700 2550
+Wire Wire Line
+	1300 2450 1400 2450
+Text HLabel 1300 2450 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	1400 2550 1400 2450
+Connection ~ 1400 2450
+Wire Wire Line
+	1400 2450 1700 2450
+Wire Wire Line
+	1400 2850 1400 2950
+Connection ~ 1400 2950
+Wire Wire Line
+	1400 2950 1300 2950
+Wire Bus Line
+	4650 3850 4650 4000
+Wire Bus Line
+	4650 3700 4650 3850
+Wire Bus Line
+	4650 3450 4650 3600
+Wire Bus Line
+	4650 3300 4650 3450
+Wire Bus Line
+	6050 4600 6050 4950
 Wire Bus Line
 	6050 4250 6050 4600
 Wire Bus Line
@@ -421,23 +435,11 @@ Wire Bus Line
 Wire Bus Line
 	6050 2300 6050 2650
 Wire Bus Line
-	8950 2800 8950 3450
-Wire Bus Line
-	6050 4600 6050 4950
+	4650 2650 4650 3100
 Wire Bus Line
 	4650 2300 4650 2650
 Wire Bus Line
-	4650 2650 4650 3100
-Wire Bus Line
 	8950 3850 8950 5050
 Wire Bus Line
-	4650 3300 4650 3450
-Wire Bus Line
-	4650 3450 4650 3600
-Wire Bus Line
-	4650 3700 4650 3850
-Wire Bus Line
-	4650 3850 4650 4000
-Connection ~ 5950 2650
-Connection ~ 4650 2650
+	8950 2800 8950 3450
 $EndSCHEMATC

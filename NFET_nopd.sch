@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 16
+Sheet 9 17
 Title ""
 Date ""
 Rev ""
@@ -36,25 +36,30 @@ Wire Wire Line
 Wire Wire Line
 	6250 2800 6200 2800
 $Comp
-L Device:Q_NMOS_GSD Q1
+L Device:Q_NMOS_GSD Q?
 U 1 1 5BE5A6E3
 P 6150 3450
-AR Path="/5BE5A530/5BE5A6E3" Ref="Q1"  Part="1" 
-AR Path="/5BE5D36F/5BE5A6E3" Ref="Q2"  Part="1" 
-AR Path="/5BE5D37A/5BE5A6E3" Ref="Q3"  Part="1" 
+AR Path="/5BE5A530/5BE5A6E3" Ref="Q?"  Part="1" 
+AR Path="/5BE5D36F/5BE5A6E3" Ref="Q?"  Part="1" 
+AR Path="/5BE5D37A/5BE5A6E3" Ref="Q?"  Part="1" 
 AR Path="/5BE5D381/5BE5A6E3" Ref="Q?"  Part="1" 
 AR Path="/5C3B8390/5BE5A6E3" Ref="Q?"  Part="1" 
 AR Path="/5C3C14B8/5BE5A6E3" Ref="Q?"  Part="1" 
 AR Path="/5C4D1AE2/5BE5A6E3" Ref="Q?"  Part="1" 
-AR Path="/5C4E4A9C/5BE5A6E3" Ref="Q4"  Part="1" 
-AR Path="/5C4EE84B/5BE5A6E3" Ref="Q5"  Part="1" 
+AR Path="/5C4E4A9C/5BE5A6E3" Ref="Q?"  Part="1" 
+AR Path="/5C4EE84B/5BE5A6E3" Ref="Q?"  Part="1" 
 AR Path="/5D986736/5BE5A6E3" Ref="Q?"  Part="1" 
 AR Path="/5D98C5E1/5BE5A6E3" Ref="Q?"  Part="1" 
 AR Path="/5E03117E/5BE5A6E3" Ref="Q?"  Part="1" 
-AR Path="/5ED23439/5BE5A6E3" Ref="Q1"  Part="1" 
-AR Path="/5EDCBFC6/5BE5A6E3" Ref="Q2"  Part="1" 
-AR Path="/5EDD6DCA/5BE5A6E3" Ref="Q3"  Part="1" 
-F 0 "Q1" H 6355 3496 50  0000 L CNN
+AR Path="/5ED23439/5BE5A6E3" Ref="Q?"  Part="1" 
+AR Path="/5EDCBFC6/5BE5A6E3" Ref="Q?"  Part="1" 
+AR Path="/5EDD6DCA/5BE5A6E3" Ref="Q?"  Part="1" 
+AR Path="/5F8BA2B6/5BE5A6E3" Ref="Q?"  Part="1" 
+AR Path="/5F8C989B/5BE5A6E3" Ref="Q5"  Part="1" 
+AR Path="/5F8CB601/5BE5A6E3" Ref="Q6"  Part="1" 
+AR Path="/5F8FD372/5BE5A6E3" Ref="Q?"  Part="1" 
+AR Path="/5F8FD601/5BE5A6E3" Ref="Q7"  Part="1" 
+F 0 "Q7" H 6355 3496 50  0000 L CNN
 F 1 "BSS138LT3G" H 6355 3405 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SC-59" H 6350 3550 50  0001 C CNN
 F 3 "~" H 6150 3450 50  0001 C CNN
