@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 17
+Sheet 17 18
 Title ""
 Date ""
 Rev ""
@@ -34,14 +34,18 @@ Wire Wire Line
 	5700 5100 5700 5000
 Connection ~ 5600 5100
 $Comp
-L Device:C_Small C17
+L Device:C_Small C?
 U 1 1 5B322B70
 P 1000 2550
-AR Path="/5F7173C7/5B322B70" Ref="C17"  Part="1" 
+AR Path="/5F7173C7/5B322B70" Ref="C?"  Part="1" 
 AR Path="/5F7270DA/5B322B70" Ref="C?"  Part="1" 
 AR Path="/5F7429EF/5B322B70" Ref="C?"  Part="1" 
-AR Path="/5F8813F3/5B322B70" Ref="C28"  Part="1" 
-F 0 "C28" H 1092 2596 50  0000 L CNN
+AR Path="/5F8813F3/5B322B70" Ref="C?"  Part="1" 
+AR Path="/600D6F29/5B322B70" Ref="C?"  Part="1" 
+AR Path="/600D734C/5B322B70" Ref="C?"  Part="1" 
+AR Path="/600D6444/600ED3DB/5B322B70" Ref="C?"  Part="1" 
+AR Path="/5F8813F3/600ED3DB/5B322B70" Ref="C58"  Part="1" 
+F 0 "C58" H 1092 2596 50  0000 L CNN
 F 1 "2U2" H 1092 2505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 1000 2550 50  0001 C CNN
 F 3 "" H 1000 2550 50  0001 C CNN
@@ -69,14 +73,18 @@ Wire Wire Line
 	5800 1400 5800 1500
 Connection ~ 5700 1400
 $Comp
-L Device:C C19
+L Device:C C?
 U 1 1 5B32459A
 P 4100 6950
-AR Path="/5F7173C7/5B32459A" Ref="C19"  Part="1" 
+AR Path="/5F7173C7/5B32459A" Ref="C?"  Part="1" 
 AR Path="/5F7270DA/5B32459A" Ref="C?"  Part="1" 
 AR Path="/5F7429EF/5B32459A" Ref="C?"  Part="1" 
-AR Path="/5F8813F3/5B32459A" Ref="C30"  Part="1" 
-F 0 "C30" H 4215 6996 50  0000 L CNN
+AR Path="/5F8813F3/5B32459A" Ref="C?"  Part="1" 
+AR Path="/600D6F29/5B32459A" Ref="C?"  Part="1" 
+AR Path="/600D734C/5B32459A" Ref="C?"  Part="1" 
+AR Path="/600D6444/600ED3DB/5B32459A" Ref="C?"  Part="1" 
+AR Path="/5F8813F3/600ED3DB/5B32459A" Ref="C60"  Part="1" 
+F 0 "C60" H 4215 6996 50  0000 L CNN
 F 1 "10U" H 4215 6905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4138 6800 50  0001 C CNN
 F 3 "" H 4100 6950 50  0001 C CNN
@@ -84,14 +92,18 @@ F 3 "" H 4100 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C20
+L Device:C C?
 U 1 1 5B324834
 P 4600 6950
-AR Path="/5F7173C7/5B324834" Ref="C20"  Part="1" 
+AR Path="/5F7173C7/5B324834" Ref="C?"  Part="1" 
 AR Path="/5F7270DA/5B324834" Ref="C?"  Part="1" 
 AR Path="/5F7429EF/5B324834" Ref="C?"  Part="1" 
-AR Path="/5F8813F3/5B324834" Ref="C31"  Part="1" 
-F 0 "C31" H 4715 6996 50  0000 L CNN
+AR Path="/5F8813F3/5B324834" Ref="C?"  Part="1" 
+AR Path="/600D6F29/5B324834" Ref="C?"  Part="1" 
+AR Path="/600D734C/5B324834" Ref="C?"  Part="1" 
+AR Path="/600D6444/600ED3DB/5B324834" Ref="C?"  Part="1" 
+AR Path="/5F8813F3/600ED3DB/5B324834" Ref="C61"  Part="1" 
+F 0 "C61" H 4715 6996 50  0000 L CNN
 F 1 "100N" H 4715 6905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4638 6800 50  0001 C CNN
 F 3 "" H 4600 6950 50  0001 C CNN
@@ -99,14 +111,18 @@ F 3 "" H 4600 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C18
+L Device:C C?
 U 1 1 5B3391D6
 P 3700 6950
-AR Path="/5F7173C7/5B3391D6" Ref="C18"  Part="1" 
+AR Path="/5F7173C7/5B3391D6" Ref="C?"  Part="1" 
 AR Path="/5F7270DA/5B3391D6" Ref="C?"  Part="1" 
 AR Path="/5F7429EF/5B3391D6" Ref="C?"  Part="1" 
-AR Path="/5F8813F3/5B3391D6" Ref="C29"  Part="1" 
-F 0 "C29" H 3815 6996 50  0000 L CNN
+AR Path="/5F8813F3/5B3391D6" Ref="C?"  Part="1" 
+AR Path="/600D6F29/5B3391D6" Ref="C?"  Part="1" 
+AR Path="/600D734C/5B3391D6" Ref="C?"  Part="1" 
+AR Path="/600D6444/600ED3DB/5B3391D6" Ref="C?"  Part="1" 
+AR Path="/5F8813F3/600ED3DB/5B3391D6" Ref="C59"  Part="1" 
+F 0 "C59" H 3815 6996 50  0000 L CNN
 F 1 "10U" H 3815 6905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3738 6800 50  0001 C CNN
 F 3 "" H 3700 6950 50  0001 C CNN
@@ -142,14 +158,18 @@ Wire Wire Line
 Connection ~ 4600 6800
 Connection ~ 4600 7100
 $Comp
-L Device:C_Small C16
+L Device:C_Small C?
 U 1 1 5C181CA8
 P 1000 1800
-AR Path="/5F7173C7/5C181CA8" Ref="C16"  Part="1" 
+AR Path="/5F7173C7/5C181CA8" Ref="C?"  Part="1" 
 AR Path="/5F7270DA/5C181CA8" Ref="C?"  Part="1" 
 AR Path="/5F7429EF/5C181CA8" Ref="C?"  Part="1" 
-AR Path="/5F8813F3/5C181CA8" Ref="C27"  Part="1" 
-F 0 "C27" H 908 1754 50  0000 R CNN
+AR Path="/5F8813F3/5C181CA8" Ref="C?"  Part="1" 
+AR Path="/600D6F29/5C181CA8" Ref="C?"  Part="1" 
+AR Path="/600D734C/5C181CA8" Ref="C?"  Part="1" 
+AR Path="/600D6444/600ED3DB/5C181CA8" Ref="C?"  Part="1" 
+AR Path="/5F8813F3/600ED3DB/5C181CA8" Ref="C57"  Part="1" 
+F 0 "C57" H 908 1754 50  0000 R CNN
 F 1 "10N" H 908 1845 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1000 1800 50  0001 C CNN
 F 3 "~" H 1000 1800 50  0001 C CNN
@@ -190,14 +210,18 @@ Wire Wire Line
 Wire Wire Line
 	4600 7100 5050 7100
 $Comp
-L Device:C C21
+L Device:C C?
 U 1 1 5C258388
 P 5050 6950
-AR Path="/5F7173C7/5C258388" Ref="C21"  Part="1" 
+AR Path="/5F7173C7/5C258388" Ref="C?"  Part="1" 
 AR Path="/5F7270DA/5C258388" Ref="C?"  Part="1" 
 AR Path="/5F7429EF/5C258388" Ref="C?"  Part="1" 
-AR Path="/5F8813F3/5C258388" Ref="C32"  Part="1" 
-F 0 "C32" H 5165 6996 50  0000 L CNN
+AR Path="/5F8813F3/5C258388" Ref="C?"  Part="1" 
+AR Path="/600D6F29/5C258388" Ref="C?"  Part="1" 
+AR Path="/600D734C/5C258388" Ref="C?"  Part="1" 
+AR Path="/600D6444/600ED3DB/5C258388" Ref="C?"  Part="1" 
+AR Path="/5F8813F3/600ED3DB/5C258388" Ref="C62"  Part="1" 
+F 0 "C62" H 5165 6996 50  0000 L CNN
 F 1 "100N" H 5165 6905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5088 6800 50  0001 C CNN
 F 3 "" H 5050 6950 50  0001 C CNN
@@ -211,14 +235,18 @@ Connection ~ 5050 7100
 Wire Wire Line
 	5050 7100 5500 7100
 $Comp
-L Device:C C22
+L Device:C C?
 U 1 1 5C258E81
 P 5500 6950
-AR Path="/5F7173C7/5C258E81" Ref="C22"  Part="1" 
+AR Path="/5F7173C7/5C258E81" Ref="C?"  Part="1" 
 AR Path="/5F7270DA/5C258E81" Ref="C?"  Part="1" 
 AR Path="/5F7429EF/5C258E81" Ref="C?"  Part="1" 
-AR Path="/5F8813F3/5C258E81" Ref="C33"  Part="1" 
-F 0 "C33" H 5615 6996 50  0000 L CNN
+AR Path="/5F8813F3/5C258E81" Ref="C?"  Part="1" 
+AR Path="/600D6F29/5C258E81" Ref="C?"  Part="1" 
+AR Path="/600D734C/5C258E81" Ref="C?"  Part="1" 
+AR Path="/600D6444/600ED3DB/5C258E81" Ref="C?"  Part="1" 
+AR Path="/5F8813F3/600ED3DB/5C258E81" Ref="C63"  Part="1" 
+F 0 "C63" H 5615 6996 50  0000 L CNN
 F 1 "100N" H 5615 6905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5538 6800 50  0001 C CNN
 F 3 "" H 5500 6950 50  0001 C CNN
@@ -226,14 +254,18 @@ F 3 "" H 5500 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C23
+L Device:C C?
 U 1 1 5C258E87
 P 5950 6950
-AR Path="/5F7173C7/5C258E87" Ref="C23"  Part="1" 
+AR Path="/5F7173C7/5C258E87" Ref="C?"  Part="1" 
 AR Path="/5F7270DA/5C258E87" Ref="C?"  Part="1" 
 AR Path="/5F7429EF/5C258E87" Ref="C?"  Part="1" 
-AR Path="/5F8813F3/5C258E87" Ref="C34"  Part="1" 
-F 0 "C34" H 6065 6996 50  0000 L CNN
+AR Path="/5F8813F3/5C258E87" Ref="C?"  Part="1" 
+AR Path="/600D6F29/5C258E87" Ref="C?"  Part="1" 
+AR Path="/600D734C/5C258E87" Ref="C?"  Part="1" 
+AR Path="/600D6444/600ED3DB/5C258E87" Ref="C?"  Part="1" 
+AR Path="/5F8813F3/600ED3DB/5C258E87" Ref="C64"  Part="1" 
+F 0 "C64" H 6065 6996 50  0000 L CNN
 F 1 "100N" H 6065 6905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5988 6800 50  0001 C CNN
 F 3 "" H 5950 6950 50  0001 C CNN
@@ -253,14 +285,18 @@ Connection ~ 5950 7100
 Wire Wire Line
 	5950 7100 6400 7100
 $Comp
-L Device:C C24
+L Device:C C?
 U 1 1 5C259B50
 P 6400 6950
-AR Path="/5F7173C7/5C259B50" Ref="C24"  Part="1" 
+AR Path="/5F7173C7/5C259B50" Ref="C?"  Part="1" 
 AR Path="/5F7270DA/5C259B50" Ref="C?"  Part="1" 
 AR Path="/5F7429EF/5C259B50" Ref="C?"  Part="1" 
-AR Path="/5F8813F3/5C259B50" Ref="C35"  Part="1" 
-F 0 "C35" H 6515 6996 50  0000 L CNN
+AR Path="/5F8813F3/5C259B50" Ref="C?"  Part="1" 
+AR Path="/600D6F29/5C259B50" Ref="C?"  Part="1" 
+AR Path="/600D734C/5C259B50" Ref="C?"  Part="1" 
+AR Path="/600D6444/600ED3DB/5C259B50" Ref="C?"  Part="1" 
+AR Path="/5F8813F3/600ED3DB/5C259B50" Ref="C65"  Part="1" 
+F 0 "C65" H 6515 6996 50  0000 L CNN
 F 1 "100N" H 6515 6905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6438 6800 50  0001 C CNN
 F 3 "" H 6400 6950 50  0001 C CNN
@@ -368,14 +404,18 @@ Wire Wire Line
 Wire Wire Line
 	1400 5050 1250 5050
 $Comp
-L william_connectors:TC2030-IDC J11
+L william_connectors:TC2030-IDC J?
 U 1 1 5EDE31E7
 P 950 4800
-AR Path="/5F7173C7/5EDE31E7" Ref="J11"  Part="1" 
+AR Path="/5F7173C7/5EDE31E7" Ref="J?"  Part="1" 
 AR Path="/5F7270DA/5EDE31E7" Ref="J?"  Part="1" 
 AR Path="/5F7429EF/5EDE31E7" Ref="J?"  Part="1" 
-AR Path="/5F8813F3/5EDE31E7" Ref="J12"  Part="1" 
-F 0 "J12" H 943 5398 50  0000 C CNN
+AR Path="/5F8813F3/5EDE31E7" Ref="J?"  Part="1" 
+AR Path="/600D6F29/5EDE31E7" Ref="J?"  Part="1" 
+AR Path="/600D734C/5EDE31E7" Ref="J?"  Part="1" 
+AR Path="/600D6444/600ED3DB/5EDE31E7" Ref="J?"  Part="1" 
+AR Path="/5F8813F3/600ED3DB/5EDE31E7" Ref="J20"  Part="1" 
+F 0 "J20" H 943 5398 50  0000 C CNN
 F 1 "TC2030-IDC" H 943 5307 50  0000 C CNN
 F 2 "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical" H 800 4900 50  0001 C CNN
 F 3 "http://www.tag-connect.com/Materials/TC2030-IDC.pdf" H 800 4900 50  0001 C CNN
@@ -417,14 +457,18 @@ Wire Wire Line
 Wire Wire Line
 	7000 4500 6300 4500
 $Comp
-L william_microcontrollers:STM32F446RCTx U6
+L william_microcontrollers:STM32F446RCTx U?
 U 1 1 5EE908A1
 P 5600 3200
-AR Path="/5F7173C7/5EE908A1" Ref="U6"  Part="1" 
+AR Path="/5F7173C7/5EE908A1" Ref="U?"  Part="1" 
 AR Path="/5F7270DA/5EE908A1" Ref="U?"  Part="1" 
 AR Path="/5F7429EF/5EE908A1" Ref="U?"  Part="1" 
-AR Path="/5F8813F3/5EE908A1" Ref="U7"  Part="1" 
-F 0 "U7" H 6150 4900 50  0000 C CNN
+AR Path="/5F8813F3/5EE908A1" Ref="U?"  Part="1" 
+AR Path="/600D6F29/5EE908A1" Ref="U?"  Part="1" 
+AR Path="/600D734C/5EE908A1" Ref="U?"  Part="1" 
+AR Path="/600D6444/600ED3DB/5EE908A1" Ref="U?"  Part="1" 
+AR Path="/5F8813F3/600ED3DB/5EE908A1" Ref="U6"  Part="1" 
+F 0 "U6" H 6150 4900 50  0000 C CNN
 F 1 "STM32F446RCTx" H 5600 3200 50  0000 C CNN
 F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 5000 1500 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141306.pdf" H 5600 3200 50  0001 C CNN
