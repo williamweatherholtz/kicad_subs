@@ -62,7 +62,7 @@ AR Path="/5FCF2B04/5FCFAAF9/5FCFCC39/5FD03D9A" Ref="C?"  Part="1"
 AR Path="/5FCF2B04/5FCFAAF9/5FD03D9A" Ref="C7"  Part="1" 
 F 0 "C7" H 4415 7146 50  0000 L CNN
 F 1 "100N" H 4415 7055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4338 6950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4338 6950 50  0001 C CNN
 F 3 "" H 4300 7100 50  0001 C CNN
 	1    4300 7100
 	1    0    0    -1  
@@ -182,7 +182,7 @@ AR Path="/5FCF2B04/5FCFAAF9/5FCFCC39/5FD03DEB" Ref="C?"  Part="1"
 AR Path="/5FCF2B04/5FCFAAF9/5FD03DEB" Ref="C15"  Part="1" 
 F 0 "C15" H 4865 7146 50  0000 L CNN
 F 1 "100N" H 4865 7055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4788 6950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4788 6950 50  0001 C CNN
 F 3 "" H 4750 7100 50  0001 C CNN
 	1    4750 7100
 	1    0    0    -1  
@@ -201,7 +201,7 @@ AR Path="/5FCF2B04/5FCFAAF9/5FCFCC39/5FD03DF5" Ref="C?"  Part="1"
 AR Path="/5FCF2B04/5FCFAAF9/5FD03DF5" Ref="C16"  Part="1" 
 F 0 "C16" H 5315 7146 50  0000 L CNN
 F 1 "100N" H 5315 7055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5238 6950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5238 6950 50  0001 C CNN
 F 3 "" H 5200 7100 50  0001 C CNN
 	1    5200 7100
 	1    0    0    -1  
@@ -214,7 +214,7 @@ AR Path="/5FCF2B04/5FCFAAF9/5FCFCC39/5FD03DFB" Ref="C?"  Part="1"
 AR Path="/5FCF2B04/5FCFAAF9/5FD03DFB" Ref="C21"  Part="1" 
 F 0 "C21" H 5765 7146 50  0000 L CNN
 F 1 "100N" H 5765 7055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5688 6950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5688 6950 50  0001 C CNN
 F 3 "" H 5650 7100 50  0001 C CNN
 	1    5650 7100
 	1    0    0    -1  
@@ -239,7 +239,7 @@ AR Path="/5FCF2B04/5FCFAAF9/5FCFCC39/5FD03E09" Ref="C?"  Part="1"
 AR Path="/5FCF2B04/5FCFAAF9/5FD03E09" Ref="C22"  Part="1" 
 F 0 "C22" H 6215 7146 50  0000 L CNN
 F 1 "100N" H 6215 7055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6138 6950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6138 6950 50  0001 C CNN
 F 3 "" H 6100 7100 50  0001 C CNN
 	1    6100 7100
 	1    0    0    -1  
@@ -320,7 +320,7 @@ U 1 1 5FD5A462
 P 1300 5150
 F 0 "J9" H 1293 5748 50  0000 C CNN
 F 1 "TC2030-IDC" H 1293 5657 50  0000 C CNN
-F 2 "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical" H 1150 5250 50  0001 C CNN
+F 2 "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical" H 1150 5250 50  0001 C CNN
 F 3 "http://www.tag-connect.com/Materials/TC2030-IDC.pdf" H 1150 5250 50  0001 C CNN
 	1    1300 5150
 	-1   0    0    -1  
@@ -369,148 +369,88 @@ Wire Wire Line
 	6550 2000 6150 2000
 Text HLabel 6550 2000 2    50   Input ~ 0
 ENCODER_B
-Text Label 8650 950  0    50   ~ 0
-~ADJUST_PRESSED~
-Text Label 8600 1850 0    50   ~ 0
-MISO
-Text Label 8600 1950 0    50   ~ 0
-MOSI
-Text Label 8600 2050 0    50   ~ 0
-SCLK
-Text Label 8650 1500 0    50   ~ 0
-HALF_VBAT
-Text Label 8300 3100 0    50   ~ 0
-~CS~_TC
-Text Label 8650 1250 0    50   ~ 0
-~SW_ENABLE~
-Text Label 8650 1050 0    50   ~ 0
-~ADJUST_A~
-Text Label 8650 1150 0    50   ~ 0
-~ADJUST_B~
-Text Label 8700 2300 0    50   ~ 0
-SDA
-Text Label 8700 2400 0    50   ~ 0
-SCL
-Text Label 8300 3300 0    50   ~ 0
-~CS~_RTD
-Text Label 8300 3400 0    50   ~ 0
-POWER_LED
-Text Label 8300 3200 0    50   ~ 0
-~CS~_LORA
-Text Label 8300 5100 0    50   ~ 0
-LORA_IO1
-Text Label 8300 5200 0    50   ~ 0
-LORA_IO2
-Text Label 8250 4800 0    50   ~ 0
-LORA_IO3
-Text Label 8250 4900 0    50   ~ 0
-LORA_IO4
-Text Label 8250 5000 0    50   ~ 0
-LORA_IO5
-Text Label 8650 1350 0    50   ~ 0
-SDIO_DETECT
-Text Label 10100 3100 0    50   ~ 0
-SDIO_CMD
-Text Label 10100 3200 0    50   ~ 0
-SDIO_CLK
-Text Label 10100 3350 0    50   ~ 0
-SDIO_D0
-Text Label 10100 3450 0    50   ~ 0
-SDIO_D1
-Text Label 10100 3550 0    50   ~ 0
-SDIO_D2
-Text Label 10100 3650 0    50   ~ 0
-SDIO_D3
-Text Label 8300 3000 0    50   ~ 0
-~RESET~_LORA
-Wire Wire Line
-	7950 3550 8300 3550
-Wire Wire Line
-	7950 3650 8300 3650
-Wire Wire Line
-	7950 3750 8300 3750
-Wire Wire Line
-	7950 3850 8300 3850
-Wire Wire Line
-	7950 3950 8300 3950
-Wire Wire Line
-	7950 4050 8300 4050
-Text Label 8300 3550 0    50   ~ 0
-D7
-Text Label 8300 3650 0    50   ~ 0
-D6
-Text Label 8300 3750 0    50   ~ 0
-D5
-Text Label 8300 3850 0    50   ~ 0
-D4
-Text Label 8300 3950 0    50   ~ 0
-E
-Text Label 8300 4050 0    50   ~ 0
-RS
-Text HLabel 3150 3750 2    50   Input ~ 0
+Text HLabel 4750 5100 0    50   Input ~ 0
 GPIO_0
-Text HLabel 3150 3850 2    50   Input ~ 0
-GPIO_1
-Text HLabel 3150 3950 2    50   Input ~ 0
+Text HLabel 4750 4900 0    50   Input ~ 0
 GPIO_2
-Text HLabel 3150 4050 2    50   Input ~ 0
+Text HLabel 6150 4400 2    50   Input ~ 0
 GPIO_3
-Text HLabel 3150 4150 2    50   Input ~ 0
+Text HLabel 6150 4500 2    50   Input ~ 0
 GPIO_4
-Text HLabel 3150 4250 2    50   Input ~ 0
+Text HLabel 4750 4200 0    50   Input ~ 0
 GPIO_5
-Text HLabel 3150 4350 2    50   Input ~ 0
+Text HLabel 6150 4100 2    50   Input ~ 0
 GPIO_6
-Text HLabel 3150 4450 2    50   Input ~ 0
+Text HLabel 4750 4000 0    50   Input ~ 0
 GPIO_7
-Text HLabel 3150 4550 2    50   Input ~ 0
+Text HLabel 4750 4100 0    50   Input ~ 0
 GPIO_8
-Text HLabel 3150 4650 2    50   Input ~ 0
+Text HLabel 6150 2300 2    50   Input ~ 0
 GPIO_9
-Text HLabel 3150 4750 2    50   Input ~ 0
+Text HLabel 4750 4300 0    50   Input ~ 0
 GPIO_10
-Text HLabel 3150 4850 2    50   Input ~ 0
+Text HLabel 4750 3600 0    50   Input ~ 0
 GPIO_11
-Text HLabel 3150 4950 2    50   Input ~ 0
+Text HLabel 4750 3700 0    50   Input ~ 0
 GPIO_12
-Text HLabel 3150 5050 2    50   Input ~ 0
+Text HLabel 6150 3600 2    50   Input ~ 0
 GPIO_13
-Text HLabel 3150 5150 2    50   Input ~ 0
+Text HLabel 6150 3700 2    50   Input ~ 0
 GPIO_14
-Text HLabel 3150 5250 2    50   Input ~ 0
+Text HLabel 6150 3800 2    50   Input ~ 0
 GPIO_15
-Text HLabel 3350 1350 0    50   Input ~ 0
+Text HLabel 6150 2100 2    50   Input ~ 0
 EXTI_0
-Text HLabel 3350 1450 0    50   Input ~ 0
+Text HLabel 6150 4800 2    50   Input ~ 0
 EXTI_1
-Text HLabel 3350 1550 0    50   Input ~ 0
+Text HLabel 6150 4900 2    50   Input ~ 0
 EXTI_2
-Text HLabel 3350 1650 0    50   Input ~ 0
+Text HLabel 6150 5000 2    50   Input ~ 0
 EXTI_3
-Text HLabel 3350 1750 0    50   Input ~ 0
+Text HLabel 6150 5100 2    50   Input ~ 0
 EXTI_4
-Text HLabel 3350 1900 0    50   Input ~ 0
+Text HLabel 6150 2200 2    50   Input ~ 0
 AN_0
-Text HLabel 3350 2050 0    50   Input ~ 0
+Text HLabel 6150 2500 2    50   Input ~ 0
 SPI_MISO
-Text HLabel 3350 2150 0    50   Input ~ 0
+Text HLabel 6150 2600 2    50   Input ~ 0
 SPI_MOSI
-Text HLabel 3350 2250 0    50   Input ~ 0
+Text HLabel 6150 2400 2    50   Input ~ 0
 SPI_CLK
-Text HLabel 3350 2450 0    50   Input ~ 0
+Text HLabel 6150 4300 2    50   Input ~ 0
 I2C_SDA
-Text HLabel 3350 2550 0    50   Input ~ 0
+Text HLabel 6150 4200 2    50   Input ~ 0
 I2C_SCL
-Text HLabel 3350 2700 0    50   Input ~ 0
+Text HLabel 4750 3400 0    50   Input ~ 0
 SDIO_CMD
-Text HLabel 3350 2800 0    50   Input ~ 0
-SDIO_CLK
-Text HLabel 3350 2900 0    50   Input ~ 0
+Text HLabel 4750 4400 0    50   Input ~ 0
 SDIO_D0
-Text HLabel 3350 3000 0    50   Input ~ 0
+Text HLabel 4750 4500 0    50   Input ~ 0
 SDIO_D1
-Text HLabel 3350 3100 0    50   Input ~ 0
+Text HLabel 4750 4600 0    50   Input ~ 0
 SDIO_D2
-Text HLabel 3350 3200 0    50   Input ~ 0
+Text HLabel 4750 4700 0    50   Input ~ 0
 SDIO_D3
+Text HLabel 4750 4800 0    50   Input ~ 0
+SDIO_CLK
+Text HLabel 4750 3800 0    50   Input ~ 0
+SPI2_MISO
+Text HLabel 4750 3900 0    50   Input ~ 0
+SPI2_MOSI
+Text HLabel 6150 4600 2    50   Input ~ 0
+SPI2_CLK
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 60041D57
+P 5750 1500
+F 0 "#FLG0104" H 5750 1575 50  0001 C CNN
+F 1 "PWR_FLAG" V 5750 1628 50  0000 L CNN
+F 2 "" H 5750 1500 50  0001 C CNN
+F 3 "~" H 5750 1500 50  0001 C CNN
+	1    5750 1500
+	0    1    1    0   
+$EndComp
+Connection ~ 5750 1500
+Text HLabel 4750 5000 0    50   Input ~ 0
+GPIO_1
 $EndSCHEMATC

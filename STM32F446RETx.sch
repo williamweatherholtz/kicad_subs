@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:main-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 8
+Sheet 12 13
 Title ""
 Date ""
 Rev ""
@@ -14,29 +13,27 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 1200 3000 2    50   ~ 0
+Text Label 4400 2800 0    50   ~ 0
 OSC_IN
-Text Label 1200 3100 2    50   ~ 0
+Text Label 4400 2900 0    50   ~ 0
 OSC_OUT
 Wire Wire Line
-	5500 5400 5500 5500
+	5400 5000 5400 5100
 Wire Wire Line
-	5500 5500 5600 5500
+	5400 5100 5500 5100
 Wire Wire Line
-	5600 5500 5600 5400
+	5500 5100 5500 5000
 Wire Wire Line
-	5600 5500 5700 5500
+	5500 5100 5600 5100
 Wire Wire Line
-	5700 5500 5700 5400
-Connection ~ 5600 5500
+	5600 5100 5600 5000
+Connection ~ 5500 5100
 Wire Wire Line
-	5700 5500 5800 5500
+	5600 5100 5700 5100
 Wire Wire Line
-	5800 5500 5800 5400
-Connection ~ 5700 5500
-Wire Wire Line
-	5900 5600 5900 5400
-Text HLabel 1200 2300 0    50   Input ~ 0
+	5700 5100 5700 5000
+Connection ~ 5600 5100
+Text HLabel 5300 1400 0    50   Input ~ 0
 VBAT
 $Comp
 L Device:C_Small C?
@@ -54,7 +51,7 @@ Wire Wire Line
 Wire Wire Line
 	800  2400 1200 2400
 Wire Wire Line
-	5400 1400 5500 1400
+	5500 1250 5500 1400
 Wire Wire Line
 	5500 1400 5500 1500
 Wire Wire Line
@@ -134,7 +131,7 @@ Text Label 10550 3300 2    50   ~ 0
 SWCLK
 Text Label 10550 3200 2    50   ~ 0
 SWDIO
-Text Label 1200 1900 2    50   ~ 0
+Text Label 1200 1900 0    50   ~ 0
 ~RST~
 Text HLabel 1700 6300 2    50   Input ~ 0
 GND
@@ -142,23 +139,12 @@ Text HLabel 3600 7100 0    50   Input ~ 0
 GND
 Wire Wire Line
 	3600 7100 3700 7100
-Text HLabel 5500 5500 0    50   Input ~ 0
+Text HLabel 5400 5100 0    50   Input ~ 0
 GND
 Text HLabel 750  2750 0    50   Input ~ 0
 GND
-Text HLabel 1200 2100 0    50   Input ~ 0
+Text HLabel 2250 2400 0    50   Input ~ 0
 GND
-$Comp
-L stm32:STM32F446RETx U?
-U 1 1 5B3B9C8D
-P 5700 3500
-F 0 "U?" H 9550 5550 50  0000 C CNN
-F 1 "STM32F446RETx" H 9800 5450 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 10100 5375 50  0001 R TNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141306.pdf" H 5700 3500 50  0001 C CNN
-	1    5700 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3700 7100 4100 7100
 Wire Wire Line
@@ -194,7 +180,7 @@ Wire Wire Line
 	800  2250 800  2150
 Text Label 10550 3400 2    50   ~ 0
 SWO
-Text HLabel 5400 1400 0    50   Input ~ 0
+Text HLabel 5300 1250 0    50   Input ~ 0
 VCC
 Wire Wire Line
 	1300 6200 1700 6200
@@ -212,7 +198,7 @@ $Sheet
 S 1050 6950 1000 550 
 U 5C241710
 F0 "crystal" 50
-F1 "../subs/24MHz_4pin.sch" 50
+F1 "../subs/../subs/../subs/24MHz_4pin.sch" 50
 F2 "GND" I L 1050 7400 50 
 F3 "OSC_IN" I L 1050 7050 50 
 F4 "OSC_OUT" O L 1050 7150 50 
@@ -297,34 +283,6 @@ F 3 "" H 6400 6950 50  0001 C CNN
 	1    6400 6950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Net-Tie_2 NT?
-U 1 1 5C25AB07
-P 5800 5600
-F 0 "NT?" H 5800 5778 50  0000 C CNN
-F 1 "Net-Tie_2" H 5800 5687 50  0000 C CNN
-F 2 "" H 5800 5600 50  0001 C CNN
-F 3 "~" H 5800 5600 50  0001 C CNN
-	1    5800 5600
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:Net-Tie_2 NT?
-U 1 1 5C25AC41
-P 5800 1300
-F 0 "NT?" H 5800 1478 50  0000 C CNN
-F 1 "Net-Tie_2" H 5800 1387 50  0000 C CNN
-F 2 "" H 5800 1300 50  0001 C CNN
-F 3 "~" H 5800 1300 50  0001 C CNN
-	1    5800 1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5900 1300 5900 1500
-Wire Wire Line
-	5700 1300 5700 1400
-Wire Wire Line
-	5700 5600 5700 5500
 Wire Wire Line
 	750  2250 800  2250
 Wire Wire Line
@@ -427,4 +385,62 @@ Wire Wire Line
 	1200 3300 850  3300
 Wire Wire Line
 	1200 5000 850  5000
+$Comp
+L MCU_ST_STM32F4:STM32F446RCTx U?
+U 1 1 5EE908A1
+P 5600 3200
+F 0 "U?" H 6150 4900 50  0000 C CNN
+F 1 "STM32F446RCTx" H 5600 3200 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 5000 1500 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141306.pdf" H 5600 3200 50  0001 C CNN
+	1    5600 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 5100 5800 5100
+Wire Wire Line
+	5800 5100 5800 5000
+Connection ~ 5700 5100
+Wire Wire Line
+	5800 1400 5900 1400
+Wire Wire Line
+	5900 1400 5900 1500
+Connection ~ 5800 1400
+Wire Wire Line
+	5500 1250 5300 1250
+Wire Wire Line
+	5300 1400 5400 1400
+Wire Wire Line
+	5400 1400 5400 1500
+Text Label 4400 1700 0    50   ~ 0
+~RST~
+Wire Wire Line
+	4400 1700 4900 1700
+Text Label 1200 2400 0    50   ~ 0
+VCAP1
+Text Label 4400 2100 0    50   ~ 0
+VCAP1
+Wire Wire Line
+	4400 2100 4900 2100
+$Sheet
+S 2750 5350 1000 550 
+U 5EECCCAE
+F0 "sheet5EECCCAE" 50
+F1 "../subs/../subs/../subs/24MHz_4pin.sch" 50
+F2 "GND" I L 2750 5800 50 
+F3 "OSC_IN" I L 2750 5450 50 
+F4 "OSC_OUT" O L 2750 5550 50 
+$EndSheet
+Text Label 2300 5450 0    50   ~ 0
+OSC_IN
+Text Label 2300 5550 0    50   ~ 0
+OSC_OUT
+Text HLabel 2500 5800 0    50   Input ~ 0
+GND
+Wire Wire Line
+	2300 5450 2750 5450
+Wire Wire Line
+	2500 5800 2750 5800
+Wire Wire Line
+	2300 5550 2750 5550
 $EndSCHEMATC
