@@ -1,9 +1,9 @@
-EESchema Schematic File Version 5
-EELAYER 31 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 10
+Sheet 2 14
 Title ""
 Date ""
 Rev ""
@@ -12,11 +12,6 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
-Comment5 ""
-Comment6 ""
-Comment7 ""
-Comment8 ""
-Comment9 ""
 $EndDescr
 Connection ~ 5900 3100
 Connection ~ 4850 3600
@@ -73,7 +68,7 @@ Ireg[mA] = 1000V / Rprog[kΩ]\nPROG <-> Rprog <-> GND
 Text Notes 6850 3200 0    50   ~ 0
 LOW ON CHARGING\nHIGH Z OTHERWISE \n(OPEN DRAIN)
 Text Notes 7100 2600 0    50   ~ 0
-Blue
+Orange\nLNJ8W0C83RA
 Text HLabel 2300 2900 0    50   Input ~ 0
 VIN
 Text HLabel 2300 3400 0    50   Input ~ 0
@@ -97,7 +92,7 @@ L Device:R R10
 U 1 1 5E20F2A0
 P 4850 3350
 F 0 "R10" H 4920 3396 50  0000 L CNN
-F 1 "1K" H 4920 3305 50  0000 L CNN
+F 1 "2K2" H 4920 3305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4780 3350 50  0001 C CNN
 F 3 "~" H 4850 3350 50  0001 C CNN
 	1    4850 3350
@@ -108,7 +103,7 @@ L Device:R R11
 U 1 1 5E2112C7
 P 6750 2850
 F 0 "R11" H 6820 2896 50  0000 L CNN
-F 1 "1K" H 6820 2805 50  0000 L CNN
+F 1 "270R" H 6820 2805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6680 2850 50  0001 C CNN
 F 3 "~" H 6750 2850 50  0001 C CNN
 	1    6750 2850
@@ -152,10 +147,12 @@ L Battery_Management:MCP73831-2-OT U3
 U 1 1 5E205A54
 P 5350 3000
 F 0 "U3" H 5600 3250 50  0000 C CNN
-F 1 "MCP73831-2-OT" H 5350 3700 50  0000 C CNN
+F 1 "MCP73831T-2DCI/OT" H 5350 3700 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5400 2750 50  0001 L CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 5200 2950 50  0001 C CNN
 	1    5350 3000
 	1    0    0    -1  
 $EndComp
+Text Notes 7700 3050 0    50   ~ 0
+1.9V Vf\nso 3.3V - 1.9V = 1.4V across resistor, \ntarget 5mA, \nR = V/I = 1.4/.005 = 280Ohms
 $EndSCHEMATC

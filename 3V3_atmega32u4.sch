@@ -1,9 +1,9 @@
-EESchema Schematic File Version 5
-EELAYER 31 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 10
+Sheet 5 16
 Title ""
 Date ""
 Rev ""
@@ -12,22 +12,14 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
-Comment5 ""
-Comment6 ""
-Comment7 ""
-Comment8 ""
-Comment9 ""
 $EndDescr
-Connection ~ 2400 2600
 Connection ~ 7700 1150
-Connection ~ 5600 1800
 Connection ~ 2450 3350
 Connection ~ 2000 3950
 Connection ~ 2000 3450
 Connection ~ 2800 1100
 Connection ~ 8100 1150
 Connection ~ 7700 1650
-Connection ~ 2400 2100
 Connection ~ 8100 1650
 Connection ~ 5700 1800
 Connection ~ 2450 3950
@@ -63,8 +55,6 @@ Wire Wire Line
 Wire Wire Line
 	2400 1500 2800 1500
 Wire Wire Line
-	2400 2100 2750 2100
-Wire Wire Line
 	2400 2200 2400 2100
 Wire Wire Line
 	2400 2500 2400 2600
@@ -81,12 +71,6 @@ Wire Wire Line
 Wire Wire Line
 	2450 3950 2850 3950
 Wire Wire Line
-	2750 2100 2750 2200
-Wire Wire Line
-	2750 2500 2750 2600
-Wire Wire Line
-	2750 2600 2400 2600
-Wire Wire Line
 	2800 1100 2750 1100
 Wire Wire Line
 	2800 1500 2800 1400
@@ -100,8 +84,6 @@ Wire Wire Line
 	3100 1100 2800 1100
 Wire Wire Line
 	4600 4000 4700 4000
-Wire Wire Line
-	4700 1800 5600 1800
 Wire Wire Line
 	4700 2200 5100 2200
 Wire Wire Line
@@ -128,10 +110,6 @@ Wire Wire Line
 	5100 3300 5050 3300
 Wire Wire Line
 	5100 3500 4700 3500
-Wire Wire Line
-	5600 1800 5600 1900
-Wire Wire Line
-	5600 1800 5700 1800
 Wire Wire Line
 	5600 5600 5600 5500
 Wire Wire Line
@@ -500,17 +478,6 @@ F 3 "~" H 2400 1250 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C C3
-U 1 1 5E275A45
-P 2750 2350
-F 0 "C3" H 2865 2396 50  0000 L CNN
-F 1 "100N" H 2865 2305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2788 2200 50  0001 C CNN
-F 3 "~" H 2750 2350 50  0001 C CNN
-	1    2750 2350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C4
 U 1 1 5E2F1C0C
 P 2800 1250
@@ -613,4 +580,32 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    5700 3700
 	1    0    0    -1  
 $EndComp
+Text HLabel 4700 3500 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	4700 1800 5700 1800
+NoConn ~ 5600 1900
+Text HLabel 2650 5000 0    50   Input ~ 0
+~HWB~\PE2
+$Comp
+L Device:R R?
+U 1 1 5F2E2444
+P 2750 5350
+F 0 "R?" H 2820 5396 50  0000 L CNN
+F 1 "10K" H 2820 5305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2680 5350 50  0001 C CNN
+F 3 "~" H 2750 5350 50  0001 C CNN
+	1    2750 5350
+	1    0    0    -1  
+$EndComp
+Text HLabel 2650 5600 0    50   Input ~ 0
+GND
+Wire Wire Line
+	2650 5600 2750 5600
+Wire Wire Line
+	2750 5600 2750 5500
+Wire Wire Line
+	2650 5000 2750 5000
+Wire Wire Line
+	2750 5000 2750 5200
 $EndSCHEMATC

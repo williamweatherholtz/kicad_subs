@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:main-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 23
+Sheet 11 14
 Title ""
 Date ""
 Rev ""
@@ -20,7 +19,7 @@ $Sheet
 S 3450 1950 1200 600 
 U 5C4840A6
 F0 "A Debounce" 50
-F1 "../subs/debounce_3V3.sch" 50
+F1 "../subs/../subs/debounce_3V3.sch" 50
 F2 "SW+" I L 3450 2200 50 
 F3 "SW-" I L 3450 2300 50 
 F4 "3V3" I L 3450 2050 50 
@@ -47,7 +46,7 @@ $Sheet
 S 3450 2950 1200 600 
 U 5C485D0D
 F0 "B Debounce" 50
-F1 "../subs/debounce_3V3.sch" 50
+F1 "../subs/../subs/debounce_3V3.sch" 50
 F2 "SW+" I L 3450 3200 50 
 F3 "SW-" I L 3450 3300 50 
 F4 "3V3" I L 3450 3050 50 
