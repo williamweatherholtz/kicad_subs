@@ -1,9 +1,9 @@
-EESchema Schematic File Version 5
-EELAYER 31 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 4 10
 Title ""
 Date ""
 Rev ""
@@ -12,19 +12,14 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
-Comment5 ""
-Comment6 ""
-Comment7 ""
-Comment8 ""
-Comment9 ""
 $EndDescr
-Connection ~ 8450 5050
-Connection ~ 2200 3500
-Connection ~ 8550 5050
 Connection ~ 2200 3100
-Connection ~ 7800 3350
 Connection ~ 2200 5350
 Connection ~ 2200 4950
+Connection ~ 8550 5050
+Connection ~ 8450 5050
+Connection ~ 7800 3350
+Connection ~ 2200 3500
 Wire Wire Line
 	1200 3100 1300 3100
 Wire Wire Line
