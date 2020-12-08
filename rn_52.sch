@@ -1,9 +1,9 @@
-EESchema Schematic File Version 5
-EELAYER 31 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 3 10
 Title ""
 Date ""
 Rev ""
@@ -12,35 +12,29 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
-Comment5 ""
-Comment6 ""
-Comment7 ""
-Comment8 ""
-Comment9 ""
 $EndDescr
-Connection ~ 5800 3750
+Connection ~ 2750 5400
+Connection ~ 6100 3750
+Connection ~ 5200 3750
+Connection ~ 5300 3750
+Connection ~ 1950 1650
+Connection ~ 2400 1650
+Connection ~ 5600 3750
+Connection ~ 2050 5350
+Connection ~ 4600 1250
+Connection ~ 2400 2150
 Connection ~ 9700 2450
+Connection ~ 6000 3750
+Connection ~ 5800 3750
+Connection ~ 5700 3750
+Connection ~ 1600 5450
+Connection ~ 5500 3750
 Connection ~ 2900 5400
 Connection ~ 5400 3750
 Connection ~ 1950 2150
-Connection ~ 6000 3750
-Connection ~ 2050 5350
-Connection ~ 5300 3750
-Connection ~ 2400 1650
-Connection ~ 2750 5400
-Connection ~ 3300 5400
-Connection ~ 4600 1250
-Connection ~ 5200 3750
 Connection ~ 5900 3750
-Connection ~ 6100 3750
-Connection ~ 5500 3750
-Connection ~ 5700 3750
-Connection ~ 1950 1650
-Connection ~ 2400 2150
-Connection ~ 1600 5450
-Connection ~ 5600 3750
-NoConn ~ 9550 5450
 NoConn ~ 9550 5050
+NoConn ~ 9550 5450
 Wire Wire Line
 	700  6900 1050 6900
 Wire Wire Line
@@ -114,19 +108,9 @@ Wire Wire Line
 Wire Wire Line
 	2900 5400 2900 5150
 Wire Wire Line
-	2900 5400 3300 5400
-Wire Wire Line
 	2900 5550 2900 5400
 Wire Wire Line
 	2900 5850 2900 6000
-Wire Wire Line
-	3300 5300 3300 5400
-Wire Wire Line
-	3300 5400 3300 5500
-Wire Wire Line
-	3300 5500 3400 5500
-Wire Wire Line
-	3400 5300 3300 5300
 Wire Wire Line
 	4000 3750 5200 3750
 Wire Wire Line
@@ -657,4 +641,35 @@ F 12 "Active" H 5800 3250 60  0001 L CNN "Status"
 	1    5600 2050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3400 5300 3300 5300
+Wire Wire Line
+	3300 5500 3400 5500
+Wire Wire Line
+	3300 5300 3300 5400
+Wire Wire Line
+	2900 5400 3300 5400
+Connection ~ 3300 5400
+Wire Wire Line
+	3300 5400 3300 5500
+NoConn ~ 4700 1850
+NoConn ~ 4700 1950
+NoConn ~ 4700 2050
+NoConn ~ 4700 2150
+NoConn ~ 4700 1550
+NoConn ~ 4700 2750
+NoConn ~ 4700 2850
+NoConn ~ 4700 2950
+NoConn ~ 4700 3050
+NoConn ~ 4700 3150
+NoConn ~ 4700 3250
+NoConn ~ 4700 3350
+NoConn ~ 6500 2650
+NoConn ~ 6500 3250
+NoConn ~ 6500 2250
+NoConn ~ 6500 2150
+NoConn ~ 6500 2050
+NoConn ~ 6500 1950
+NoConn ~ 6500 1850
+NoConn ~ 6500 1750
 $EndSCHEMATC
