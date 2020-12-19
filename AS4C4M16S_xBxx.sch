@@ -67,7 +67,7 @@ $Comp
 L william_ram:AS4C4M16SA U7
 U 1 1 5FE02E17
 P 5500 3550
-F 0 "U7" H 5500 3700 50  0000 C CNN
+F 0 "U?" H 5500 3700 50  0000 C CNN
 F 1 "AS4C4M16SA" H 5500 3600 50  0000 C CNN
 F 2 "Package_SO:TSOP-II-54_22.2x10.16mm_P0.8mm" H 5500 3550 50  0001 C CIN
 F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/dram/64M-AS4C4M16SA-CI_v3.0_March%202015.pdf" H 5500 3300 50  0001 C CNN
