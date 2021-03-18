@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 17
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -70,10 +70,10 @@ B6
 Text HLabel 10750 3550 0    50   Input ~ 0
 B7
 $Comp
-L Connector_Generic:Conn_01x40 J17
+L Connector_Generic:Conn_01x40 J18
 U 1 1 6048C927
 P 10950 2750
-F 0 "J17" H 10900 4750 50  0000 L CNN
+F 0 "J18" H 10900 4750 50  0000 L CNN
 F 1 "NHD-7.0-800480MB-xxxx-T" V 11050 2200 50  0000 L CNN
 F 2 "william_ffc:0541044031" H 10950 2750 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/541044031_sd.pdf" H 10950 2750 50  0001 C CNN
@@ -82,10 +82,10 @@ F 4 "0541044031" H 10950 2750 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J16
+L Connector_Generic:Conn_01x04 J17
 U 1 1 60493449
 P 950 4800
-F 0 "J16" H 900 5000 50  0000 L CNN
+F 0 "J17" H 900 5000 50  0000 L CNN
 F 1 "TOUCH" V 1050 4650 50  0000 L CNN
 F 2 "william_ffc:SFW4R-2STE1LF" H 950 4800 50  0001 C CNN
 F 3 "~" H 950 4800 50  0001 C CNN
@@ -120,18 +120,14 @@ NoConn ~ 10750 4450
 NoConn ~ 10750 4550
 NoConn ~ 10750 4650
 NoConn ~ 10750 4750
-Text Label 6100 3150 0    50   ~ 0
-LED_K
 Text Label 6100 3500 0    50   ~ 0
+LED_K
+Text Label 6100 3150 0    50   ~ 0
 LED_A
 Wire Wire Line
 	10300 950  10750 950 
 Wire Wire Line
 	10750 850  10300 850 
-Text HLabel 6000 4400 0    50   Input ~ 0
-GND
-Wire Wire Line
-	6000 4400 6100 4400
 Text Notes 6450 3300 0    50   ~ 0
 19V typ @ 60mA
 Wire Wire Line
@@ -143,42 +139,27 @@ Wire Wire Line
 Wire Wire Line
 	6100 2350 6100 2450
 $Comp
-L william_led:AL5809-60P1-7 U4
+L william_led:AL5809-60P1-7 U2
 U 1 1 5F8726DD
 P 6100 2750
-F 0 "U4" H 6230 2796 50  0000 L CNN
+F 0 "U2" H 6230 2796 50  0000 L CNN
 F 1 "AL5809-60P1-7" H 6230 2705 50  0000 L CNN
 F 2 "william_diode:PowerDI123_B" H 6250 2700 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005413A.pdf" H 6060 2750 50  0001 C CNN
 	1    6100 2750
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 5000 3350 850  400 
-U 5F994F1D
-F0 "Backlight CTRL" 50
-F1 "../subs/nfet.sch" 50
-F2 "SIG" I L 5000 3550 50 
-F3 "GND" I R 5850 3600 50 
-F4 "LOAD-" I R 5850 3500 50 
-$EndSheet
-Wire Wire Line
-	6100 3600 5850 3600
-Wire Wire Line
-	6100 3600 6100 4400
 Wire Wire Line
 	5850 3500 6100 3500
-Text HLabel 5000 3550 0    50   Input ~ 0
-BACKLIGHT_ON
 Text HLabel 8550 900  0    50   Input ~ 0
 3V3
 Text HLabel 8550 1200 0    50   Input ~ 0
 GND
 $Comp
-L Device:C C60
+L Device:C C12
 U 1 1 5FB10FB7
 P 8700 1050
-F 0 "C60" H 8815 1096 50  0000 L CNN
+F 0 "C12" H 8815 1096 50  0000 L CNN
 F 1 "10U" H 8815 1005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 8738 900 50  0001 C CNN
 F 3 "~" H 8700 1050 50  0001 C CNN
@@ -186,10 +167,10 @@ F 3 "~" H 8700 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C61
+L Device:C C13
 U 1 1 5FB1166E
 P 9100 1050
-F 0 "C61" H 9215 1096 50  0000 L CNN
+F 0 "C13" H 9215 1096 50  0000 L CNN
 F 1 "100N" H 9215 1005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9138 900 50  0001 C CNN
 F 3 "~" H 9100 1050 50  0001 C CNN
@@ -206,4 +187,65 @@ Wire Wire Line
 Connection ~ 8700 900 
 Wire Wire Line
 	8700 900  8550 900 
+Connection ~ 6350 4400
+Wire Wire Line
+	6650 4400 6350 4400
+Wire Wire Line
+	6650 4200 6650 4400
+Connection ~ 6350 3600
+Wire Wire Line
+	6650 3600 6350 3600
+Wire Wire Line
+	6650 3800 6650 3600
+$Comp
+L Jumper:Jumper_2_Open JP2
+U 1 1 604DA39B
+P 6650 4000
+F 0 "JP2" V 6604 4098 50  0000 L CNN
+F 1 "Jumper_2_Open" V 6695 4098 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 6650 4000 50  0001 C CNN
+F 3 "~" H 6650 4000 50  0001 C CNN
+	1    6650 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 4400 6350 4400
+Wire Wire Line
+	6350 4200 6350 4400
+Wire Wire Line
+	5850 3600 6350 3600
+Wire Wire Line
+	6350 3600 6350 3900
+$Comp
+L Device:L L3
+U 1 1 604D8E3A
+P 6350 4050
+F 0 "L3" H 6403 4096 50  0000 L CNN
+F 1 "L" H 6403 4005 50  0000 L CNN
+F 2 "william_inductor:L_Taiyo-Yuden_MD-4040" H 6350 4050 50  0001 C CNN
+F 3 "~" H 6350 4050 50  0001 C CNN
+	1    6350 4050
+	1    0    0    -1  
+$EndComp
+Text HLabel 6000 4400 0    50   Input ~ 0
+GND
+Text HLabel 5000 3550 0    50   Input ~ 0
+BACKLIGHT_ON
+Wire Wire Line
+	5950 3850 5850 3850
+Wire Wire Line
+	5850 3750 5950 3750
+Wire Wire Line
+	5950 3750 5950 3850
+$Sheet
+S 5000 3350 850  700 
+U 5F994F1D
+F0 "Backlight CTRL" 50
+F1 "../subs/../subs/nfet.sch" 50
+F2 "SIG" I L 5000 3550 50 
+F3 "GND" I R 5850 3600 50 
+F4 "LOAD-" I R 5850 3500 50 
+F5 "LOAD+" I R 5850 3750 50 
+F6 "V_power" I R 5850 3850 50 
+$EndSheet
 $EndSCHEMATC
