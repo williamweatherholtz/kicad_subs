@@ -93,10 +93,6 @@ F 4 "SFW4R-2STE1LF" H 950 4800 50  0001 C CNN "MPN"
 	1    950  4800
 	-1   0    0    -1  
 $EndComp
-Text HLabel 1150 4700 2    50   Input ~ 0
-XL
-Text HLabel 1150 4800 2    50   Input ~ 0
-YD
 Text HLabel 1150 4900 2    50   Input ~ 0
 XR
 Text HLabel 1150 5000 2    50   Input ~ 0
@@ -221,7 +217,7 @@ L Device:L L3
 U 1 1 604D8E3A
 P 6350 4050
 F 0 "L3" H 6403 4096 50  0000 L CNN
-F 1 "L" H 6403 4005 50  0000 L CNN
+F 1 "IHLP4040DZER470M11" H 6403 4005 50  0000 L CNN
 F 2 "william_inductor:L_Taiyo-Yuden_MD-4040" H 6350 4050 50  0001 C CNN
 F 3 "~" H 6350 4050 50  0001 C CNN
 	1    6350 4050
@@ -248,4 +244,44 @@ F4 "LOAD-" I R 5850 3500 50
 F5 "LOAD+" I R 5850 3750 50 
 F6 "V_power" I R 5850 3850 50 
 $EndSheet
+$Comp
+L william_led:AL5809-60P1-7 U1
+U 1 1 609186F4
+P 7100 2750
+F 0 "U1" H 7230 2796 50  0000 L CNN
+F 1 "AL5809-60P1-7" H 7230 2705 50  0000 L CNN
+F 2 "william_diode:PowerDI123_B" H 7250 2700 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005413A.pdf" H 7060 2750 50  0001 C CNN
+	1    7100 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L william_led:AL5809-60P1-7 U3
+U 1 1 60918EA9
+P 8050 2750
+F 0 "U3" H 8180 2796 50  0000 L CNN
+F 1 "AL5809-60P1-7" H 8180 2705 50  0000 L CNN
+F 2 "william_diode:PowerDI123_B" H 8200 2700 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005413A.pdf" H 8010 2750 50  0001 C CNN
+	1    8050 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2450 7100 2450
+Connection ~ 6100 2450
+Connection ~ 7100 2450
+Wire Wire Line
+	7100 2450 8050 2450
+Wire Wire Line
+	8050 3050 7100 3050
+Connection ~ 6100 3050
+Connection ~ 7100 3050
+Wire Wire Line
+	7100 3050 6100 3050
+Text Notes 6450 2350 0    50   ~ 0
+Display is actually 180mA, not 60mA as previously thought.\n\nUsing 3x diodes to spread the heat out a bit.
+Text HLabel 1150 4800 2    50   Input ~ 0
+YD
+Text HLabel 1150 4700 2    50   Input ~ 0
+XL
 $EndSCHEMATC
