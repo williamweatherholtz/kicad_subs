@@ -52,41 +52,12 @@ Wire Wire Line
 Wire Wire Line
 	6250 2800 6200 2800
 $Comp
-L Device:R R?
-U 1 1 5BE5AA31
-P 5750 3450
-AR Path="/5BE5A530/5BE5AA31" Ref="R?"  Part="1" 
-AR Path="/5BE5D36F/5BE5AA31" Ref="R?"  Part="1" 
-AR Path="/5BE5D37A/5BE5AA31" Ref="R?"  Part="1" 
-AR Path="/5BE5D381/5BE5AA31" Ref="R?"  Part="1" 
-AR Path="/5C3B8390/5BE5AA31" Ref="R?"  Part="1" 
-AR Path="/5C3C14B8/5BE5AA31" Ref="R?"  Part="1" 
-AR Path="/5C4D1AE2/5BE5AA31" Ref="R?"  Part="1" 
-AR Path="/5C4E4A9C/5BE5AA31" Ref="R?"  Part="1" 
-AR Path="/5C4EE84B/5BE5AA31" Ref="R?"  Part="1" 
-AR Path="/5D986736/5BE5AA31" Ref="R?"  Part="1" 
-AR Path="/5D98C5E1/5BE5AA31" Ref="R?"  Part="1" 
-AR Path="/5DBFCE24/5BE5AA31" Ref="R?"  Part="1" 
-AR Path="/5DD0BFD1/5BE5AA31" Ref="R?"  Part="1" 
-AR Path="/5F96FF87/5BE5AA31" Ref="R13"  Part="1" 
-F 0 "R13" V 5543 3450 50  0000 C CNN
-F 1 "1K" V 5634 3450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5680 3450 50  0001 C CNN
-F 3 "~" H 5750 3450 50  0001 C CNN
-	1    5750 3450
-	0    1    1    0   
-$EndComp
-$Comp
-L william_fets:AON7524 Q?
-U 1 1 5DC02A55
+L william_fets:SIRA24DP Q8
+U 1 1 60D5A406
 P 6150 3450
-AR Path="/5DBFCE24/5DC02A55" Ref="Q?"  Part="1" 
-AR Path="/5DD0BFD1/5DC02A55" Ref="Q?"  Part="1" 
-AR Path="/5DC02A55" Ref="Q?"  Part="1" 
-AR Path="/5F96FF87/5DC02A55" Ref="Q8"  Part="1" 
 F 0 "Q8" H 6356 3496 50  0000 L CNN
-F 1 "AON7524" H 6356 3405 50  0000 L CNN
-F 2 "william_mosfet:AlphaOmega_DFN-8_EP_3x3mm_0.65pitch_1.75x2.35mmEP" H 6000 3650 50  0001 C CNN
+F 1 "SIRA24DP" H 6356 3405 50  0000 L CNN
+F 2 "Package_SO:PowerPAK_SO-8_Single" H 6000 3650 50  0001 C CNN
 F 3 "http://aosmd.com/res/data_sheets/AON7524.pdf" H 6150 3450 50  0001 C CNN
 	1    6150 3450
 	1    0    0    -1  
@@ -115,5 +86,30 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 5380 3650 50  0001 C CNN
 F 3 "~" H 5450 3650 50  0001 C CNN
 	1    5450 3650
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5BE5AA31
+P 5750 3450
+AR Path="/5BE5A530/5BE5AA31" Ref="R?"  Part="1" 
+AR Path="/5BE5D36F/5BE5AA31" Ref="R?"  Part="1" 
+AR Path="/5BE5D37A/5BE5AA31" Ref="R?"  Part="1" 
+AR Path="/5BE5D381/5BE5AA31" Ref="R?"  Part="1" 
+AR Path="/5C3B8390/5BE5AA31" Ref="R?"  Part="1" 
+AR Path="/5C3C14B8/5BE5AA31" Ref="R?"  Part="1" 
+AR Path="/5C4D1AE2/5BE5AA31" Ref="R?"  Part="1" 
+AR Path="/5C4E4A9C/5BE5AA31" Ref="R?"  Part="1" 
+AR Path="/5C4EE84B/5BE5AA31" Ref="R?"  Part="1" 
+AR Path="/5D986736/5BE5AA31" Ref="R?"  Part="1" 
+AR Path="/5D98C5E1/5BE5AA31" Ref="R?"  Part="1" 
+AR Path="/5DBFCE24/5BE5AA31" Ref="R?"  Part="1" 
+AR Path="/5DD0BFD1/5BE5AA31" Ref="R?"  Part="1" 
+AR Path="/5F96FF87/5BE5AA31" Ref="R13"  Part="1" 
+F 0 "R13" V 5543 3450 50  0000 C CNN
+F 1 "1K" V 5634 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5680 3450 50  0001 C CNN
+F 3 "~" H 5750 3450 50  0001 C CNN
+	1    5750 3450
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

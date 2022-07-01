@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 11
+Sheet 2 12
 Title ""
 Date ""
 Rev ""
@@ -14,25 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L william_motor:A4957 U?
-U 1 1 5F6A7B03
-P 5450 3900
-AR Path="/5F6A7B03" Ref="U?"  Part="1" 
-AR Path="/5F6A7917/5F6A7B03" Ref="U1"  Part="1" 
-F 0 "U1" H 5450 4000 50  0000 C CNN
-F 1 "A4957" H 5450 3900 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.65x2.65mm_ThermalVias" H 5450 5050 50  0001 C CNN
-F 3 "https://www.allegromicro.com/~/media/Files/Datasheets/A4957-Datasheet.ashx" H 5450 5050 50  0001 C CNN
-	1    5450 3900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C8
 U 1 1 5F6A9316
 P 4650 4000
 F 0 "C8" H 4536 3954 50  0000 R CNN
 F 1 "16V 470N" H 4536 4045 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 3850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4688 3850 50  0001 C CNN
 F 3 "~" H 4650 4000 50  0001 C CNN
 	1    4650 4000
 	1    0    0    1   
@@ -47,7 +34,7 @@ U 1 1 5F6AA958
 P 2950 1400
 F 0 "C3" H 2835 1446 50  0000 R CNN
 F 1 "10U" H 2835 1355 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2988 1250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2988 1250 50  0001 C CNN
 F 3 "~" H 2950 1400 50  0001 C CNN
 	1    2950 1400
 	-1   0    0    -1  
@@ -77,7 +64,7 @@ U 1 1 5F6ACE5A
 P 4400 4850
 F 0 "C6" H 4285 4896 50  0000 R CNN
 F 1 "16V 22U" H 4285 4805 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4438 4700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4438 4700 50  0001 C CNN
 F 3 "~" H 4400 4850 50  0001 C CNN
 	1    4400 4850
 	-1   0    0    -1  
@@ -142,7 +129,7 @@ U 1 1 5F6BC98C
 P 3300 1400
 F 0 "C4" H 3185 1446 50  0000 R CNN
 F 1 "100N" H 3185 1355 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3338 1250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3338 1250 50  0001 C CNN
 F 3 "~" H 3300 1400 50  0001 C CNN
 	1    3300 1400
 	-1   0    0    -1  
@@ -275,7 +262,7 @@ U 1 1 5F6EE782
 P 4900 1350
 F 0 "C9" H 5015 1396 50  0000 L CNN
 F 1 "50V 10U" H 5015 1305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4938 1200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4938 1200 50  0001 C CNN
 F 3 "~" H 4900 1350 50  0001 C CNN
 	1    4900 1350
 	1    0    0    -1  
@@ -437,4 +424,15 @@ Text HLabel 6250 3250 2    50   Output ~ 0
 ~FAULT~
 Wire Wire Line
 	4750 3200 4200 3200
+$Comp
+L william_motor:A4957 U1
+U 1 1 60DDB714
+P 5450 3900
+F 0 "U1" H 5450 5031 50  0000 C CNN
+F 1 "A4957" H 5450 4940 50  0000 C CNN
+F 2 "william_motor:A4957" H 5450 5050 50  0001 C CNN
+F 3 "https://www.allegromicro.com/~/media/Files/Datasheets/A4957-Datasheet.ashx" H 5450 5050 50  0001 C CNN
+	1    5450 3900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
