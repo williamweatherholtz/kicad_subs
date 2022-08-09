@@ -153,7 +153,6 @@
   )
 
 
-
   (wire (pts (xy 133.35 87.63) (xy 151.13 87.63))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 4fd9bc4f-0ae3-42d4-a1b4-9fb1b2a0a7fd)
@@ -208,10 +207,10 @@
     (uuid e87a6f80-914f-4f62-9c9f-9ba62a88ee3d)
   )
 
-  (symbol (lib_id "Device:Q_NMOS_GSD") (at 156.21 87.63 0)
+  (symbol (lib_id "Device:Q_NMOS_GSD") (at 156.21 87.63 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005be5a6e3)
-    (property "Reference" "Q4" (id 0) (at 161.417 86.4616 0)
+    (property "Reference" "Q5" (id 0) (at 161.417 86.4616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BSS138LT3G" (id 1) (at 161.417 88.773 0)
