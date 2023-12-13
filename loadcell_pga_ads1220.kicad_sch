@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid e26be9e6-20ae-4b0e-a198-536a998b100b)
+  (uuid 963dee23-a09c-44a1-a83e-fdf7dfdfcb24)
 
   (paper "A4")
 
@@ -381,7 +381,7 @@
     (property "Value" "1K" (at 68.58 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 68.58 90.678 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 68.58 90.678 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 68.58 88.9 0)
@@ -494,7 +494,7 @@
     (property "Value" "1K" (at 68.58 115.57 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 68.58 109.982 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 68.58 109.982 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 68.58 111.76 0)
