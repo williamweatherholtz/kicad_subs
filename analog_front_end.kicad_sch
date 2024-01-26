@@ -1261,8 +1261,8 @@
     (pin "2" (uuid 7baddac7-8881-4534-9e54-a307f975c7d2))
     (pin "3" (uuid fec42acd-3379-421b-a8b7-02a41b8c64b5))
     (pin "4" (uuid 09e95851-9756-49e8-a7a5-109aa925b296))
-    (pin "6" (uuid a9443490-8d61-4318-abbe-59d77e01485a))
-    (pin "6" (uuid a9443490-8d61-4318-abbe-59d77e01485a))
+    (pin "6" (uuid a9443490-8d61-4318-abbe-59d77e01485b))
+    (pin "6" (uuid a9443490-8d61-4318-abbe-59d77e01485b))
     (instances
       (project "main"
         (path "/6bf28e97-b749-4534-8a2e-432f9a4b1c9e/0fcaa597-73a2-400e-99ba-2fcca2977ff3"
